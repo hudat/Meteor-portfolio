@@ -1,0 +1,10 @@
+.photos-preface {
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+.gallery img {
+    max-width: 60%;
+    height: auto;
+    padding-bottom: 20px;
+}

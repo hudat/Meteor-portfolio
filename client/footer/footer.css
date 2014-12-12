@@ -1,0 +1,20 @@
+
+.stackable.ui.grid.footer {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  font-size: .8em;
+}
+
+.footer-rule {
+  margin-bottom: 20px;
+}
+
+.endmatter p {
+  color: #ABA9A9;
+  font-size: .7em;
+  line-height: 1.5em;
+}
+
+.copyright {
+  padding-top: 40px;
+}

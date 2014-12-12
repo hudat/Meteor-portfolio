@@ -1,0 +1,45 @@
+.intro-header {
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+
+.logos img {
+  padding-right: 40px;
+}
+
+.quote {
+  padding-bottom: 20px;
+  font-size: 1.65em;
+  color: #000;
+}
+
+
+@media (max-width: 480px) {
+  .styled-list {
+    margin-left: 0px !important;
+  }
+  .headshot img {
+    display: block;
+    margin: auto;
+  }
+  .logos img {
+    display: block;
+    margin: auto;
+  }
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media (min-width : 768px) and (max-width : 1024px) {
+  .eleven.wide.column.bio {
+    margin-left: 44px;
+    padding-left: 24px;
+  }
+  .eleven.wide.column.h3 {
+    padding-left: 44px;
+  }
+  .eleven.wide.column.h3 {
+    padding-left: 44px;
+  }
+}

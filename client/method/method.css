@@ -1,0 +1,38 @@
+.ui.grid.stackable {
+}
+
+.sixteen.wide.column.subhead {
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+
+.sixteen.wide.column.description {
+  margin-top: 0px;
+}
+
+.method-title {
+  font-size: 1.2em;
+}
+
+.ui.grid > .row.phase {
+  padding-bottom: 40px;
+}
+
+.ui.grid > .row.phase hr {
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+.icon img {
+  padding-top: 24px;
+}
+
+/*MOBILE CSS*/
+
+@media (max-width: 480px ) {
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media (min-width : 768px) and (max-width : 1024px) {
+
+}

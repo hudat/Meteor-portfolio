@@ -1,0 +1,57 @@
+
+nav {
+  margin-top: 60px;
+  padding-bottom: 40px;
+}
+
+nav ul {
+  padding-left: 20px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  margin-right: 20px;
+}
+
+nav .logo {
+  margin-bottom: 20px;
+}
+
+nav .logo a {
+  color: #0066a4;
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 32px;
+  text-transform: none;
+  border-bottom: none;
+  margin-bottom: 20px;
+}
+
+nav .logo a:hover {
+  color: #0066a4;
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 32px;
+  text-transform: none;
+  border-bottom: 1px solid #0066a4;
+  margin-bottom: 20px;
+}
+
+.active {
+  color: #0066a4;
+}
+
+/*MOBILE CSS*/
+
+@media (max-width: 480px ) {
+  nav ul a {
+    font-size: 12px !important;
+  }
+
+}
