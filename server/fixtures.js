@@ -1,0 +1,1 @@
+if (Quotes.find().count() === 0) {  Quotes.insert({    line: '"Out of clutter, find simplicity"',    author: 'Albert Einstein'  });}
