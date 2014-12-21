@@ -31,6 +31,18 @@ h2.quote {
 }
 
 /* iPads (portrait and landscape) ----------- */
+@media (min-width : 481px) and (max-width : 767px) {
+  .headshot img {
+    float: left;
+    margin-right: 15px;
+  }
+  .intro-header {
+    margin-bottom: 20px;
+  }
+}
+
+
+/* iPads (portrait and landscape) ----------- */
 @media (min-width : 768px) and (max-width : 1024px) {
   .eleven.wide.column.bio {
     margin-left: 44px;

@@ -21,9 +21,7 @@
 
 /* iPads (portrait and landscape) ----------- */
 @media (min-width : 768px) and (max-width : 1024px) {
-  .photos-preface p {
-    font-size: 1.2em;
-  }
+
   .gallery img {
       max-width: 100%;
   }

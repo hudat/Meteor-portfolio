@@ -59,3 +59,15 @@ ul {
 .roles {
 	padding-bottom: 50px
 }
+
+/*MOBILE CSS*/
+
+@media (max-width: 480px ) {
+
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media (min-width : 768px) and (max-width : 1024px) {
+
+}
