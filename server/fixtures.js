@@ -1,1 +1,1 @@
-if (Quotes.find().count() === 0) {  Quotes.insert({    line: '"Out of clutter, find simplicity"',    author: 'Albert Einstein'  });}
+// The "||" notation doesn't work yetFixtures = typeof Fixtures !== "undefined" ? Fixtures : {};Fixtures.Quotes = [  {    'Author': 'Albert Einstein',    'Quotes': [      {        'quote': 'Simplicy is in the eye of the beholder'      }    ]  },  {    'Author': 'Leonardo da Vinci',    'Quotes': [      {        'quote': 'Simplicity is the ultimate sophistication'      }    ]  }];
