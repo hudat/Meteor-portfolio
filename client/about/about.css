@@ -41,6 +41,13 @@ h2.quote {
   }
 }
 
+/* iPads (portrait and landscape) ----------- */
+@media (min-width : 539px) and (max-width : 767px) {
+  p.list-header {
+    margin-top: 72px;
+  }
+}
+
 
 /* iPads (portrait and landscape) ----------- */
 @media (min-width : 768px) and (max-width : 1024px) {

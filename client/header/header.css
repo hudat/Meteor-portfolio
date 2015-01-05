@@ -24,7 +24,7 @@ nav .logo {
 }
 
 nav .logo a {
-  color: #0066a4;
+  color: #12b883;
   margin-bottom: 100px;
   text-align: center;
   font-size: 32px;
@@ -34,12 +34,12 @@ nav .logo a {
 }
 
 nav .logo a:hover {
-  color: #0066a4;
+  color: #12b883;
   margin-bottom: 100px;
   text-align: center;
   font-size: 32px;
   text-transform: none;
-  border-bottom: 1px solid #0066a4;
+  border-bottom: 1px solid #12b883;
   margin-bottom: 20px;
 }
 
