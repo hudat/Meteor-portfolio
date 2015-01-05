@@ -11,8 +11,8 @@
 }
 
 .endmatter p {
-  color: #ABA9A9;
-  font-size: .7em;
+  color: #12b883;
+  font-size: .75em;
   line-height: 1.5em;
 }
 
@@ -26,11 +26,11 @@
 
 #mc_embed_signup .button {
   font-family: 'Libre Baskerville', serif;
-  background-color: #888 !important;
+  background-color: #12b883 !important;
   color: #fff !important;
   border-radius: 0px !important;
 }
 
 #mc_embed_signup .button:hover {
-  background-color: #0066a4 !important;
+  background-color: #12b883 !important;
 }
