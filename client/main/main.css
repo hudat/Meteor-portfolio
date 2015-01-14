@@ -60,6 +60,15 @@ ul {
 	padding-bottom: 50px
 }
 
+
+/*UI SEGMENT*/
+
+.ui.segment {
+
+	-webkit-box-shadow: none;
+	padding-bottom: 20px;
+	}
+
 /*MOBILE CSS*/
 
 @media (max-width: 480px ) {
