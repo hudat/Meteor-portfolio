@@ -2,6 +2,21 @@
 	margin: 0%;
 }
 
+@font-face {
+	font-family: "proximanova-light-webfont";
+	src: url('/fonts/proximanova-light-webfont.woff');
+}
+
+@font-face {
+	font-family: "proximanova-reg-webfont";
+	src: url('/fonts/proximanova-reg-webfont.woff');
+}
+
+@font-face {
+	font-family: "proximanova-sbold-webfont";
+	src: url('/fonts/proximanova-sbold-webfont.woff');
+}
+
 body {
 	font-family: 'Libre Baskerville', serif;
 	font-size: 1.09em;
