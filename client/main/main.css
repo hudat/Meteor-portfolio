@@ -18,10 +18,18 @@
 }
 
 body {
-	font-family: 'Libre Baskerville', serif;
-	font-size: 1.09em;
+	font-family: 'Proxima Nova', serif;
 	line-height: 1.5238em;
-	color: #333
+	color: #333;
+	background: #fff;
+}
+
+body p {
+	font-size: 1.2rem;
+}
+
+body li {
+	font-size: 1.2rem;
 }
 
 /*.header {
@@ -51,7 +59,7 @@ h4 {
 /*ANCHORS*/
 
 body a, a:visited {
-font-size: 15px;
+font-size: 1.1rem;
 color: #888;
 border-bottom: 1px solid #888;
 text-decoration: none;
