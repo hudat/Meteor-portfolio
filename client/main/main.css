@@ -18,7 +18,7 @@
 }
 
 body {
-	font-family: 'Proxima Nova', serif;
+	font-family: 'proximanova-reg-webfont', serif;
 	line-height: 1.5238em;
 	color: #333;
 	background: #fff;
@@ -39,7 +39,7 @@ body li {
 h3, h4 {
 	font-family: "Georgia", "Times New Roman", serif;
 	font-weight: bold;
-	color: #333;
+	color: #545454;
 }
 
 h3 {

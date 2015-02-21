@@ -11,7 +11,8 @@
 h2.quote {
   padding-bottom: 20px;
   font-size: 1.6em;
-  color: #A0A0A0;
+  color: #333;
+  font-family: 'proximanova-sbold-webfont';
 }
 
 
