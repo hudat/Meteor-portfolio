@@ -15,7 +15,13 @@
   text-align: center;
 }
 
+.row.center.subhead h3 {
+  text-align: center;
+}
 
+h2.ui.center.aligned.header.title {
+  font-size: 2rem;
+}
 
 .sixteen.wide.column.description {
   margin-top: 0px;
