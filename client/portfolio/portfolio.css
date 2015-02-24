@@ -43,6 +43,11 @@ h2.ui.center.aligned.header.title {
   padding-top: 24px;
 }
 
+/*ui message*/
+.ui.message {
+  background: #DCFFF4;
+}
+
 /*MOBILE CSS*/
 
 @media (max-width: 480px ) {
