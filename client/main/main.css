@@ -65,9 +65,14 @@ border-bottom: 1px solid #888;
 text-decoration: none;
 }
 
-a:hover, a:focus, a:active {
+a:hover, a:focus {
+
 color: #0066a4;
 border-bottom: 1px solid #0066a4;
+}
+
+.active {
+color: #0066a4;
 }
 
 ul {

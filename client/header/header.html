@@ -7,11 +7,11 @@
         <a href="/">Husam, Product Strategy &#38; Design</a>
       </div>
       <ul class="nav">
-        <li><a class="nav-about" href="/">About</a></li>
-        <li><a class="nav-about" href="{{pathFor 'portfolio'}}">Portfolio</a></li>
-        <li><a class="nav-about" href="{{pathFor 'method'}}">Method</a></li>
-        <li><a class="nav-about" href="{{pathFor 'photos'}}">Photography</a></li>
-        <li><a class="nav-about" href="http://blog.husammachlovi.com">Blog</a></li>
+        <li class="{{isActiveRoute regex='about'}}"><a href="/">About</a></li>
+        <li class="{{isActiveRoute regex='portfolio'}}"><a href="{{pathFor 'portfolio'}}">Portfolio</a></li>
+        <li class="{{isActiveRoute regex='method'}}"><a href="{{pathFor 'method'}}">Method</a></li>
+        <li class="{{isActiveRoute regex='photos'}}"><a href="{{pathFor 'photos'}}">Photography</a></li>
+        <li><a  href="http://blog.husammachlovi.com">Blog</a></li>
         <!--<div class="ui button ok-button">OK</div>-->
       </ul>
     </nav>
