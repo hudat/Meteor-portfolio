@@ -7,7 +7,6 @@ meteor-platform
 autopublish
 insecure
 iron:router
-nooitaf:semantic-ui
 chrismbeckett:fontawesome4
 linto:fontawesome
 zimme:iron-router-active

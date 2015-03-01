@@ -52,6 +52,12 @@ h2.ui.center.aligned.header.title {
 
 @media (max-width: 480px ) {
 
+/*case studies*/
+
+.content p {
+  font-size: 1em;
+}
+
 }
 
 /* iPads (portrait and landscape) ----------- */

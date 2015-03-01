@@ -27,31 +27,24 @@ nav .logo a {
   color: #12b883;
   margin-bottom: 100px;
   text-align: center;
-  font-size: 32px;
+  font-size: 2.0rem !important;
   text-transform: none;
   border-bottom: none;
   margin-bottom: 20px;
+  font-weight: bold;
+  display: inline-block;
 }
 
 nav .logo a:hover {
-  color: #12b883;
-  margin-bottom: 100px;
-  text-align: center;
-  font-size: 32px;
-  text-transform: none;
   border-bottom: 1px solid #12b883;
-  margin-bottom: 20px;
-}
-
-.small {
-font-size: .8em;
 }
 
 /*MOBILE CSS*/
 
 @media (max-width: 480px ) {
-  nav ul a {
-    font-size: 12px !important;
-  }
 
+  nav .logo a {
+    font-size: 1.3rem !important;
+    display: inline-block;
+  }
 }
