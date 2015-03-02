@@ -15,6 +15,10 @@
   text-align: center;
 }
 
+a.header {
+  font-size: 1.2em !important;
+}
+
 .row.center.subhead h3 {
   text-align: center;
 }
