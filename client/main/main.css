@@ -17,8 +17,18 @@
 	src: url('/fonts/proximanova-sbold-webfont.woff');
 }
 
+@font-face {
+	font-family: "AvenirLTStd-Light";
+	src: url('/fonts/AvenirLTStd-Light.woff');
+}
+
+@font-face {
+	font-family: "AvenirLTStd-Medium";
+	src: url('/fonts/AvenirLTStd-Medium.woff');
+}
+
 body {
-	font-family: 'proximanova-reg-webfont', serif;
+	font-family: 'AvenirLTStd-Light', arial, serif;
 	line-height: 1.5238em;
 	color: #333;
 	background: #fff;
@@ -36,10 +46,9 @@ body li {
 	height: 100vh;
 }*/
 
-h3, h4 {
-	font-family: "proximanova-reg-webfont", serif;
-	font-weight: bold;
-	color: #545454;
+h1, h2, h3, h4 {
+	font-family: "AvenirLTStd-Medium", arial, serif;
+	color: #3B3B3B;
 }
 
 h3 {
@@ -66,13 +75,16 @@ text-decoration: none;
 }
 
 a:hover, a:focus {
+color: #333;
+border-bottom: 1px solid #333;
+}
 
-color: #0066a4;
-border-bottom: 1px solid #0066a4;
+a:active {
+	color: #333;
 }
 
 .active a {
-color: #0066a4;
+color: #333;
 }
 
 ul {

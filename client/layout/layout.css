@@ -24,7 +24,7 @@
 /* iPads (portrait and landscape) ----------- */
 @media (min-width : 768px) and (max-width : 1024px) {
   .ui.page.grid {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }
