@@ -36,8 +36,52 @@ nav .logo a {
 }
 
 nav .logo a:hover {
-  border-bottom: 1px solid #12b883;
+
 }
+
+.link-flip a {
+	font-weight: 500;
+	perspective: 600px;
+	perspective-origin: 50% 100%;
+	transition: color 0.3s;
+}
+
+.link-flip a:hover,
+.link-flip a:focus {
+	color: #12b883;
+}
+
+.link-flip a::before,
+.link-flip a::after {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: -4px;
+	z-index: -1;
+	box-sizing: content-box;
+	padding: 0 4px;
+	content: '';
+}
+
+.link-flip a::before {
+	background-color: #eee;
+	transition: transform 0.2s;
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transform: rotateX(90deg);
+	transform-origin: 50% 100%;
+}
+
+.link-flip a:hover::before,
+.link-flip a:focus::before {
+	transform: rotateX(0deg);
+}
+
+.link-flip a::after {
+	border-bottom: 2px solid #fff;
+}
+
+
 
 /*MOBILE CSS*/
 

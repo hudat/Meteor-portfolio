@@ -7,17 +7,17 @@
           <div class="four wide column footer-links">
               <h4>About</h4>
                 <div class="ui list">
-                  <div class="item"><a href="{{pathFor 'about'}}">Bio</a></div>
-                  <div class="item"><a href="{{pathFor 'portfolio'}}">Portfolio</a></div>
-                  <div class="item"><a href="{{pathFor 'method'}}">Method</a></div>
-                  <div class="item"><a href="{{pathFor 'photos'}}">Photography</a></div>
+                  <div class="{{isActiveRoute regex='about'}}"><a href="{{pathFor 'about'}}">Bio</a></div>
+                  <div class="{{isActiveRoute regex='portfolio'}}"><a href="{{pathFor 'portfolio'}}">Portfolio</a></div>
+                  <div class="{{isActiveRoute regex='method'}}"><a href="{{pathFor 'method'}}">Method</a></div>
+                  <div class="{{isActiveRoute regex='photos'}}"><a href="{{pathFor 'photos'}}">Photography</a></div>
                 </div>
             </div>
             <div class="four wide column">
               <h4>Contact</h4>
                 <div class="ui list">
-                  <div class="item"><a href="mailto:husam@withpulp.com">Husam@withpulp.com</a></div>
-                  <div class="item"><a href="http://withpulp.com">With Pulp</a></div>
+                  <div class="item"><a class="hover" href="mailto:husam@withpulp.com">Husam@withpulp.com</a></div>
+                  <div class="item"><a class="hover" href="http://withpulp.com">With Pulp</a></div>
                   <!--<div class="item"><a href="http://behaviorally.io">Behaviorally</a></div>-->
                 </div>
             </div>

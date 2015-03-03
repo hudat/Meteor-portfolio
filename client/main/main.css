@@ -75,16 +75,18 @@ text-decoration: none;
 }
 
 a:hover, a:focus {
-color: #333;
-border-bottom: 1px solid #333;
-}
-
-a:active {
-	color: #333;
+color: #ed477c;
+border-bottom: 1px solid #ed477c;
 }
 
 .active a {
-color: #333;
+color: #ed477c;
+border-bottom: 1px solid #ed477c;
+}
+
+.ui.list .item a:hover {
+	color: #ed477c !important;
+	border-bottom: 1px solid #ed477c !important;
 }
 
 ul {
