@@ -52,7 +52,6 @@ h1, h2, h3, h4 {
 }
 
 h3 {
-	margin-bottom: 20px;
 	font-size: 22px;
 }
 
@@ -69,18 +68,16 @@ h4 {
 
 body a, a:visited {
 font-size: 1.1rem;
-color: #888;
-border-bottom: 1px solid #888;
+color: rgba(0, 0, 0, 0.8);
+border-bottom: 1px solid rgba(0, 0, 0, 0.8);
 text-decoration: none;
 }
 
 a:hover, a:focus {
-color: #ed477c;
 border-bottom: 1px solid #ed477c;
 }
 
 .active a {
-color: #ed477c;
 border-bottom: 1px solid #ed477c;
 }
 
