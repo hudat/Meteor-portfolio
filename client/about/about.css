@@ -16,7 +16,12 @@ h2.quote {
 }
 
 .excerpt {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+}
+
+
+.excerpt p {
+  padding-top: 10px;
 }
 
 @media (max-width: 480px) {
