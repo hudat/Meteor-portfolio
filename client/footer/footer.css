@@ -35,6 +35,7 @@
 }
 
 /*mobile menu*/
+/*
 .ui.footer.menu {
   position: fixed;
   bottom: 0;
@@ -52,6 +53,7 @@
 }
 
 /*mobile overlay*/
+/*
 nav.ui.mobile.overlay {
   position: fixed;
   top: 0;
@@ -100,13 +102,15 @@ nav.ui.mobile.overlay {
 .show {
   display: block !important;
 }
-
+*/
+/*
 @media (max-width : 767px) {
   .ui.stackable.padded.grid.footer {
     display: none !important;
   }
 }
 
+/*
 @media (min-width : 768px) {
   .ui.footer.menu {
     display: none;
@@ -115,3 +119,4 @@ nav.ui.mobile.overlay {
     display: none;
   }
 }
+*/

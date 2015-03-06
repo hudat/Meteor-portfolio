@@ -42,10 +42,27 @@ nav .logo a:hover {
 
 /*MOBILE CSS*/
 
-@media (max-width: 767px ) {
-  ul.nav {
+@media (max-width: 480px ) {
+  /*ul.nav {
     display: none;
+  }*/
+  nav .logo a {
+    display: block;
   }
+  nav ul {
+    padding-right: 20px;
+  }
+  nav a {
+    font-size: 2rem;
+    line-height: 3.2rem;
+  }
+}
+
+
+@media (max-width: 767px ) {
+  /*ul.nav {
+    display: none;
+  }*/
   nav .logo a {
     display: block;
   }
