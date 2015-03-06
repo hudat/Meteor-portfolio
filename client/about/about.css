@@ -3,10 +3,7 @@
   margin-bottom: 40px;
 }
 
-
-/*.logos img {
-  padding-right: 20px;
-}*/
+/*Quotes*/
 
 h2.quote {
   padding-bottom: 20px;
@@ -15,6 +12,7 @@ h2.quote {
   font-family: 'proximanova-sbold-webfont';
 }
 
+/*Article excerpts*/
 .excerpt {
   padding-bottom: 30px;
 }
@@ -24,6 +22,15 @@ h2.quote {
   padding-top: 10px;
 }
 
+.excerpt a {
+  font-size: 1.3rem;
+}
+
+.logos img {
+  padding-right: 20px;
+}
+
+/*Mobile*/
 @media (max-width: 480px) {
   .styled-list {
     margin-left: 0px !important;
@@ -39,7 +46,7 @@ h2.quote {
 
 }
 
-/* iPads (portrait and landscape) ----------- */
+/* Mobile (portrait and landscape) ----------- */
 @media (min-width : 481px) and (max-width : 767px) {
   .headshot img {
     float: left;

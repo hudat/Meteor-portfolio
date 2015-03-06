@@ -42,10 +42,6 @@ body li {
 	font-size: 1.2rem;
 }
 
-/*.header {
-	height: 100vh;
-}*/
-
 h1, h2, h3, h4 {
 	font-family: "AvenirLTStd-Medium", arial, serif;
 	color: #3B3B3B;
@@ -68,21 +64,30 @@ h4 {
 
 body a, a:visited {
 font-size: 1.1rem;
-color: rgba(0, 0, 0, 0.8);
-border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+color: rgba(124, 124, 124, 1);
+border-bottom: 1px solid rgba(124, 124, 124, 1);
 text-decoration: none;
 }
 
 a:hover, a:focus {
+color: rgba(57, 57, 57, 1);
 border-bottom: 1px solid #ed477c;
 }
 
 .active a {
+color: rgba(57, 57, 57, 1);
 border-bottom: 1px solid #ed477c;
 }
 
+.ui.list .item a {
+	font-size: 1.1rem;
+	color: rgba(124, 124, 124, 1) !important;
+	border-bottom: 1px solid rgba(124, 124, 124, 1) !important;
+	text-decoration: none;
+}
+
 .ui.list .item a:hover {
-	color: #ed477c !important;
+	color: rgba(57, 57, 57, 1) !important;
 	border-bottom: 1px solid #ed477c !important;
 }
 
