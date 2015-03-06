@@ -45,6 +45,7 @@ body li {
 h1, h2, h3, h4 {
 	font-family: "Georgia", sans-serif;
 	color: #434242;
+	padding-bottom: 10px;
 }
 
 h3 {

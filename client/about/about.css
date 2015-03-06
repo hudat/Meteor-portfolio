@@ -9,12 +9,9 @@ h2.quote {
 
 /*Articles & excerpts*/
 
-.excerpt {
-  padding-top: 22px;
-}
-
 .excerpt p {
   padding-top: 10px;
+  padding-bottom: 30px;
 }
 
 .excerpt a {
@@ -38,7 +35,7 @@ h2.quote {
   .small img {
     display: block;
     margin: auto;
-    width: 147px !important;
+    width: 146px !important;
   }
 
 }
