@@ -26,8 +26,9 @@ h2.quote {
   font-size: 1.3rem;
 }
 
-.logos img {
+.small img {
   padding-right: 20px;
+  width: 165px !important;
 }
 
 /*Mobile*/
@@ -39,9 +40,10 @@ h2.quote {
     display: block;
     margin: auto;
   }
-  .logos img {
+  .small img {
     display: block;
     margin: auto;
+    width: 146px !important;
   }
 
 }
@@ -76,5 +78,8 @@ h2.quote {
   }
   .eleven.wide.column.h3 {
     padding-left: 44px;
+  }
+  .small img {
+    width: 130px !important;
   }
 }
