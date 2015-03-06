@@ -46,4 +46,7 @@ nav .logo a:hover {
   ul.nav {
     display: none;
   }
+  nav .logo a {
+    display: block;
+  }
 }

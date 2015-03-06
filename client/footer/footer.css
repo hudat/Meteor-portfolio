@@ -1,4 +1,3 @@
-
 .stackable.ui.grid.footer {
   padding-top: 80px;
   padding-bottom: 40px;
@@ -54,14 +53,48 @@
 
 /*mobile overlay*/
 nav.ui.mobile.overlay {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
   margin: 0;
+  bottom: 43px;
   z-index: 2;
   background: #fff;
+  width: 100%;
+  height: 100%;
   display: none;
+}
+
+.ui.vertical.menu {
+  position: relative;
+  width: 100%;
+  padding: 0 1rem;
+  margin-bottom: 6rem;
+  background: #fff;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  overflow: hidden;
+  padding-top: 50px;
+}
+
+.social {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.item.icon {
+  display: inline !important;
+  text-align: center;
+  font-size: 1.0rem;
+}
+
+.item.icon a {
+  border-bottom: none !important;
+}
+
+.fa-3x {
+  font-size: 2.3rem;
 }
 
 .show {
