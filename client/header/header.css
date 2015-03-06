@@ -39,41 +39,6 @@ nav .logo a:hover {
 
 }
 
-/* SVG line */
-.link-svgline a {
-	font-weight: 500;
-}
-
-.link-svgline a svg.link-svgline {
-	position: absolute;
-	top: 100%;
-	left: 0;
-	overflow: hidden;
-	margin: 0;
-	width: 100%;
-	height: 20px;
-	-webkit-transition: stroke-dashoffset 0.3s ease-in-out;
-	transition: stroke-dashoffset 0.3s ease-in-out;
-	-webkit-transform: translateY(-90%);
-	transform: translateY(-90%);
-	fill: none;
-	stroke: #b1d474;
-	stroke-width: 5;
-	stroke-dasharray: 400px;
-	stroke-dashoffset: 400px;
-}
-
-@media screen and (max-width: 50em) {
-	.link-svgline a svg.link-svgline {
-		-webkit-transform: translateY(-80%);
-		transform: translateY(-80%);
-	}
-}
-
-.link-svgline a:hover svg.link-svgline {
-	stroke-dashoffset: 0px;
-}
-
 
 /*MOBILE CSS*/
 

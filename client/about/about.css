@@ -83,3 +83,10 @@ h2.quote {
     width: 130px !important;
   }
 }
+
+/* iPads (portrait and landscape) ----------- */
+@media (min-width : 1025px) {
+  .small img {
+    width: 162px !important;
+  }
+}
