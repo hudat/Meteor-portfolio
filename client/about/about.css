@@ -43,7 +43,7 @@ h2.quote {
   .small img {
     display: block;
     margin: auto;
-    width: 146px !important;
+    width: 127px !important;
   }
 
 }
@@ -56,6 +56,11 @@ h2.quote {
   }
   .intro-header {
     margin-bottom: 20px;
+  }
+  .small img {
+    display: block;
+    margin: auto;
+    width: 144px !important;
   }
 }
 

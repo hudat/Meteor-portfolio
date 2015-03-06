@@ -34,3 +34,51 @@
 #mc_embed_signup .button:hover {
   background-color: #12b883 !important;
 }
+
+/*mobile menu*/
+.ui.footer.menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  z-index: 3;
+  border-radius: 0;
+  -webkit-box-shadow: 0 0 .4rem 0 rgba(34, 34, 34, 0.45);
+  box-shadow: 0 0 .4rem 0 rgba(34, 34, 34, 0.45);
+}
+
+.ui.menu .item {
+  font-size: 1.4rem;
+}
+
+/*mobile overlay*/
+nav.ui.mobile.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  z-index: 2;
+  background: #fff;
+  display: none;
+}
+
+.show {
+  display: block !important;
+}
+
+@media (max-width : 767px) {
+  .ui.stackable.padded.grid.footer {
+    display: none !important;
+  }
+}
+
+@media (min-width : 768px) {
+  .ui.footer.menu {
+    display: none;
+  }
+  nav.ui.mobile.overlay {
+    display: none;
+  }
+}
