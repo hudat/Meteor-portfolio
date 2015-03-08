@@ -36,7 +36,7 @@
 
 /*mobile menu*/
 
-.ui.footer.menu {
+.ui.menu {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -80,14 +80,28 @@ nav.ui.mobile.overlay {
   padding-top: 50px;
 }
 
-.social {
-  padding-top: 20px;
+.social-links {
   text-align: center;
 }
 
+i {
+  color: #12b883;
+}
+
+.social-links i {
+  color: #ed477c;
+}
+
+.social.item.icon {
+display: inline !important;
+}
+
+.ui.menu .social.item:before {
+  background: none;
+
+}
+
 .item.icon {
-  display: inline !important;
-  text-align: center;
   font-size: 1.0rem;
 }
 
@@ -112,7 +126,7 @@ nav.ui.mobile.overlay {
 
 
 @media (min-width : 768px) {
-  .ui.footer.menu {
+  .ui.menu {
     display: none;
   }
   nav.ui.mobile.overlay {
