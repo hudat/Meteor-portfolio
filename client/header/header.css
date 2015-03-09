@@ -46,6 +46,9 @@ nav .logo a:hover {
   /*ul.nav {
     display: none;
   }*/
+  nav {
+    padding-bottom: 0px;
+  }
   nav .logo a {
     display: block;
   }
@@ -55,6 +58,9 @@ nav .logo a:hover {
   nav a {
     font-size: 2rem;
     line-height: 3.2rem;
+  }
+  .logo li {
+    font-size: 1.4rem;
   }
 }
 

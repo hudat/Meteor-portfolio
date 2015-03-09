@@ -93,6 +93,10 @@ i {
   padding: 20px;
 }
 
+.social-links i:active {
+  border-bottom: none;
+}
+
 .social.item.icon {
 display: inline !important;
 }
@@ -102,16 +106,20 @@ display: inline !important;
 
 }
 
-.item.icon {
-  font-size: 1.0rem;
+.brand.item {
+  border-bottom: none;
 }
 
-.item.icon a {
-  border-bottom: none !important;
+.item a {
+  border-bottom: none;
 }
 
 .fa-3x {
   font-size: 2.3rem;
+}
+
+i.fa.fa-gift {
+  font-size: 2.2em;
 }
 
 .show-menu {
