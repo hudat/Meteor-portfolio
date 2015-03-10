@@ -10,6 +10,11 @@
   margin-top: 0px;
 }
 
+.method-preface img {
+  width: 85%;
+  padding-top: 20px;
+}
+
 .ui.grid > .row.phase {
   padding-bottom: 40px;
 }
