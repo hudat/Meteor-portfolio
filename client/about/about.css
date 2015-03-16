@@ -1,10 +1,10 @@
 /*Quotes*/
 
 h2.quote {
-  padding-bottom: 20px;
-  font-size: 1.6em;
-  color: #333;
-  font-family: 'proximanova-sbold-webfont';
+  font-size: 1.2rem;
+  color: #12B883;
+  font-family: georgia;
+  font-weight: normal;
 }
 
 /*Articles & excerpts*/
