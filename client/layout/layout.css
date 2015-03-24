@@ -1,30 +1,23 @@
 .ui.page.grid {
-  padding-left: 150px;
-  padding-right: 150px;
+  margin: 0 12%;
 }
 
 /*MOBILE CSS*/
 
 @media (max-width: 480px ) {
   .ui.page.grid {
-    padding-left: 10px;
-    padding-right: 10px;
+    margin: 0 2%;
   }
 }
 
 /* iPads (portrait and landscape) ----------- */
 @media (min-width : 481px) and (max-width : 767px) {
   .ui.page.grid {
-    padding-left: 10px;
-    padding-right: 10px;
+    margin: 0 2%;
   }
 }
 
 
 /* iPads (portrait and landscape) ----------- */
 @media (min-width : 768px) and (max-width : 1024px) {
-  .ui.page.grid {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
 }

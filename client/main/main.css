@@ -71,12 +71,12 @@ text-decoration: none;
 }
 
 a:hover, a:focus {
-color: rgba(57, 57, 57, 1);
+color: #ed477c;
 border-bottom: 1px solid #ed477c;
 }
 
 .active a {
-color: rgba(57, 57, 57, 1);
+color: #ed477c;
 border-bottom: 1px solid #ed477c;
 }
 
@@ -88,7 +88,7 @@ border-bottom: 1px solid #ed477c;
 }
 
 .ui.list .item a:hover {
-	color: rgba(57, 57, 57, 1) !important;
+	color: #ed477c !important;
 	border-bottom: 1px solid #ed477c !important;
 }
 
