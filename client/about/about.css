@@ -85,6 +85,6 @@ h2.quote {
 /* iPads (portrait and landscape) ----------- */
 @media (min-width : 1025px) {
   .small img {
-    width: 162px !important;
+    width: 139px !important;
   }
 }
