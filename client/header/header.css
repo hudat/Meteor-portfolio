@@ -66,10 +66,13 @@ nav .logo a:hover {
 
 
 @media (max-width: 767px ) {
-  ul.nav {
+  /*ul.nav {
     display: none;
-  }
+  }*/
   nav .logo a {
     display: block;
+  }
+  h2.quote {
+    font-size: 1.4rem;
   }
 }

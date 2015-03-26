@@ -128,7 +128,7 @@ i.fa.fa-gift {
 }
 
 
-@media (max-width : 767px) {
+/*@media (max-width : 767px) {
   .ui.stackable.padded.grid.footer {
     display: none !important;
   }
@@ -143,3 +143,4 @@ i.fa.fa-gift {
     display: none;
   }
 }
+*/
