@@ -1,4 +1,4 @@
-Template.mobile_overlay.rendered = function() {
+/*Template.mobile_overlay.rendered = function() {
   Session.set('menuActive', false);
   Session.set('mobileGiveaway', false);
 }
@@ -28,3 +28,4 @@ Template['mobile_modal'].events({
     Session.set('mobileGiveaway', !Session.get('mobileGiveaway'));
   }
 });
+*/

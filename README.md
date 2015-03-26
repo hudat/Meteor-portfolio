@@ -26,7 +26,7 @@ Demo here: [husammachlovi.com](http://husammachlovi.com).
 ### Features
 
 * Breadcrumb based footer navigation
-* Lightbox 
+* Lightbox
 * Newsletter subscription
 * Overlay menu
 
