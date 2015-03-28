@@ -1,9 +1,11 @@
-.ui.grid.stackable {
-}
 
 .sixteen.wide.column.subhead {
   margin-bottom: 0px;
   padding-bottom: 20px;
+}
+
+.subhead h4 {
+  padding-bottom: 0px;
 }
 
 .sixteen.wide.column.description {
