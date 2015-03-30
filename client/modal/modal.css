@@ -1,0 +1,23 @@
+.content.modal-body {
+  text-align: left;
+  font-size: 1.2em !important;
+}
+
+.modal-form {
+  font-size: 1.2em;
+  padding-top: 20px;
+}
+.modal-form input.email {
+  width: 100%;
+  padding: 8px 8px;
+  margin: 0 4% 10px 0;
+}
+.modal-form input.button {
+  width: 100%;
+  background-color: #ed477c !important;
+  color: #fff !important;
+  border-radius: 0px !important;
+  border: none;
+  padding: 10px;
+  margin: none;
+}
