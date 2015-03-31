@@ -1,7 +1,12 @@
+.header {
+  text-align: center;
+}
+
 .content.modal-body {
   text-align: left;
   font-size: 1.2em !important;
 }
+
 
 .modal-form {
   font-size: 1.2em;
