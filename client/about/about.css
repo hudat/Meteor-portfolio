@@ -19,7 +19,8 @@ h2.quote {
 
 .excerpt a {
   font-size: 1.3rem;
-  color: #12B883;
+  color: #ed477c !important;
+  border-bottom: 1px solid #ed477c !important;
 }
 
 .small img {
