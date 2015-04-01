@@ -17,8 +17,15 @@
   padding: 8px 8px;
   margin: 0 4% 10px 0;
 }
-.modal-form input.button {
-  width: 100%;
+.ui.modal .actions {
+  background: none;
+  border-top: none;
+  text-align: center;
+}
+.ui.button {
+  background: none;
+}
+.ui.positive.right.labeled {
   background-color: #ed477c !important;
   color: #fff !important;
   border-radius: 0px !important;
