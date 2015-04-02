@@ -1,7 +1,12 @@
 .header {
-  text-align: center;
+  background-color: #ed477c !important;
 }
 
+.header h2 {
+  color: #fff;
+  padding-bottom: 0px !important;
+  font-family: 'AvenirLTStd-Light', arial, serif;
+}
 .content.modal-body {
   text-align: left;
   font-size: 1.2em !important;
@@ -21,15 +26,52 @@
   background: none;
   border-top: none;
   text-align: center;
+  padding-left: 0px;
+}
+
+.ui.modal .actions > .button{
+  margin-left: 0px;
 }
 .ui.button {
   background: none;
 }
 .ui.positive.right.labeled {
-  background-color: #ed477c !important;
+  background-color: #12B883;
   color: #fff !important;
   border-radius: 0px !important;
   border: none;
   padding: 10px;
   margin: none;
+  width: 100%;
+  font-weight: bold;
+}
+
+.ui.positive.right.labeled:hover {
+  background-color: rgba(18, 184, 131, 0.83);
+}
+.ui.modal .actions {
+  padding: 0em;
+}
+
+.ui.button {
+  width: 100%;
+  padding: 0em;
+}
+.ui.button.custom:hover {
+  background-color: #fff !important;
+}
+
+.ui.black.button {
+  background-color: #ADAEAF;
+  padding: 10px 0px;
+  margin-top: 24px;
+  width: 40%;
+  float:right;
+  border-radius: 0px;
+  font-family: 'AvenirLTStd-Light', arial, serif;
+  font-weight: normal;
+}
+
+.ui.black.button:hover {
+  background-color: #ADAEAF;
 }
