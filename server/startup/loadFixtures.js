@@ -11,4 +11,8 @@ Meteor.startup(function () {
   if (Quotes.find().count() === 0) {
     loadFixture(Fixtures['Quotes'], Quotes);
   }
+
+  if (Cases.find().count() === 0) {
+  loadFixture(Fixtures['cases'], Cases);
+  }
 });

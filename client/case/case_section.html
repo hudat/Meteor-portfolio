@@ -1,0 +1,28 @@
+<template name="caseSection">
+  <section class="case-section one column row">
+    <div class="column">
+      <div class="ui header">
+        <h2>{{header}}</h2>
+      </div>
+      {{#each paragraphs}}
+        <div class="ui text">
+          <p>{{text}}</p>
+        </div>
+        {{#each images}}
+          <div class="ui huge image">
+            <img src="{{path}}" />
+          </div>
+        {{/each}}
+        {{#each lists}}
+          <div class="ui list">
+            <ul>
+              {{#each list}}
+                <li>{{item}}</li>
+              {{/each}}
+            </ul>
+          </div>
+        {{/each}}
+      {{/each}}
+    </div>
+  </section>
+</template>

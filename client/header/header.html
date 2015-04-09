@@ -16,6 +16,13 @@
         <li><a  href="http://blog.husammachlovi.com">Blog</a></li>
         <!--<div class="ui button ok-button">OK</div>-->
       </ul>
+      <ul class="ui divided very relaxed list">
+{{#each cases}}
+  <li class="item">
+      <li><a href="{{pathFor 'case' _id=this._id}}">{{client}}</a></li>
+  </li>
+{{/each}}
+</ul>
     </nav>
 </div>
 </template>
