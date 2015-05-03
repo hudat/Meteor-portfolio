@@ -1,11 +1,11 @@
 .header {
-  background-color: #ed477c !important;
+  background: #fff !important;
+  border-bottom: 1px solid #12B883 !important;
 }
 
 .header h2 {
-  color: #fff;
   padding-bottom: 0px !important;
-  font-family: 'AvenirLTStd-Light', arial, serif;
+  font-family: "Georgia", sans-serif;
 }
 .content.modal-body {
   text-align: left;
@@ -44,6 +44,7 @@
   margin: none;
   width: 100%;
   font-weight: bold;
+  font-size: 18px;
 }
 
 .ui.positive.right.labeled:hover {
@@ -68,8 +69,8 @@
   width: 40%;
   float:right;
   border-radius: 0px;
-  font-family: 'AvenirLTStd-Light', arial, serif;
   font-weight: normal;
+  font-family: 'Inconsolata', arial, serif;
 }
 
 .ui.black.button:hover {

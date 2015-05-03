@@ -33,6 +33,7 @@ nav .logo a {
   margin-bottom: 20px;
   font-weight: bold;
   display: inline-block;
+  font-family: "Georgia", sans-serif;
 }
 
 nav .logo a:hover {
