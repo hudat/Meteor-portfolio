@@ -3,17 +3,20 @@
       <div class="sixteen wide column preface">
         <h2>Portfolio</h2>
       </div><!--preface-->
+
       <div class="ui three doubling cards">
+        {{#each cases}}
       <a class="ui card" href="{{pathFor 'case' _id=this._id}}">
         <div class="content">
             <img class="ui image" src="images/withpulp.png">
           </div>
           <div class="content">
-            <h5>With Pulp</h5>
+            <h5>{{client}}</h5>
             <p>Product Design & Mangement</p>
           </div>
       </a>
-
+      {{/each}}
+<!--
         <div class="card">
           <div class="image">
             <img src="images/rubyblanc.png">
@@ -63,9 +66,8 @@
             <h5>Pfizer</h5>
             <p>Product Strategy & Management</p>
           </div>
-        </div>
+        </div>-->
       </div><!--doubling cards-->
-
 
 
   </div>
