@@ -1,7 +1,5 @@
-<!--header.html-->
-
 <template name="header">
-<div>
+  <div>
     <nav class="column stackable center aligned">
       <div class="logo">
         <li><a class="big" href="/">Husam</a></li>
@@ -17,12 +15,12 @@
         <!--<div class="ui button ok-button">OK</div>-->
       </ul>
       <ul class="ui divided very relaxed list">
-{{#each cases}}
-  <li class="item">
-      <li><a href="{{pathFor 'case' _id=this._id}}">{{client}}</a></li>
-  </li>
-{{/each}}
-</ul>
+        {{#each cases}}
+          <li class="item">
+              <li><a href="{{pathFor 'case' _id=this._id}}">{{client}}</a></li>
+          </li>
+        {{/each}}
+      </ul>
     </nav>
-</div>
+  </div>
 </template>
