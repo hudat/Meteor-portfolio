@@ -4,8 +4,8 @@ Fixtures = typeof Fixtures !== "undefined" ? Fixtures : {};
 Fixtures.cases = [
   {
     client: 'With Pulp',
+    thumbnail: '/images/portfolio/withpulp.png',
     effect: 'effect-push',
-    jumbo: '/images/cases/rubyblanc/intro.png',
     logo: '/images/cases/rubyblanc/ruby.png',
     title: 'Bringing a Powerhouse Since 1978 Online',
     sections: [
@@ -81,8 +81,8 @@ Fixtures.cases = [
   },
   {
     client: 'Ruby Blanc',
+    thumbnail: '/images/portfolio/rubyblanc.png',
     effect: 'effect-push',
-    jumbo: '/images/cases/rubyblanc/intro.png',
     logo: '/images/cases/rubyblanc/ruby.png',
     title: 'Bringing a Powerhouse Since 1978 Online',
     sections: [
@@ -131,8 +131,8 @@ Fixtures.cases = [
   },
   {
     client: 'Writerly IO',
+    thumbnail: '',
     effect: 'effect-push',
-    jumbo: '/images/cases/rubyblanc/intro.png',
     logo: '/images/cases/rubyblanc/ruby.png',
     title: 'Bringing a Powerhouse Since 1978 Online',
     sections: [
