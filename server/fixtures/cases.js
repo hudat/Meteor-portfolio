@@ -5,6 +5,7 @@ Fixtures.cases = [
   {
     client: 'With Pulp',
     thumbnail: '/images/portfolio/withpulp.png',
+    role: 'Co-Founder, Product Developer',
     effect: 'effect-push',
     logo: '/images/cases/rubyblanc/ruby.png',
     title: 'Bringing a Powerhouse Since 1978 Online',
@@ -82,6 +83,7 @@ Fixtures.cases = [
   {
     client: 'Ruby Blanc',
     thumbnail: '/images/portfolio/rubyblanc.png',
+    role: 'Co-Founder',
     effect: 'effect-push',
     logo: '/images/cases/rubyblanc/ruby.png',
     title: 'Bringing a Powerhouse Since 1978 Online',
@@ -131,6 +133,7 @@ Fixtures.cases = [
   },
   {
     client: 'Writerly IO',
+    role: 'Architect',
     thumbnail: '',
     effect: 'effect-push',
     logo: '/images/cases/rubyblanc/ruby.png',
