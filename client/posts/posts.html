@@ -1,11 +1,6 @@
 <template name="posts">
   <div class="ui grid row stackable articles">
       <h3>Recent Articles</h3>
-      {{#each posts}}
-      <div class="excerpt">
-        <a href="http://blog.husammachlovi.com/rapid-growth/" alt="Husam Machlovi Rapid Growth">{{title}}</a>
-        <p>{{excerpt}}</p>
-      </div>
-      {{/each}}
+      {{> postItem}}
   </div><!--Articles-->
 </template>
