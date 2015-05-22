@@ -9,7 +9,7 @@ function loadFixture(fixtures, collection) {
 
 Meteor.startup(function () {
   if (Quotes.find().count() === 0) {
-    loadFixture(Fixtures['Quotes'], Quotes);
+    loadFixture(Fixtures['quotes'], Quotes);
   }
 
   if (Cases.find().count() === 0) {
