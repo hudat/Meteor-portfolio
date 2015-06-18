@@ -82,7 +82,7 @@ Fixtures.cases = [
   },
   {
     client: 'Ruby Blanc',
-    thumbnail: '/images/portfolio/rubyblanc.png',
+    thumbnail: '/images/portfolio/rubyblanc/rubyblanc.png',
     role: 'Co-Founder',
     effect: 'effect-push',
     logo: '/images/cases/rubyblanc/ruby.png',
