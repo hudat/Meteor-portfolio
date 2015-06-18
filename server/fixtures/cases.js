@@ -4,8 +4,8 @@ Fixtures = typeof Fixtures !== "undefined" ? Fixtures : {};
 Fixtures.cases = [
   {
     client: 'With Pulp',
-    thumbnail: '/images/portfolio/withpulp.png',
-    role: 'Co-Founder, Product Developer',
+    thumbnail: '/images/portfolio/withpulp/withpulp.png',
+    role: 'Co-Founder, Product Strategy & Design',
     effect: 'effect-push',
     logo: '/images/cases/rubyblanc/ruby.png',
     title: 'Bringing a Powerhouse Since 1978 Online',
