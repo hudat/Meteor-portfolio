@@ -1,6 +1,6 @@
 # Content-First Portfolio App
 
-A minimalist, mobile-first web app that puts content first. Go ahead and let your work speak for itself. Designed and built by Husam Machlovi.
+A minimalist, mobile-first web app built in Meteor.
 
 Demo here: [husammachlovi.com](http://husammachlovi.com).
 
