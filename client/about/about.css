@@ -1,8 +1,11 @@
 /*Quotes*/
+.quote {
+  padding: 0px 100px 20px 100px;
+}
 
 h2.quote {
-  font-size: 1.2rem;
-  color: #12B883;
+  font-size: 1.5rem;
+  color: #959595;
   font-family: georgia;
   font-weight: normal;
 }
@@ -12,6 +15,9 @@ h2.quote {
 }
 /*Articles & excerpts*/
 
+.excerpt {
+  padding: 5px 0px;
+}
 .excerpt p {
   padding-top: 10px;
   padding-bottom: 30px;
@@ -43,6 +49,9 @@ h2.quote {
 
 /*Mobile*/
 @media (max-width: 480px) {
+  .quote {
+      padding: 0px 0px 20px 0px;
+  }
   .styled-list {
     margin-left: 0px !important;
   }
@@ -50,7 +59,7 @@ h2.quote {
     display: block;
     margin: auto;
   }
-  .small img {
+  .clients img {
     display: block;
     margin: auto;
     width: 46% !important;
@@ -60,6 +69,9 @@ h2.quote {
 
 /* Mobile (portrait and landscape) ----------- */
 @media (min-width : 481px) and (max-width : 767px) {
+  .quote {
+      padding: 0px 0px 20px 0px;
+  }
   .headshot img {
     float: left;
     margin-right: 15px;
@@ -67,7 +79,7 @@ h2.quote {
   .intro-header {
     margin-bottom: 20px;
   }
-  .small img {
+  .clients img {
     display: block;
     margin: auto;
     width: 18% !important;
@@ -92,14 +104,14 @@ h2.quote {
   .eleven.wide.column.h3 {
     padding-left: 44px;
   }
-  .small img {
+  .clients img {
     width: 18% !important;
   }
 }
 
 /* iPads (portrait and landscape) ----------- */
 @media (min-width : 1025px) {
-  .small img {
-    width: 139px !important;
+  .clients img {
+    width: 18% !important;
   }
 }
