@@ -25,6 +25,7 @@
 
 #mc_embed_signup input.email {
    font-family: Georgia, sans-serif !important;
+   width: 80% !important;
 }
 
 #mc_embed_signup .button {
@@ -33,10 +34,11 @@
   color: #fff !important;
   border-radius: 0px !important;
   font-weight: normal !important;
+  width: 80% !important;
 }
 
 #mc_embed_signup .button:hover {
-  background-color: #12b883 !important;
+  background-color: rgba(18, 184, 131, 0.83) !important;
 }
 
 /*mobile menu*/
