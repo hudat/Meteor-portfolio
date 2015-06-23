@@ -5,6 +5,10 @@
 .yield {
   padding-top: 60px;
 }
+
+.section {
+  padding-top: 40px !important;
+}
 /*MOBILE CSS*/
 
 @media (max-width: 480px ) {
