@@ -1,34 +1,5 @@
-.ui.grid {
-	margin: 0%;
-}
-
-@font-face {
-	font-family: "proximanova-light-webfont";
-	src: url('/fonts/proximanova-light-webfont.woff');
-}
-
-@font-face {
-	font-family: "proximanova-reg-webfont";
-	src: url('/fonts/proximanova-reg-webfont.woff');
-}
-
-@font-face {
-	font-family: "proximanova-sbold-webfont";
-	src: url('/fonts/proximanova-sbold-webfont.woff');
-}
-
-@font-face {
-	font-family: "AvenirLTStd-Light";
-	src: url('/fonts/AvenirLTStd-Light.woff');
-}
-
-@font-face {
-	font-family: "AvenirLTStd-Medium";
-	src: url('/fonts/AvenirLTStd-Medium.woff');
-}
-
 body {
-	font-family: 'Inconsolata', arial, serif;
+	font-family: 'Roboto Mono', arial, serif;
 	line-height: 1.5238em;
 	color: #333;
 	background: #fff;
