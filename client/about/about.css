@@ -40,7 +40,7 @@ h2.quote {
   .small img {
     display: block;
     margin: auto;
-    width: 146px !important;
+    width: 46% !important;
   }
 
 }
@@ -57,7 +57,7 @@ h2.quote {
   .small img {
     display: block;
     margin: auto;
-    width: 144px !important;
+    width: 18% !important;
   }
 }
 
@@ -80,7 +80,7 @@ h2.quote {
     padding-left: 44px;
   }
   .small img {
-    width: 130px !important;
+    width: 18% !important;
   }
 }
 
