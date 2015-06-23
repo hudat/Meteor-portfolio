@@ -37,7 +37,7 @@ nav .logo a {
 }
 
 nav .logo a:hover {
-
+  color: rgba(18, 184, 131, 0.83);
 }
 
 
@@ -52,9 +52,6 @@ nav .logo a:hover {
   }
   nav .logo a {
     display: block;
-  }
-  nav ul {
-    padding-right: 20px;
   }
   nav a {
     font-size: 2rem;

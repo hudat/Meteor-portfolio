@@ -19,13 +19,26 @@ h2.quote {
 
 .excerpt a {
   font-size: 1.3rem;
-  color: #ed477c !important;
-  border-bottom: 1px solid #ed477c !important;
+  color: #12b883 !important;
+  border-bottom: 1px solid #12b883 !important;
+}
+
+.excerpt a:hover {
+  color: rgba(18, 184, 131, 0.83) !important;
 }
 
 .small img {
   padding-right: 20px;
   width: 139px !important;
+}
+
+.styled-list {
+  line-height: 1.8rem;
+  list-style-type: square !important;
+}
+
+.styled-list li:before {
+  color: red;
 }
 
 /*Mobile*/
