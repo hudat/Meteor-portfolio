@@ -44,7 +44,7 @@
   margin: none;
   width: 100%;
   font-size: 18px;
-  font-family: 'Roboto Mono' !important;
+  font-family: 'Roboto Mono', arial, serif !important;
 }
 
 .ui.positive.right.labeled:hover {

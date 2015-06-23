@@ -23,11 +23,16 @@
   padding: 0px !important;
 }
 
+#mc_embed_signup input.email {
+   font-family: Georgia, sans-serif !important;
+}
+
 #mc_embed_signup .button {
-  font-family: 'Inconsolata', arial, serif;
+  font-family: 'Roboto Mono', arial, serif !important;
   background-color: #12b883 !important;
   color: #fff !important;
   border-radius: 0px !important;
+  font-weight: normal !important;
 }
 
 #mc_embed_signup .button:hover {
