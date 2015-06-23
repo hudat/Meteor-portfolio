@@ -1,5 +1,5 @@
 body {
-	font-family: 'Roboto Mono', arial, serif;
+	font-family: 'Georgia', arial, serif;
 	line-height: 1.5238em;
 	color: #333;
 	background: #fff;
@@ -14,7 +14,7 @@ body li {
 }
 
 h1, h2, h3, h4 {
-	font-family: "Georgia", sans-serif;
+	font-family: "Roboto Mono", sans-serif;
 	color: #575757;
 	padding-bottom: 10px;
 }

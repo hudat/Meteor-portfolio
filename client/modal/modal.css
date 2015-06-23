@@ -45,6 +45,7 @@
   width: 100%;
   font-weight: bold;
   font-size: 18px;
+  font-family: 'Roboto Mono' !important;
 }
 
 .ui.positive.right.labeled:hover {
@@ -70,7 +71,7 @@
   float:right;
   border-radius: 0px;
   font-weight: normal;
-  font-family: 'Inconsolata', arial, serif;
+  font-family: 'Roboto Mono' !important;
 }
 
 .ui.black.button:hover {
