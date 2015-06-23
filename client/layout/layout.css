@@ -2,6 +2,9 @@
   margin: 0 8%;
 }
 
+.yield {
+  padding-top: 60px;
+}
 /*MOBILE CSS*/
 
 @media (max-width: 480px ) {

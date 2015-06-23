@@ -1,7 +1,9 @@
 <template name="layout">
   <div class="ui page grid animated fadeIn">
     {{> header}}
-    {{> yield}}
+    <div class="yield animated fadeIn">
+      {{> yield}}
+    </div>
     {{> modal}}
     {{> footer}}
   </div>
