@@ -1,6 +1,6 @@
-# Content-First Portfolio App
+# Meteor Portfolio App
 
-A minimalist, mobile-first web app built in Meteor.
+A mobile-first web app for showcasing your experience and work. Built in Meteor.
 
 Demo here: [husammachlovi.com](http://husammachlovi.com).
 
@@ -43,8 +43,8 @@ curl https://install.meteor.com/ | sh
 ### Installation
 
 ```
-git clone git@github.com:hudat/Content-First.git
-cd Content-First
+git clone git@github.com:hudat/Meteor-portfolio.git
+cd Meteor-portfolio
 meteor
 ```
 
