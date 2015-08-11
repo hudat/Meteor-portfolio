@@ -9,6 +9,7 @@ Fixtures.cases = [
     effect: 'effect-push',
     logo: '/images/cases/rubyblanc/ruby.png',
     title: 'Bringing a Powerhouse Since 1978 Online',
+    slug: 'with-pulp',
     sections: [
       {
         header: 'With Pulp',
@@ -87,6 +88,7 @@ Fixtures.cases = [
     effect: 'effect-push',
     logo: '/images/cases/rubyblanc/ruby.png',
     title: 'Bringing a Powerhouse Since 1978 Online',
+    slug: 'ruby-blanc',
     sections: [
       {
         header: 'Write More',

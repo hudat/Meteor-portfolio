@@ -1,1 +1,1 @@
-Meteor.subscribe('cases');
+Meteor.subscribe('case');
