@@ -103,10 +103,17 @@ The "insecure" and "autopublish" packages are removed by default (they make your
 
 ```
 client/ 				# Client folder (All views)
+  main
+  stylesheets           # LESS stylesheets
+  templates             # Contains all templates
+    layouts             # Router layouts
+    modules             # UI components (common elements)
+    views               # All the views
 public/                 # Public files
-lib/                    # All routes
-server/					# Server folder
+lib/                    # Collections & routes
+server/				          # Server folder
     fixtures/           # Meteor.Collection fixtures defined
+    publications/       # All publications
     startup/            # On server startup
 ```
 
