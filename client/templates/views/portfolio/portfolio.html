@@ -3,18 +3,29 @@
       <div class="sixteen wide column preface">
         <h2>Portfolio</h2>
       </div><!--preface-->
-      <div class="ui three doubling cards">
+      <div class="ui special link cards">
         {{#each cases}}
-          <a class="ui card" href="{{pathFor 'case' _id=this._id}}">
+          <div class="card">
+            <div class="blurring dimmable image">
+              <div class="ui dimmer">
+                <div class="content">
+                  <div class="center">
+                    <div class="ui inverted button">UX</div>
+                  </div>
+                </div>
+              </div>
+              <img src="{{thumbnail}}">
+            </div>
             <div class="content">
-                <img class="ui image" src="{{thumbnail}}">
+              <a class="header">{{client}}</a>
+              <div class="meta">
+                <span class="role">{{role}}</span>
               </div>
-              <div class="content">
-                <h5>{{client}}</h5>
-                <p>{{role}}</p>
-              </div>
-          </a>
+            </div>
+          </div>
+
         {{/each}}
-      </div><!--doubling cards-->
+                </div>
+        <!--doubling cards-->
   </div>
 </template>
