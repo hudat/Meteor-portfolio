@@ -23,10 +23,13 @@ Demo here: [husammachlovi.com](http://husammachlovi.com).
 
 ## Roadmap
 
-### Features
+## Views
+- Home
+- Portfolio
+- Blog
 
+### Features
 * ~~Newsletter subscription~~
-* Overlay menu
 * Breadcrumb based footer navigation
 
 ## How to use
