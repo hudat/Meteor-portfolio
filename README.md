@@ -25,12 +25,14 @@ Demo here: [husammachlovi.com](http://husammachlovi.com).
 
 ## Views
 - Home
+- About
 - Portfolio
 - Blog
 
 ### Features
+* Mobile-First
 * ~~Newsletter subscription~~
-* Breadcrumb based footer navigation
+* Mark-down & WSYWIG blog
 
 ## How to use
 
