@@ -14,14 +14,14 @@ body li {
 }
 
 h1, h2, h3, h4 {
-	font-family: "Roboto Mono", sans-serif;
+	font-family: "Consolas", sans-serif;
 	color: #575757;
 	padding-bottom: 10px;
 	font-weight: normal;
 }
 
 h2, h3, h4 {
-	color: #454545;
+	color: #333;
 }
 h3 {
 	font-size: 22px;

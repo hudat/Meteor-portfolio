@@ -13,6 +13,7 @@ nav ul {
 
 nav li {
   display: inline;
+  font-family: "Consolas", sans-serif;
 }
 
 nav a {
