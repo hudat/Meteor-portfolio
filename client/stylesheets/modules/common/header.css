@@ -5,10 +5,10 @@ nav {
 }
 
 nav ul {
-  padding-left: 20px;
   text-align: center;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding: 0px;
 }
 
 nav li {
@@ -17,7 +17,7 @@ nav li {
 }
 
 nav a {
-  margin-right: 20px;
+  margin: 5px;
 }
 
 nav .logo {
