@@ -18,6 +18,7 @@ nav li {
 
 nav a {
   margin: 5px;
+  margin-right: 20px;
 }
 
 nav .logo {
@@ -50,6 +51,12 @@ nav .logo a:hover {
   }*/
   nav {
     padding-bottom: 0px;
+  }
+  nav ul {
+    text-align: left;
+  }
+  ul.nav li {
+    margin-right: 8px;
   }
   nav .logo a {
     display: block;
