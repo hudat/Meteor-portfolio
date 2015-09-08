@@ -2,7 +2,7 @@
   <div class="sixteen wide column fullheight animated fadeIn">
     {{#each books}}
     <div class="ui grid stackable">
-      <div class="sixteen wide column preface">
+      <div class="sixteen wide column preface book">
         <h2>{{title}}</h2>
         <img src="{{cover}}" />
         <p>{{tagline}}</p>
@@ -13,7 +13,7 @@
           <hr>
         </div>
         {{#each chapters}}
-        <div class="eight wide column description">
+        <div class="eight wide column chapter">
           <h4>{{title}}</h4>
           <p>{{description}}</p>
         </div>
