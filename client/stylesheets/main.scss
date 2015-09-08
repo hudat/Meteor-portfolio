@@ -16,21 +16,18 @@ body li {
 }
 
 h1, h2, h3, h4 {
-	font-family: "Consolas", sans-serif;
-	color: #575757;
+	font-family: $font-family-monospace;
+	color: $header-color;
 	padding-bottom: 10px;
 	font-weight: normal;
 }
 
-h2, h3, h4 {
-	color: #333;
-}
 h3 {
-	font-size: 22px;
+	font-size: $font-size-medium;
 }
 
 h4 {
-	font-size: 18px;
+	font-size: $font-size-base + $font-size-mini;
 }
 
 .styled-list {
@@ -41,15 +38,15 @@ h4 {
 /*ANCHORS*/
 
 body a, a:visited {
-font-size: 1.1rem;
-color: rgba(124, 124, 124, 1);
-border-bottom: 1px solid rgba(124, 124, 124, 1);
+font-size: $font-size-base + $font-size-atomic;
+color: $link-color;
+border-bottom: 1px solid $link-color;
 text-decoration: none;
 }
 
 a:hover, a:focus {
-color: #333;
-border-bottom: 1px solid #333;
+color: $hover-color;
+border-bottom: 1px solid $hover-color;
 }
 
 .active a {

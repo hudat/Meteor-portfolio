@@ -46,9 +46,7 @@ nav .logo a:hover {
 /*MOBILE CSS*/
 
 @media (max-width: 480px ) {
-  /*ul.nav {
-    display: none;
-  }*/
+
   nav {
     padding-bottom: 0px;
   }
@@ -72,9 +70,7 @@ nav .logo a:hover {
 
 
 @media (max-width: 767px ) {
-  /*ul.nav {
-    display: none;
-  }*/
+
   nav .logo a {
     display: block;
   }
