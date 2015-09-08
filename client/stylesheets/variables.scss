@@ -1,0 +1,91 @@
+// Declare variables for use in all stylesheets
+
+// Typography
+
+$font-family-sans-serif: 'Overpass', 'Droid Sans', Helvetica, Arial, sans-serif;
+$font-family-serif: Georgia, Times, serif;
+$font-family-monospace: 'Roboto Mono', 'Inconsolata', Menlo, Monaco, Consolas, monospace;
+
+// Monochrome
+
+$dark:         #000;
+$gray-darker:  lighten(#000, 13.5%); // #222
+$gray-dark:    lighten(#000, 20%);   // #333
+$gray:         lighten(#000, 33.5%); // #555
+$gray-light:   lighten(#000, 46.7%); // #777
+$gray-lighter: lighten(#000, 93.5%); // #eee
+$light:        #fff;
+
+// Brand
+
+$primary-color: $gray;
+$secondary-color: #12b883;
+
+// Global
+
+$font-color: $secondary-color;
+$header-color: darken($secondary-color, 10%);
+$link-color: $secondary-color;
+$divider-color: $gray-light;
+
+// Backgrounds
+
+$background-color: #fff;
+
+// Alerts
+
+$positive-color: #27AE60;
+$negative-color: #E74C3C;
+$caution-color: #F1C40F;
+$info-color: #00A2D3;
+
+// Margin and Padding
+
+$space-quantum: 0.05rem;
+$space-atomic: 0.10rem;
+$space-micro: 0.15rem;
+$space-mini: 0.25rem;
+$space-tiny: 0.5rem;
+$space-small: 0.75rem;
+$space-base: 1rem;
+$space-medium: 1.5rem;
+$space-large: 2rem;
+$space-huge: 3rem;
+$space-jumbo: 4rem;
+$space-massive: 5rem;
+$space-giant: 6rem;
+$space-collosal: 7rem;
+$space-titanic: 8rem;
+$space-galactic: 9rem;
+$space-god: 10rem;
+
+// Font Sizes
+
+$font-size-quantum: 0.05rem;
+$font-size-atomic: 0.10rem;
+$font-size-micro: 0.15rem;
+$font-size-mini: 0.25rem;
+$font-size-tiny: 0.5rem;
+$font-size-small: 0.75rem;
+$font-size-base: 1rem;
+$font-size-medium: 1.5rem;
+$font-size-large: 2rem;
+$font-size-huge: 3rem;
+$font-size-jumbo: 4rem;
+$font-size-giant: 5rem;
+$font-size-massive: 6rem;
+$font-size-collosal: 7rem;
+$font-size-titanic: 6rem;
+$font-size-galactic: 9rem;
+$font-size-god: 10rem;
+
+// Media Queries
+
+$phone-width: 30em;
+$tablet-width: 48em;
+$desktop-width: 62em;
+$large-desktop-width: 75em;
+$huge-desktop-width: 100em;
+$jumbo-desktop-width: 125em;
+$giant-desktop-width: 175em;
+$massive-desktop-width: 200em;

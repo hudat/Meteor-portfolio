@@ -1,5 +1,7 @@
+@import 'variables';
+
 body {
-	font-family: 'Georgia', arial, serif;
+	font-family: $font-family-serif;
 	line-height: 1.5238em;
 	color: #333;
 	background: #fff;
