@@ -1,21 +1,25 @@
 <template name="books">
   <div class="sixteen wide column fullheight animated fadeIn">
+    {{#each books}}
     <div class="ui grid stackable">
       <div class="sixteen wide column preface">
-        <h2>TITLE</h2>
-        <img src="http://placehold.it/350x350" />
-        <p>TAGLINE</p>
+        <h2>{{title}}</h2>
+        <img src="{{cover}}" />
+        <p>{{tagline}}</p>
       </div><!--preface-->
       <div class="row phase">
         <div class="sixteen wide column subhead">
           <h3>Chapters</h3>
           <hr>
         </div>
+        {{#each chapters}}
         <div class="eight wide column description">
-          <h4>Chapter 1</h4>
-          <p>Summary</p>
+          <h4>{{title}}</h4>
+          <p>{{description}}</p>
         </div>
+        {{/each}}
       </div>
     </div>
+    {{/each}}
   </div>
 </template>
