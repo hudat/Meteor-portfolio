@@ -1,0 +1,1 @@
+// The "||" notation doesn't work yetFixtures = typeof Fixtures !== "undefined" ? Fixtures : {};Fixtures.reviews = [  {    title: 'Book Title',    image: 'Book Tagline',    summary: 'Summary of book review here',    review: [      {        title: 'chapter 1 title',        description: 'chapter 1 description'      }    ]  }];

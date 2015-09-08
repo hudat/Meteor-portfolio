@@ -23,4 +23,8 @@ Meteor.startup(function () {
   if (Books.find().count() === 0) {
   loadFixture(Fixtures['books'], Books);
   }
+
+  if (Reviews.find().count() === 0) {
+  loadFixture(Fixtures['reviews'], Reviews);
+  }
 });
