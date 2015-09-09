@@ -1,0 +1,13 @@
+<template name="MailChimpListSubscribe">
+    <div class="mailchimp module {{setClass}}">
+        <form class="subscribe form">
+            {{#if message}}
+                <p class="mailchimp-message">{{{message}}}</p>
+            {{/if}}
+            <div class="inline field">
+                <input type="email" class="mailchimp-email" placeholder="email@example.com"/>
+                <button type="button" class="primary mailchimp-subscribe button">Sign Up</button>
+            </div>
+        </form>
+    </div>
+</template>
