@@ -1,0 +1,12 @@
+@import '../../variables';
+
+.books {
+  .preface {
+    text-align: center;
+  }
+  .chapters {
+    .chapter.eight.wide.column {
+      padding: $space-large 0;
+    }
+  }
+}
