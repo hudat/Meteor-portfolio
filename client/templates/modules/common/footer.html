@@ -1,30 +1,19 @@
-<!-- footer.html -->
-
 <template name="footer">
     <footer>
-        <div class="ui stackable padded grid footer">
+        <div class="ui padded grid footer module">
           <hr class="footer-rule">
-            {{> mobileMenu}}}
-            <div class="four wide column">
-              <h4>Contact</h4>
-              <div class="ui list">
-                <div class="item"><a target="window" href="mailto:husam@withpulp.com">Email</a></div>
-                <div class="item"><a target="window" href="http://twitter.com/hmachlovi">Twitter</a></div>
-                <div class="item"><a target="window" href="https://github.com/hudat">Github</a></div>
-                <div class="item"><a target="window" href="https://www.linkedin.com/in/husammachlovi">LinkedIn</a></div>
-              </div>
-            </div>
-            <div class="ten wide column">
-              <h4>Product Psychology & Perception Newsletter</h4>
-                {{> MailChimpListSubscribe}}
-              <i>No spam, ever. Emails are never shared.</i>
-
-              <!--End mc_embed_signup-->
-            </div>
-            <div class="sixteen wide column endmatter">
-                  <p class="copyright">&copy; 2015, Husam Machlovi. All rights reserved.</p>
-                  <p>Built in NYC using Meteor and the latest standards in W3C HTML, CSS and Javascript.</p>
-          </div>
+                {{> mobileMenu}}}
+                <div class="row contact">
+                    <div class="thirteen wide column endmatter">
+                          <p class="copyright">&copy; 2015, Husam Machlovi Product Strategy & Design.
+                          <a href="">Contact me</a> with any questions or comments.</p>
+                    </div>
+                    <div class="three wide column social">
+                        <i class="fa fa-twitter-square"></i>
+                        <i class="fa fa-github-square"></i>
+                        <i class="fa fa-linkedin-square"></i>
+                    </div>
+                </div>
         </div><!--footer-->
    </footer>
 </template>
