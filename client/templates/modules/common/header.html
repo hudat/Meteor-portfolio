@@ -1,17 +1,13 @@
 <template name="header">
-  <div>
-    <nav class="column stackable center aligned">
+  <div class="header module">
       <div class="logo">
-        <li><a class="big" href="/">Husam</a></li>
-        <li>Product Strategy &#38; Design</li>
+          <a class="logo" href="/">Husam</a>
+          <p>Product Strategy & Design</p>
       </div>
-    <!--{{> mobilemenu}}-->
-      <ul class="nav">
+      <nav>
         <li class="{{isActiveRoute regex='about'}}"><a href="{{pathFor 'about'}}">About</a></li>
           <li class="{{isActiveRoute regex='books'}}"><a href="{{pathFor 'books'}}">Writing</a></li>
         <li class="{{isActiveRoute regex='portfolio'}}"><a target="window" href="http://portfolio.husammachlovi.com">Work</a></li>
-        <!--<div class="ui button ok-button">OK</div>-->
-      </ul>
-    </nav>
+      </nav>
   </div>
 </template>

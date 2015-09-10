@@ -1,0 +1,46 @@
+@import '../../variables';
+
+.header {
+
+  &.module {
+    border-bottom: none !important;
+  }
+
+  .logo {
+    text-align: center;
+    padding-top: $space-large;
+
+    a {
+      color: #12b883;
+      text-align: center;
+      font-size: 2.0rem !important;
+      text-transform: none;
+      border-bottom: none;
+      font-weight: bold;
+      display: inline-block;
+      font-family: "Georgia", sans-serif;
+    }
+
+    a:hover {
+      color: rgba(18, 184, 131, 0.83);
+    }
+  }
+
+  nav {
+    text-align: center;
+    padding: $space-base;
+
+    li {
+      display: inline;
+      font-family: $font-family-monospace;
+      padding: $space-base;
+      font-size: $font-size-medium;
+      text-align: center;
+    }
+
+    @media screen and (max-width: $tablet-width) {
+      display: none;
+    }
+
+  }
+}
