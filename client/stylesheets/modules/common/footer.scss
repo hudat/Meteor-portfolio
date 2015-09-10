@@ -4,11 +4,18 @@
 
   .contact {
     padding-top: $space-large;
+    padding: 0 !important;
 
     .endmatter {
-      padding-top: $space-large;
+      padding: $space-large 0 !important;
         p {
           font-size: $font-size-base + $font-size-atomic;
+          color: $gray-light;
+          line-height: $space-medium;
+        }
+        a {
+          color: $secondary-color;
+          border-bottom: 1px solid $secondary-color;
         }
     }
 
@@ -18,25 +25,13 @@
           text-align: right;
           font-size: $font-size-huge;
           padding: $space-tiny 0;
-          color: $gray;
+          color: $gray-light;
         }
      }
   }
 }
 
-.stackable.ui.grid.footer {
-  padding-top: 80px;
-  padding-bottom: 40px;
-  font-size: .8em;
-}
-
 .footer-rule {
   border-color: rgba(255, 255, 255, 0.25);
   margin-bottom: 20px;
-}
-
-.endmatter p {
-  color: #BFBFBF;
-  font-size: .85em;
-  line-height: 1.5em;
 }

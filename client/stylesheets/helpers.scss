@@ -3,3 +3,8 @@
 .hide {
     display: none;
 }
+
+.highlight {
+    color: $secondary-color !important;
+    border-bottom: $secondary-color
+}
