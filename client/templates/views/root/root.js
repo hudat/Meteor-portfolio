@@ -1,3 +1,3 @@
 Template.root.rendered = function() {
-  Session.set('root', true);
+  $('.mobile-menu').addClass('hide');
 }
