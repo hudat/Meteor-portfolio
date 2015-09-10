@@ -4,7 +4,7 @@
     display: none;
 }
 
-.highlight {
+.primary-link {
     color: $secondary-color !important;
-    border-bottom: $secondary-color
+    border-bottom: 1px solid $secondary-color;
 }
