@@ -1,21 +1,19 @@
 <template name="mobileMenu">
-    <div class="ui stackable grid">
-        <div class="eight wide column">
-            <div class="ui relaxed divided list">
-                <div class="item">
-                    <div class="content">
-                        <a class="header">About</a>
-                    </div>
+    <div class="mobile-menu module">
+        <div class="ui relaxed divided list">
+            <div class="item">
+                <div class="content">
+                    <a class="header {{isActiveRoute regex='about'}}" href="{{pathFor 'about'}}">About</a>
                 </div>
-                <div class="item">
-                    <div class="content">
-                        <a class="header">Writing</a>
-                    </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <a class="header">Writing</a>
                 </div>
-                <div class="item">
-                    <div class="content">
-                        <a class="header">Work</a>
-                    </div>
+            </div>
+            <div class="item">
+                <div class="content">
+                    <a class="header">Work</a>
                 </div>
             </div>
         </div>

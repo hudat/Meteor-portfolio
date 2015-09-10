@@ -1,0 +1,16 @@
+@import '../../variables';
+
+.mobile-menu {
+  .list {
+    .item {
+      .content {
+        text-align: left;
+        padding: $space-base 0;
+
+          a {
+            border-bottom: none !important;
+          }
+      }
+    }
+  }
+}
