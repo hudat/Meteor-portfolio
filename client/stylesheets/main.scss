@@ -2,9 +2,9 @@
 
 body {
 	font-family: $font-family-serif;
-	line-height: 1.5238em;
-	color: #333;
-	background: #fff;
+	line-height: $space-medium;
+	color: $gray-dark;
+	background: $light;
 }
 
 body p {
@@ -16,7 +16,7 @@ body li {
 }
 
 h1, h2, h3, h4 {
-	font-family: $font-family-monospace;
+	font-family: $font-family-sans-serif;
 	color: $header-color;
 	padding-bottom: 10px;
 	font-weight: normal;
