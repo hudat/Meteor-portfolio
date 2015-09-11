@@ -27,4 +27,8 @@ Meteor.startup(function () {
   if (Reviews.find().count() === 0) {
   loadFixture(Fixtures['reviews'], Reviews);
   }
+
+  if (Clients.find().count() === 0) {
+    loadFixture(Fixtures['clients'], Clients);
+  }
 });

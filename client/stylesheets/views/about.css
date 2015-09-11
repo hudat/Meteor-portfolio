@@ -68,7 +68,6 @@ h2.quote small {
     margin: auto;
   }
   .clients img {
-    display: block;
     margin: auto;
     width: 46% !important;
   }
@@ -88,7 +87,6 @@ h2.quote small {
     margin-bottom: 20px;
   }
   .clients img {
-    display: block;
     margin: auto;
     width: 18% !important;
   }
