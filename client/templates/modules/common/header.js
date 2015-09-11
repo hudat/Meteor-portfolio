@@ -1,8 +1,6 @@
-Template['header'].helpers({
-  animateClass: function () {
-    return Session.get('menuActive') ? 'fadeIn' : 'fadeOut';
-  },
-  cases: function () {
-    return Cases.find();
+Template.header.events({
+  'click .menu-button': function() {
+    var mobileMenu = document.getElementById('#mobile-menu');
+    mobileMenu.scrollIntoView();
   }
 });
