@@ -6,14 +6,14 @@
     border-bottom: none !important;
   }
 
-  .logo {
-    text-align: center;
+  .nav {
+    text-align: left;
     padding-top: $space-large;
 
     a {
       color: #12b883;
       text-align: center;
-      font-size: 2.0rem !important;
+      font-size: 2.0rem;
       text-transform: none;
       border-bottom: none;
       font-weight: bold;
@@ -23,6 +23,11 @@
 
     a:hover {
       color: rgba(18, 184, 131, 0.83);
+    }
+
+    .menu-button {
+      float: right;
+      font-size: $font-size-base + $font-size-tiny;
     }
   }
 
