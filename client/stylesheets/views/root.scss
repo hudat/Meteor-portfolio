@@ -1,0 +1,9 @@
+@import '../variables';
+
+.root {
+  .segment {
+    .subhead {
+        border-bottom: 1px solid $gray-lighter;
+    }
+  }
+}
