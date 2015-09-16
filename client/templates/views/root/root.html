@@ -7,7 +7,7 @@
       <p class="excerpt">
         Six years of leadership and execution in digital product design.
       </p>
-      <a class="primary-link">Learn about Husam</a>
+      <a class="primary-link {{isActiveRoute regex='about'}}" href="{{pathFor 'about'}}">Learn about Husam</a>
     </section>
     <section class="writings segment">
       <h3 class="subhead">
@@ -19,7 +19,7 @@
         <p class="excerpt">
             Author of Psychology-Driven UX, an ebook that catalogs design patterns for the modern software user.
         </p>
-      <a class="primary-link" href="{{pathFor writing}}">See my articles</a>
+      <a class="primary-link {{isActiveRoute regex='writing'}}" href="{{pathFor 'writing'}}">See my articles</a>
     </section>
     <section class="Work segment">
       <h3 class="subhead">
@@ -27,7 +27,7 @@
       </h3>
       <p>Designed and built software that's been used by millions of people.</p>
         <p>Clients include Johnson & Johnson, Pfizer, AMC Networks and WWE.</p>
-        <a class="primary-link">See my work</a>
+        <a class="primary-link {{isActiveRoute regex='work'}}" href="{{pathFor 'work'}}">See my work</a>
     </section>
   </div>
 </template>
