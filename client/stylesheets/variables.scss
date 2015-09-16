@@ -26,7 +26,7 @@ $secondary-color: #12b883;
 $font-color: $primary-color;
 $header-color: darken($primary-color, 10%);
 $link-color: $gray-light;
-$hover-color: $gray;
+$hover-color: lighten($secondary-color, 20%);
 $divider-color: $gray-light;
 
 // Backgrounds

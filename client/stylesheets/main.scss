@@ -30,9 +30,9 @@ h4 {
 	font-size: $font-size-base + $font-size-mini;
 }
 
-.styled-list {
-	list-style-type: disc;
-	margin-left: 30px;
+ul {
+	list-style-type: square;
+	padding-bottom: $space-base;
 }
 
 /*ANCHORS*/
@@ -40,42 +40,13 @@ h4 {
 body a, a:visited {
 font-size: $font-size-base + $font-size-atomic;
 color: $link-color;
-border-bottom: 1px solid $link-color;
+border-bottom: 1px solid $hover-color;
 text-decoration: none;
 }
 
 a:hover, a:focus {
 color: $hover-color;
 border-bottom: 1px solid $hover-color;
-}
-
-.active a {
-color: #222;
-border-bottom: 1px solid #333;
-}
-
-.ui.list .item a {
-	font-size: 1.1rem;
-	color: rgba(124, 124, 124, 1) !important;
-	border-bottom: 1px solid rgba(124, 124, 124, 1) !important;
-	text-decoration: none;
-}
-
-.ui.list .item a:hover {
-	color: #333 !important;
-	border-bottom: 1px solid #333 !important;
-}
-
-ul {
-	list-style: none;
-}
-
-.intro {
-	padding-bottom: 40px;
-}
-
-.roles {
-	padding-bottom: 50px
 }
 
 

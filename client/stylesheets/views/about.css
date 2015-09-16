@@ -48,7 +48,7 @@ h2.quote small {
 
 .styled-list {
   line-height: 1.8rem;
-  list-style-type: square !important;
+  list-style-type: square;
 }
 
 .styled-list li:before {
@@ -59,9 +59,6 @@ h2.quote small {
 @media (max-width: 480px) {
   .quote {
       padding: 0px 0px 20px 0px;
-  }
-  .styled-list {
-    margin-left: 0px !important;
   }
   .headshot img {
     display: block;
