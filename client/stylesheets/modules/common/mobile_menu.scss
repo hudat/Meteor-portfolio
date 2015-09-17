@@ -1,7 +1,12 @@
 @import '../../variables';
 
 .mobile-menu {
+  .up {
+      float: right;
+      border-bottom: none;
+    }
   .list {
+    padding-top: $space-large;
     .item {
       .content {
         text-align: left;
