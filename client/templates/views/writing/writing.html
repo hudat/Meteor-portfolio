@@ -1,7 +1,7 @@
 <template name="writing">
     <div class="animated fadeIn writing view">
         <section class="intro">
-            <h1 class="ui header">Writing</h1>
+            <h2 class="ui header">Writing</h2>
             <div class="ui stackable grid">
                 <p>I write about the Psychology of digital product design. I'm grateful to have been featured in numerous publications
                     and translated into many languages.</p>
@@ -9,17 +9,17 @@
         </section>
         <section class="main-content">
             <div class="ui grid row stackable articles segment">
-                <h3>Recent Articles</h3>
+                <h3 class="ui header">Recent Articles</h3>
                 {{> posts}}
             </div>
             <div class="book-preview segment">
-                <h3>Books</h3>
+                <h3 class="ui header">Books</h3>
                     <div class="row">
                         <div class="six wide centered column">
                             <img src="http://placehold.it/300x100" />
                         </div>
                         <div class="twelve wide column">
-                            <h4><a href="{{pathFor 'psych-driven-ux'}}"> Psychology-Driven UX </a></h4>
+                            <h4 class="ui header"><a href="{{pathFor 'psych-driven-ux'}}"> Psychology-Driven UX </a></h4>
                             <p>Design experiences that engage the modern software user.</p>
                         </div>
                 </div>
