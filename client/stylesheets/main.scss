@@ -10,6 +10,18 @@ body {
 		color: $gray-lighter;
 		font-size: $font-size-base + $font-size-atomic;
 	}
+
+	a, a:visited {
+		font-size: $font-size-base + $font-size-atomic;
+		color: $green;
+		border-bottom: 1px solid $green;
+		text-decoration: none;
+	}
+	a:hover, a:focus {
+		color: $hover-color;
+		border-bottom: 1px solid $hover-color;
+	}
+
 }
 
 
@@ -39,17 +51,8 @@ ul {
 
 /*ANCHORS*/
 
-body a, a:visited {
-	font-size: $font-size-base + $font-size-atomic;
-	color: $link-color;
-	border-bottom: 1px solid $hover-color;
-	text-decoration: none;
-}
 
-a:hover, a:focus {
-	color: $hover-color;
-	border-bottom: 1px solid $hover-color;
-}
+
 
 
 /*UI SEGMENT*/
