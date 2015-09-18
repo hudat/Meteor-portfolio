@@ -1,15 +1,23 @@
 <template name="writing">
     <div class="animated fadeIn writing view">
-        <h1 class="ui header">Writing</h1>
-        <div class="ui stackable grid">
-            <p>I write about the Psychology of digital product design. I'm grateful to have been featured in numerous publications
-            and translated into many languages.</p>
-        </div>
-        <div class="section">
-            <div class="ui grid row stackable articles">
+        <section class="intro">
+            <h1 class="ui header">Writing</h1>
+            <div class="ui stackable grid">
+                <p>I write about the Psychology of digital product design. I'm grateful to have been featured in numerous publications
+                    and translated into many languages.</p>
+            </div>
+        </section>
+        <section class="main-content">
+            <div class="ui grid row stackable articles segment">
                 <h3>Recent Articles</h3>
                 {{> posts}}
             </div>
-        </div>
+            <div class="book-preview segment">
+                <h3>Books</h3>
+                <h4>Psychology-Driven UX</h4>
+                <p>Design experiences that engage the modern software user.</p>
+
+            </div>
+        </section>
     </div>
 </template>

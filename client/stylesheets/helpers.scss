@@ -1,5 +1,12 @@
 @import 'variables';
 
+.ui.header {
+    background: none !important;
+    color: $light;
+    padding-bottom: $space-medium;
+    border-bottom: none !important;
+}
+
 .hide {
     display: none;
 }
