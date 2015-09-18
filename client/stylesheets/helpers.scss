@@ -7,3 +7,20 @@
 hr {
     border-color: blue;
 }
+
+/*Quotes*/
+.quote-content {
+
+    h2 {
+        font-size: $font-size-base + $font-size-atomic;
+        color: $blue;
+        font-family: $font-family-sans-serif;
+        font-weight: normal;
+        padding: 0;
+    }
+
+    small {
+        display: block;
+        font-size: 100%;
+    }
+}

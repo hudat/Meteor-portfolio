@@ -6,7 +6,7 @@ body {
 	color: $gray-dark;
 	background: $gray-dark;
 
-	p {
+	p, li {
 		color: $gray-lighter;
 		font-size: $font-size-base + $font-size-atomic;
 	}
@@ -22,11 +22,6 @@ body {
 		border-bottom: 1px solid $hover-color;
 	}
 
-}
-
-
-body li {
-	font-size: 1.2rem;
 }
 
 h1, h2, h3, h4 {
@@ -48,12 +43,6 @@ ul {
 	list-style-type: square;
 	padding-bottom: $space-base;
 }
-
-/*ANCHORS*/
-
-
-
-
 
 /*UI SEGMENT*/
 
