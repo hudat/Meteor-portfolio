@@ -10,7 +10,6 @@
       padding: $space-large 0 !important;
         p {
           font-size: $font-size-base + $font-size-atomic;
-          color: $gray-light;
           line-height: $space-medium;
         }
     }
@@ -23,6 +22,9 @@
           padding: $space-tiny 0;
           color: $gray-light;
         }
+      i:hover {
+        color: $gray-lighter;
+      }
      }
   }
 }

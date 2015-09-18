@@ -4,12 +4,14 @@ body {
 	font-family: $font-family-serif;
 	line-height: $space-medium;
 	color: $gray-dark;
-	background: $light;
+	background: $gray-dark;
+
+	p {
+		color: $gray-lighter;
+		font-size: $font-size-base + $font-size-atomic;
+	}
 }
 
-body p {
-	font-size: 1.2rem;
-}
 
 body li {
 	font-size: 1.2rem;
@@ -17,7 +19,7 @@ body li {
 
 h1, h2, h3, h4 {
 	font-family: $font-family-sans-serif;
-	color: $header-color;
+	color: $light;
 	padding-bottom: 10px;
 	font-weight: normal;
 }
@@ -38,15 +40,15 @@ ul {
 /*ANCHORS*/
 
 body a, a:visited {
-font-size: $font-size-base + $font-size-atomic;
-color: $link-color;
-border-bottom: 1px solid $hover-color;
-text-decoration: none;
+	font-size: $font-size-base + $font-size-atomic;
+	color: $link-color;
+	border-bottom: 1px solid $hover-color;
+	text-decoration: none;
 }
 
 a:hover, a:focus {
-color: $hover-color;
-border-bottom: 1px solid $hover-color;
+	color: $hover-color;
+	border-bottom: 1px solid $hover-color;
 }
 
 
