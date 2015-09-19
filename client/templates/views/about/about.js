@@ -1,4 +1,4 @@
 Template.about.rendered = function() {
-  $('.mobile-menu').removeClass('hide');
+  $('#menu-button').removeClass('hide');
   $('#menu-icon').removeClass('hide');
 }

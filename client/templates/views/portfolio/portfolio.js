@@ -8,6 +8,6 @@ Template.portfolio.helpers({
 })
 
 Template.portfolio.rendered = function() {
-  $('.mobile-menu').removeClass('hide');
+  $('#menu-button').removeClass('hide');
   $('#menu-icon').removeClass('hide');
 }
