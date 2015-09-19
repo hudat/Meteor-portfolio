@@ -1,9 +1,9 @@
 @import '../variables';
 
 .root {
-  .segment {
-    .subhead {
-        border-bottom: 1px solid $gray-darker;
+  .module {
+    .ui.header {
+           border-bottom: $space-atomic solid $gray-darker !important;
     }
   }
 }
