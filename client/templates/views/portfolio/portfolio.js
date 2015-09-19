@@ -6,3 +6,8 @@ Template.portfolio.helpers({
     return Cases.find();
   }
 })
+
+Template.portfolio.rendered = function() {
+  $('.mobile-menu').removeClass('hide');
+  $('#menu-icon').removeClass('hide');
+}
