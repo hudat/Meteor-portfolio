@@ -1,0 +1,11 @@
+@import '../../variables';
+
+body.pushable {
+  .pusher {
+    background: none;
+  }
+}
+
+.ui.inverted.menu {
+  background: $blue;
+}
