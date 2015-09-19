@@ -4,17 +4,17 @@
         <div class="ui relaxed divided list">
             <div class="item">
                 <div class="content">
-                    <a class="header {{isActiveRoute regex='about'}}" href="{{pathFor 'about'}}">About</a>
+                    <a class="{{isActiveRoute regex='about'}}" href="{{pathFor 'about'}}">About</a>
                 </div>
             </div>
             <div class="item">
                 <div class="content">
-                    <a class="header">Writing</a>
+                    <a class="{{isActiveRoute regex='writing'}}" href="{{pathFor 'writing'}}">Writing</a>
                 </div>
             </div>
             <div class="item">
                 <div class="content">
-                    <a class="header">Work</a>
+                    <a class="{{isActiveRoute regex='work'}}" href="{{pathFor 'work'}}">Work</a>
                 </div>
             </div>
         </div>
