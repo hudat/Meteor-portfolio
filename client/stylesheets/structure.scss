@@ -1,5 +1,13 @@
 @import 'variables';
 
+.view {
+  padding: $space-medium 0;
+}
+
+.module {
+  padding: $space-medium 0;
+}
+
 .row {
   width: 100% !important;
 }

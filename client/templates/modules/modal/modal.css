@@ -1,18 +1,7 @@
-.header {
-  background: #fff !important;
-  border-bottom: 1px solid #12B883 !important;
-}
-
-.header h2 {
-  padding-bottom: 0px !important;
-  font-family: "Georgia", sans-serif;
-}
 .content.modal-body {
   text-align: left;
   font-size: 1.2em !important;
 }
-
-
 .modal-form {
   font-size: 1.2em;
   padding-top: 20px;

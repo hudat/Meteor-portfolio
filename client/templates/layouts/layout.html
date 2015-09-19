@@ -1,13 +1,11 @@
 <template name="layout">
     {{> sidebar}}
-    <div class="pusher">
-      <div class="ui page grid animated fadeIn">
+    <div class="pusher ui page padded grid animated fadeIn">
         {{> header}}
-        <div class="yield animated fadeIn">
+        <div class="animated fadeIn">
           {{> yield}}
         </div>
         {{> modal}}
         {{> footer}}
-      </div>
   </div>
 </template>

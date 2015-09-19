@@ -1,11 +1,8 @@
 @import '../../variables';
 
 .header {
-
-  &.module {
     border-bottom: none !important;
     background: $gray-dark !important;
-  }
 
   .nav {
     text-align: left;

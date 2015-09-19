@@ -22,26 +22,34 @@ body {
 		border-bottom: 1px solid $hover-color;
 	}
 
+	ul {
+		list-style-type: square;
+		padding-bottom: $space-base;
+	}
+
+	img {
+		margin: $space-medium 0;
+		text-align: center;
+	}
+
 }
 
-h1, h2, h3, h4 {
+.ui.header {
+
 	font-family: $font-family-sans-serif;
 	color: $light;
-	padding-bottom: 10px;
+	padding-bottom: $space-base;
 	font-weight: normal;
+	background: none !important;
+	border-bottom: none !important;
 }
 
-h3 {
+h3.ui.header {
 	font-size: $font-size-medium;
 }
 
-h4 {
-	font-size: $font-size-base + $font-size-mini;
-}
-
-ul {
-	list-style-type: square;
-	padding-bottom: $space-base;
+h4.ui.header {
+	font-size: $font-size-base;
 }
 
 /*UI SEGMENT*/
