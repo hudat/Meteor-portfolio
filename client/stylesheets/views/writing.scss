@@ -5,6 +5,15 @@
     .segment {
       background: none;
       margin: none !important;
+
+      .excerpt {
+        padding-bottom: $space-huge;
+
+        h4 {
+          line-height: $space-medium;
+          padding-bottom: 0;
+        }
+      }
     }
   }
 }
