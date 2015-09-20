@@ -1,19 +1,31 @@
 @import '../../variables';
 
 .mobile-menu {
+  padding-left: 0rem;
+  padding-right: 0rem;
+
   .up {
       float: right;
       border-bottom: none;
     }
+
   .list {
-    padding-top: $space-large;
+    padding-top: $space-huge;
+
     .item {
+
       .content {
         text-align: left;
         padding: $space-base 0;
+        border-bottom: $space-atomic solid $dark;
 
           a {
             border-bottom: none !important;
+            text-transform: uppercase;
+            color: $light !important;
+          }
+          a:hover{
+            color: $gray-light;
           }
       }
     }
