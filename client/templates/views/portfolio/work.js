@@ -1,13 +1,13 @@
 Meteor.subscribe('cases');
 Meteor.subscribe('case');
 
-Template.portfolio.helpers({
+Template.work.helpers({
   cases: function() {
     return Cases.find();
   }
 })
 
-Template.portfolio.rendered = function() {
+Template.work.rendered = function() {
   $('#menu-button').removeClass('hide');
   $('#menu-icon').removeClass('hide');
 }
