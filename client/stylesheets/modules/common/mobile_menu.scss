@@ -1,8 +1,8 @@
 @import '../../variables';
 
 .mobile-menu {
-  padding-left: 0rem;
-  padding-right: 0rem;
+  padding-left: 0rem !important;
+  padding-right: 0rem !important;
 
   .up {
       float: right;
@@ -13,19 +13,20 @@
     padding-top: $space-huge;
 
     .item {
-
+      border-top: none !important;
+      border-bottom: $space-atomic solid $gray-lighter;
       .content {
         text-align: left;
-        padding: $space-base 0;
-        border-bottom: $space-atomic solid $dark;
+        padding-top: $space-medium;
+        padding-bottom: $space-small;
 
           a {
             border-bottom: none !important;
             text-transform: uppercase;
-            color: $light !important;
+            color: $gray-dark !important;
           }
-          a:hover{
-            color: $gray-light;
+          a:hover {
+            color: $dark;
           }
       }
     }

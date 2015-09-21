@@ -4,16 +4,16 @@ body {
 	font-family: $font-family-serif;
 	line-height: $space-medium;
 	color: $gray-dark;
-	background: $gray-dark;
+	background: $light;
 
 	p, li {
-		color: $gray-lighter;
+		color: $gray-dark;
 		font-size: $font-size-base + $font-size-atomic;
 	}
 
 	a, a:visited {
-		color: $green;
-		border-bottom: 1px solid $green;
+		color: $blue;
+		border-bottom: 1px solid $blue;
 		text-decoration: none;
 		font-size: $space-base + $font-size-atomic;
 	}
@@ -37,7 +37,7 @@ body {
 .ui.header {
 
 	font-family: $font-family-sans-serif;
-	color: $light;
+	color: $gray;
 	padding-bottom: $space-base;
 	font-weight: normal;
 	background: none !important;

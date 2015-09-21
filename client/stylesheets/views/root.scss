@@ -3,7 +3,8 @@
 .root {
   .module {
     .ui.header {
-           border-bottom: $space-atomic solid $gray-darker !important;
+      padding-bottom: $space-small;
+      border-bottom: $space-atomic solid lighten($gray-light, 40%) !important;
     }
   }
 }

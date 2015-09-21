@@ -1,8 +1,6 @@
 @import '../../variables';
 
 .header {
-    border-bottom: none !important;
-    background: $gray-dark !important;
     padding-bottom: $space-large;
 
   .nav {
@@ -10,7 +8,7 @@
     padding-top: $space-large;
 
     a {
-      color: $secondary-color;
+      color: $blue;
       text-align: center;
       font-size: 2.0rem;
       text-transform: none;
