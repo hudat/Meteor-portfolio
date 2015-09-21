@@ -1,7 +1,13 @@
 <template name="clients">
-    <div class="ui stackable grid clients module">
+  <div class="row clients module">
+    <div class="column">
+      <h3 class="ui header">Clients</h3>
+      <div class="ui small images clients">
         {{#each clients}}
-            <img src="{{image}}" />
+          <img src="{{image}}" />
         {{/each}}
+      </div>
+
     </div>
+  </div>
 </template>

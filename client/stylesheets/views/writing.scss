@@ -2,7 +2,7 @@
 
 .writing {
   .main-content {
-    .segment {
+    .module {
       background: none;
       margin: none !important;
       h4 {
@@ -13,9 +13,7 @@
         font-size: $font-size-base + $font-size-mini;
       }
       .excerpt {
-        padding-bottom: $space-huge;
-
-
+        padding-bottom: $space-medium + $space-tiny;
       }
     }
   }

@@ -16,5 +16,10 @@ Fixtures.clients = [
         title: 'AMC Networks',
         image: '/images/amc.png',
         role:  'Product Strategy & Design'
+    },
+    {
+        title: 'ThermoFischer',
+        image: '/images/thermofisher.png',
+        role:  'Product Strategy & Design'
     }
 ];
