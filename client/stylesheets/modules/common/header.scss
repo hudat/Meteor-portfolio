@@ -3,6 +3,11 @@
 .header {
     padding-bottom: $space-large;
 
+    .ui.header {
+      padding-bottom: 0;
+      margin-bottom: 0;
+      }
+
   .nav {
     text-align: left;
     padding-top: $space-large;
@@ -10,7 +15,7 @@
     a {
       color: $blue;
       text-align: center;
-      font-size: $font-size-medium;
+      font-size: $font-size-medium + $font-size-atomic;
       text-transform: none;
       border-bottom: none;
       font-weight: bold;
@@ -23,8 +28,11 @@
       color: rgba(18, 184, 131, 0.83);
     }
 
-    p {
-      font-size: $font-size-base;
+    small {
+      font-size: $font-size-base + $font-size-atomic;
+      display: block;
+      font-family: $font-family-serif, serif;
+      line-height: $space-tiny + $space-mini;
     }
 
    .menu-button {

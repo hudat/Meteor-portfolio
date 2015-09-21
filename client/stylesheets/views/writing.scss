@@ -5,14 +5,17 @@
     .segment {
       background: none;
       margin: none !important;
-
+      h4 {
+        line-height: $space-medium + $space-mini;
+        padding-bottom: 0;
+      }
+      a {
+        font-size: $font-size-base + $font-size-mini;
+      }
       .excerpt {
         padding-bottom: $space-huge;
 
-        h4 {
-          line-height: $space-medium;
-          padding-bottom: 0;
-        }
+
       }
     }
   }

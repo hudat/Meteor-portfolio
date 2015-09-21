@@ -44,8 +44,11 @@ body {
 	border-bottom: none !important;
 }
 
-h3.ui.header {
+h2.ui.header {
 	font-size: $font-size-medium;
+}
+h3.ui.header {
+	font-size: $font-size-base + $font-size-mini;
 }
 
 h4.ui.header {
