@@ -2,10 +2,11 @@
 
 .quote {
   .quote-content {
+    letter-spacing: $space-micro;
 
       h2 {
-          font-size: $font-size-base + $font-size-atomic;
-          color: $blue;
+          font-size: $font-size-base + $font-size-mini;
+          color: lighten($gray-light, 20%);
           font-family: $font-family-sans-serif;
           font-weight: normal;
           padding: 0;
