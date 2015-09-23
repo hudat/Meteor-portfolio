@@ -14,7 +14,6 @@
     padding-top: $space-large;
 
     a {
-      color: $blue;
       text-align: center;
       font-size: $font-size-medium + $font-size-atomic;
       text-transform: none;
@@ -25,10 +24,6 @@
       letter-spacing: $space-quantum;
     }
 
-    a:hover {
-      color: rgba(18, 184, 131, 0.83);
-    }
-
     small {
       font-size: $font-size-base + $font-size-atomic;
       display: block;
@@ -37,9 +32,12 @@
     }
 
    .menu-button {
+     color: $blue;
       float: right;
       font-size: $font-size-base + $font-size-tiny;
-      color: $blue;
+    }
+    .menu-button:hover {
+      color: $red;
     }
   }
 

@@ -18,8 +18,8 @@ body {
 		font-size: $space-base + $font-size-atomic;
 	}
 	a:hover, a:focus {
-		color: $hover-color;
-		border-bottom: 1px solid $hover-color;
+		color: $red;
+		border-bottom: 1px solid $red;
 	}
 
 	ul {
