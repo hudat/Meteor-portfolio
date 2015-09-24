@@ -4,9 +4,5 @@ Template.header.events({
         $('html, body').animate({
             scrollTop: $("#mobile-menu").offset().top
         }, 600);
-     },
-  'click .logo': function() {
-      //Session.set('menuToggle', !Session.get('menuToggle'));
-      $('.ui.sidebar').sidebar('toggle');
-      }
+     }
 });
