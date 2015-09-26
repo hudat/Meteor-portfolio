@@ -2,6 +2,10 @@
 
 .view {
   padding: $space-medium 0;
+
+  @media (min-width: $tablet-width) {
+    padding: $space-jumbo 0;
+  }
 }
 
 .module {
