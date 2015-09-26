@@ -1,17 +1,22 @@
 @import '../../variables';
 
 .book {
+  text-align: center;
 
-  img {
-    width: 100%;
+  .intro {
+    img {
+      width: 100%;
+    }
   }
 
   .chapters {
-    text-align: center;
+
+    h4 {
+      font-size: $space-base + $space-micro;
+    }
 
     .chapter {
       padding: $space-large 0;
-
     }
   }
 }
