@@ -11,6 +11,9 @@
       }
       a {
         font-size: $font-size-base + $font-size-mini;
+        @media (min-width: $tablet-width) {
+          font-size: $font-size-medium;
+        }
       }
       .excerpt {
         padding-bottom: $space-medium + $space-tiny;

@@ -22,6 +22,10 @@
       display: inline-block;
       font-family: $font-family-sans-serif, serif;
       letter-spacing: $space-quantum;
+
+      @media (min-width: $tablet-width) {
+        font-size: $font-size-large;
+      }
     }
 
     small {
@@ -29,6 +33,11 @@
       display: block;
       font-family: $font-family-serif, serif;
       line-height: $space-tiny + $space-mini;
+
+      @media (min-width: $tablet-width) {
+        font-size: $font-size-base + $font-size-mini;
+        line-height: $space-base;
+      }
     }
 
    .menu-button {
