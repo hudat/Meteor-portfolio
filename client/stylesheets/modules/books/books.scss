@@ -1,12 +1,17 @@
 @import '../../variables';
 
-.books {
-  .preface {
-    text-align: center;
+.book {
+
+  img {
+    width: 100%;
   }
+
   .chapters {
-    .chapter.eight.wide.column {
+    text-align: center;
+
+    .chapter {
       padding: $space-large 0;
+
     }
   }
 }

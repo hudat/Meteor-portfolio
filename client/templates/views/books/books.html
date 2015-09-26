@@ -1,26 +1,22 @@
-<template name="books">
-  <div class="sixteen wide column fullheight animated fadeIn books view">
+<template name="book">
     {{#each books}}
-    <div class="books module ui grid stackable">
-      <div class="preface sixteen wide column">
+    <div class="book view">
+      <section class="intro">
         <h2>{{title}}</h2>
         <img src="{{cover}}" />
         <p>{{tagline}}</p>
           {{> MailChimpListSubscribe}}
-      </div><!--preface-->
-      <div class="chapters row phase">
-        <section class="subead sixteen wide column">
-          <h3>Psychology-Driven UX Design Chapters</h3>
-          <hr>
-        </section>
-        {{#each chapters}}
-        <div class="chapter eight wide column">
+      </section>
+    </div>
+    <div class="chapters row phase">
+        <h3>Psychology-Driven UX Design Chapters</h3>
+        <hr>
+      {{#each chapters}}
+        <section class="chapter">
           <h4><i class="fa fa-file-text-o"></i> {{title}}</h4>
           <p>{{description}}</p>
-        </div>
+        </section>
         {{/each}}
       </div>
-    </div>
     {{/each}}
-  </div>
 </template>

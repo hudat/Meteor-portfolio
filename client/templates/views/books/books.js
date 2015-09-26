@@ -1,6 +1,6 @@
 Meteor.subscribe('books');
 
-Template.books.helpers({
+Template.book.helpers({
   books: function() {
     return Books.find();
   }
