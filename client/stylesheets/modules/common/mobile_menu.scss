@@ -4,6 +4,10 @@
   padding-left: 0rem !important;
   padding-right: 0rem !important;
 
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+
   .up {
       float: right;
     }

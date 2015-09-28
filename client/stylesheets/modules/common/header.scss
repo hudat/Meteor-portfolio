@@ -44,6 +44,11 @@
      color: $blue;
       float: right;
       font-size: $font-size-base + $font-size-tiny;
+
+      @media (min-width: $tablet-width) {
+        display: none;
+      }
+
     }
     .menu-button:hover {
       color: $red;
