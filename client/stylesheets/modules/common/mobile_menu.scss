@@ -12,22 +12,44 @@
   .list {
     padding-top: $space-huge;
 
+    .first-link {
+      background-color: lighten($gray-light, 30%);
+    }
+
+    .first-link:hover {
+      background-color: $red;
+    }
+
+    .second-link {
+      background-color: lighten($gray-light, 15%);
+    }
+
+    .second-link:hover {
+      background-color: $red;
+    }
+
+    .third-link {
+      background-color: $gray-light;
+    }
+
+    .third-link:hover {
+      background-color: $red;
+    }
+
     .item {
       border-top: none !important;
       border-bottom: $space-atomic solid $gray-lighter;
 
       .content {
-        text-align: left;
         padding-top: $space-medium;
         padding-bottom: $space-small;
 
           a {
             border-bottom: none !important;
-            text-transform: uppercase;
-            color: $gray-dark !important;
+            color: $light !important;
           }
           a:hover {
-            color: $dark;
+            color: $light !important;
           }
       }
     }
