@@ -1,5 +1,12 @@
 @import 'variables';
 
+.main {
+  @media (min-width: $desktop-width) {
+    float: right;
+    width: 17%;
+  }
+}
+
 .view {
   padding: $space-medium 0;
 

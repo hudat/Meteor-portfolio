@@ -1,9 +1,13 @@
 @import '../../variables';
 
-body.pushable {
-  .pusher {
-    background: none;
+.sidebar {
+  @media (max-width: $desktop-width) {
+    display: none;
   }
+    @media (min-width: $desktop-width) {
+      width: 18%;
+      top: 2rem;
+    }
 }
 
 .ui.inverted.menu {
