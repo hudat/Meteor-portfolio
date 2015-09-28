@@ -6,11 +6,12 @@
 
   .up {
       float: right;
-      border-bottom: none;
     }
 
   .list {
-    padding-top: $space-huge;
+    padding: $space-massive 0;
+    text-transform: uppercase;
+    letter-spacing: $space-tiny;
 
     .first-link {
       background-color: lighten($gray-light, 30%);

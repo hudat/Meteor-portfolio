@@ -4,6 +4,7 @@
 
   .contact {
     padding-top: $space-large;
+    margin-top: $space-medium;
     padding: 0 !important;
 
     .endmatter {
@@ -19,27 +20,11 @@
           text-align: right;
           font-size: $font-size-huge;
           padding: $space-tiny 0;
-          color: $gray-light;
-
+          color: $blue;
         }
-      .fa-twitter-square {
-        color: lighten($blue, 40%);
-      }
-      .fa-twitter-square:hover {
-        color: lighten($red, 10%);
-      }
-      .fa-github-square {
-        color: lighten($blue, 25%);
-      }
-      .fa-github-square:hover {
-        color: lighten($red, 25%);
-      }
-      .fa-linkedin-square {
-        color: lighten($blue, 10%);
-      }
-      .fa-linkedin-square:hover {
-        color: lighten($red, 40%);
-      }
+        i:hover {
+          color: $red;
+        }
      }
   }
 }
