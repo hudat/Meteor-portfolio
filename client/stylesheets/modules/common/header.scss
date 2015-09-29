@@ -50,7 +50,7 @@
       float: right;
       font-size: $font-size-base + $font-size-tiny;
 
-      @media (min-width: $tablet-width) {
+      @media (min-width: $desktop-width) {
         display: none;
       }
 
