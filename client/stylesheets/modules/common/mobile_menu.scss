@@ -17,30 +17,6 @@
     text-transform: uppercase;
     letter-spacing: $space-tiny;
 
-    .first-link {
-      background-color: lighten($gray-light, 30%);
-    }
-
-    .first-link:hover {
-      background-color: $red;
-    }
-
-    .second-link {
-      background-color: lighten($gray-light, 15%);
-    }
-
-    .second-link:hover {
-      background-color: $red;
-    }
-
-    .third-link {
-      background-color: $gray-light;
-    }
-
-    .third-link:hover {
-      background-color: $red;
-    }
-
     .item {
       border-top: none !important;
       border-bottom: $space-atomic solid $gray-lighter;
@@ -51,10 +27,10 @@
 
           a {
             border-bottom: none !important;
-            color: $light !important;
+            color: $gray-darker !important;
           }
           a:hover {
-            color: $light !important;
+
           }
       }
     }
