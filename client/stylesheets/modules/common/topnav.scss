@@ -1,12 +1,22 @@
 @import '../../variables';
 
 .topnav {
+  width: 70%;
+  float: right;
+
   @media (max-width: $desktop-width) {
     display: none;
   }
-  @media (min-width: $desktop-width) {
-    width: 70%;
-    float: right;
+
+  .ui.menu {
+    box-shadow: none;
   }
 
+  .ui.three.item.menu {
+    a {
+      box-shadow: none;
+      background: none;
+      font-size: $font-size-medium;
+    }
+  }
 }
