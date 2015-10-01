@@ -3,10 +3,17 @@
 .about {
   .headshot {
     text-align: center;
+
     img {
         border: $space-mini solid $dark;
     }
   }
+
+    .quote {
+      @media (min-width: $desktop-width) {
+        display: none;
+      }
+    }
 
 }
 

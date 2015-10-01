@@ -1,6 +1,12 @@
 @import '../../variables';
 
 .sidebar {
+  text-align: center;
+
+  h1 {
+    font-size: $font-size-medium;
+  }
+
   @media (max-width: $desktop-width) {
     display: none;
   }

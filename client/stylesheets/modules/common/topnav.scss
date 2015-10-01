@@ -12,11 +12,21 @@
     box-shadow: none;
   }
 
-  .ui.three.item.menu {
+  .three.item.menu {
     a {
       box-shadow: none;
       background: none;
       font-size: $font-size-medium;
+      border: $space-atomic solid $gray-lighter;
+      color: $gray;
+    }
+    a:hover {
+      background: lighten($blue, 80%);
+      color: $blue;
+      border: $space-atomic solid $blue;
+    }
+    .item::before {
+      background: none;
     }
   }
 }
