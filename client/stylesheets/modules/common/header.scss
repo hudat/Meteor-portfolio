@@ -3,6 +3,10 @@
 .header {
     padding-bottom: $space-large;
 
+    @media (min-width: $desktop-width) {
+      padding-bottom: none !important;
+    }
+
     .ui.header {
       padding-bottom: 0;
       margin-bottom: 0;

@@ -1,8 +1,9 @@
 @import '../../variables';
 
 .quote {
+  padding: 0;
+  
   .quote-content {
-    letter-spacing: $space-micro;
 
       p {
           font-size: $font-size-base + $font-size-mini;
