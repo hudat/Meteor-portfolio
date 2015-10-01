@@ -17,7 +17,6 @@ body {
 
 	a, a:visited {
 		color: $blue;
-		border-bottom: 1px solid $blue;
 		text-decoration: none;
 		font-size: $space-base + $font-size-atomic;
 
@@ -27,7 +26,6 @@ body {
 	}
 	a:hover, a:focus {
 		color: $red;
-		border-bottom: 1px solid $red;
 	}
 
 	ul {

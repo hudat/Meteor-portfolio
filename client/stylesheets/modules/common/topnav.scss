@@ -13,17 +13,27 @@
   }
 
   .three.item.menu {
+
     a {
       box-shadow: none;
       background: none;
       font-size: $font-size-medium;
       border: $space-atomic solid $gray-lighter;
       color: $gray;
+      box-shadow: inset 0px -1px 1px 0px rgba(105,105,105,.5),inset 0px 0px 0px 1px rgba(0,0,0,.15),0px 1px 1px 0px rgba(0,0,0,.08);
+      text-shadow: 0px 1px 1.8px #fafcff;
     }
     a:hover {
       background: lighten($blue, 80%);
       color: $blue;
       border: $space-atomic solid $blue;
+      box-shadow: inset 0px -1px 1px 0px rgba(94,126,180,.99),inset 0px 0px 0px 1px rgba(44,95,187,.34),0px 1px 1px 0px rgba(0,0,0,.08);
+    }
+    .active {
+      background: lighten($blue, 80%) !important;
+      color: $blue;
+      border: $space-atomic solid $blue;
+      box-shadow: inset 0px -1px 1px 0px rgba(94,126,180,.99),inset 0px 0px 0px 1px rgba(44,95,187,.34),0px 1px 1px 0px rgba(0,0,0,.08);
     }
     .item::before {
       background: none;
