@@ -1,0 +1,13 @@
+@import '../variables';
+
+.quotes {
+
+  .quote {
+    padding: $space-base 0;
+
+    p {
+      margin-bottom: 0;
+
+    }
+  }
+}
