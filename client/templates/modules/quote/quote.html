@@ -1,1 +1,1 @@
-<template name="quote">  <div class="center aligned animated fadeIn quote module segment">  {{#each randomQuote}}    <div class="quote-content">      <p>        "{{quote}}"        <small>-{{author}}</small>      </p>    </div>  {{/each}}  </div></template>
+<template name="quote">  <div class="center aligned animated fadeIn quote module segment">  {{#each randomQuote}}    <div class="quote-content">      <p>        "{{quote}}"        <small><a href="{{pathFor 'quotes'}}">—{{author}}</a></small>      </p>    </div>  {{/each}}  </div></template>
