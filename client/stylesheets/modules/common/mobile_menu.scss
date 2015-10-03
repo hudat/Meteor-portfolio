@@ -3,6 +3,8 @@
 .mobile-menu {
   padding-left: 0rem !important;
   padding-right: 0rem !important;
+  border-top: $space-atomic solid $gray-lighter;
+  border-bottom: $space-atomic solid $gray-lighter;
 
   @media (min-width: $desktop-width) {
     display: none;
@@ -10,16 +12,17 @@
 
   .up {
       float: right;
+      padding-right: $space-medium;
     }
 
   .list {
-    padding: $space-massive 0;
+    padding: $space-huge 0;
     text-transform: uppercase;
     letter-spacing: $space-tiny;
 
     .item {
       border-top: none !important;
-      border-bottom: $space-atomic solid $gray-lighter;
+
 
       .content {
         padding-top: $space-medium;
