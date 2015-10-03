@@ -27,10 +27,12 @@
 .row {
   width: 100% !important;
 }
+
 .intro {
   padding-bottom: $space-medium;
   border-bottom: $space-atomic solid $gray-lighter;
-}
-.main-content {
-  padding-top: $space-large;
+
+  @media(min-width: $tablet-width) {
+    padding-bottom: $space-huge;
+  }
 }

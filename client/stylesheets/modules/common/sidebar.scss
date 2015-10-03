@@ -20,6 +20,15 @@
 
     .quote {
       padding: $font-size-medium 0;
+
+      .quote-content {
+        p {
+          font-size: $font-size-base + $font-size-atomic;
+        }
+        a {
+          font-size: $font-size-base + $font-size-atomic;
+        }
+      }
     }
 
 

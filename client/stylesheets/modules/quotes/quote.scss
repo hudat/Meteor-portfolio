@@ -1,7 +1,8 @@
 @import '../../variables';
 
 .quote {
-  padding: 0;
+
+  padding-bottom: $space-huge;
 
   .quote-content {
 
@@ -11,11 +12,19 @@
           font-weight: normal;
           padding: 0;
           text-align: center;
+
+          @media(min-width: $tablet-width) {
+            font-size: $font-size-large;
+          }
       }
 
       a {
         font-size: $font-size-base + $font-size-mini;
         display: block;
+
+        @media(min-width: $tablet-width) {
+          font-size: $font-size-large;
+        }
       }
   }
 }
