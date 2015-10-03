@@ -2,13 +2,19 @@
 
 .sidebar {
   text-align: center;
+  float: right;
+  margin-right: $space-large;
 
   .ui.header {
         line-height: $font-size-medium;
-        font-size: $font-size-medium;
+
+        a {
+          font-size: $font-size-medium + $font-size-mini;
+        }
 
         small {
           font-family: $font-family-serif;
+          font-size: 60%;
         }
     }
 
