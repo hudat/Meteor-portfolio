@@ -3,15 +3,25 @@
 .sidebar {
   text-align: center;
 
-  h1 {
-    font-size: $font-size-medium;
-  }
+  .ui.header {
+        line-height: $font-size-medium;
+        font-size: $font-size-medium;
+
+        small {
+          font-family: $font-family-serif;
+        }
+    }
+
+    .quote {
+      padding: $font-size-medium 0;
+    }
+
 
   @media (max-width: $desktop-width) {
     display: none;
   }
     @media (min-width: $desktop-width) {
-      width: 18%;
+      width: 20%;
       top: 2rem;
     }
 }
