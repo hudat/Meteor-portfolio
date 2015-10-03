@@ -8,7 +8,7 @@ body {
 
 	p, li {
 		color: $gray-dark;
-		font-size: $font-size-base + $font-size-atomic;
+		font-size: $font-size-base + $font-size-mini;
 
 		@media (min-width: $tablet-width) {
 			font-size: $font-size-base + $font-size-tiny;
@@ -18,7 +18,7 @@ body {
 	a, a:visited {
 		color: $blue;
 		text-decoration: none;
-		font-size: $space-base + $font-size-atomic;
+		font-size: $space-base + $font-size-mini;
 
 		@media (min-width: $tablet-width) {
 			font-size: $font-size-medium;
@@ -59,7 +59,7 @@ h2.ui.header {
 }
 
 h3.ui.header {
-	font-size: $font-size-base + $font-size-mini;
+	font-size: $font-size-base + $font-size-mini + $font-size-atomic;
 
 	@media (min-width: $tablet-width) {
 		font-size: $font-size-medium + $font-size-mini;
