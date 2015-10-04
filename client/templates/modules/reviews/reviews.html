@@ -1,9 +1,26 @@
 <template name="reviews">
   <div class="reviews module">
-    {{#each reviews}}
-      <h4>{{title}}</h4>
-      <img src={{image}} />
-      <p>{{summary}}</p>
-    {{/each}}
+    <div class="ui special link cards">
+      {{#each reviews}}
+        <div class="card">
+          <div class="blurring dimmable image">
+            <div class="ui dimmer">
+              <div class="content">
+                <div class="center">
+                  <div class="ui inverted button">UX</div>
+                </div>
+              </div>
+            </div>
+            <img src="{{image}}">
+          </div>
+          <div class="content">
+            <a class="header">{{title}}</a>
+            <div class="meta">
+              <span class="role"></span>
+            </div>
+          </div>
+        </div>
+      {{/each}}
+    </div>
   </div>
 </template>
