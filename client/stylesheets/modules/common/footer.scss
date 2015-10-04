@@ -1,6 +1,6 @@
 @import '../../variables';
 
-.footer {
+footer {
 
   .contact {
     padding-top: $space-large;
@@ -27,9 +27,4 @@
         }
      }
   }
-}
-
-.footer-rule {
-  border-color: rgba(255, 255, 255, 0.25);
-  margin-bottom: 20px;
 }
