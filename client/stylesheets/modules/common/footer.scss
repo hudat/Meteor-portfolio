@@ -9,11 +9,21 @@ footer {
     .endmatter {
       padding: $space-base 0 !important;
 
-      @media (min-width: $desktop-width) {
-        padding-left: 2rem !important;
-      }
+        @media (min-width: $desktop-width) {
+          padding-left: 2rem !important;
+        }
+
         p {
           line-height: $space-medium;
+        }
+
+        .copyright {
+          font-size: $font-size-base;
+          color: $gray;
+
+          @media (min-width: $tablet-width) {
+            font-size: $font-size-base + $font-size-mini;
+          }
         }
     }
 
