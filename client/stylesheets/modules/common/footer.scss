@@ -2,13 +2,16 @@
 
 footer {
 
-  .contact {
-    padding-top: $space-large;
+  .ui.grid.contact {
     margin-top: $space-medium;
-    padding: 0 !important;
+    margin-left: 0;
 
     .endmatter {
       padding: $space-base 0 !important;
+
+      @media (min-width: $desktop-width) {
+        padding-left: 2rem !important;
+      }
         p {
           line-height: $space-medium;
         }
@@ -24,6 +27,15 @@ footer {
         }
         i:hover {
           color: $red;
+        }
+
+        @media (min-width: $desktop-width) {
+          padding-top: 0 !important;
+
+          i {
+            display: inline-block;
+            margin-right: $space-medium;
+          }
         }
      }
   }

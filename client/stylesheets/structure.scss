@@ -1,11 +1,18 @@
 @import 'variables';
 
 .main {
+
+  @media (min-width: $tablet-width) {
+    padding-bottom: $space-huge;
+  }
+
   @media (min-width: $desktop-width) {
     float: right;
     width: 70%;
     margin-right: $space-large + $space-tiny;
+    padding-bottom: $space-massive;
   }
+
 }
 
 .view {
