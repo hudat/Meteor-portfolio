@@ -1,5 +1,4 @@
 <template name="reviews">
-  <div class="reviews module">
     <div class="ui special link cards">
       {{#each reviews}}
         <div class="card">
@@ -11,7 +10,7 @@
                 </div>
               </div>
             </div>
-            <img src="{{image}}">
+            <img class="ui small image" src="{{image}}">
           </div>
           <div class="content">
             <a class="header">{{title}}</a>
@@ -22,5 +21,4 @@
         </div>
       {{/each}}
     </div>
-  </div>
 </template>
