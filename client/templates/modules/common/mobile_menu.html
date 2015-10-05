@@ -2,21 +2,27 @@
     <div class="mobile-menu module" id="mobile-menu">
         <a id="up-button" class="up">Going up? <i class="fa fa-chevron-up"></i></a>
         <div class="ui relaxed divided list">
+          <a class="{{isActiveRoute regex='about'}}" href="{{pathFor 'about'}}">
             <div class="item first-link">
                 <div class="content">
-                    <a class="{{isActiveRoute regex='about'}}" href="{{pathFor 'about'}}">About</a>
+                  About
                 </div>
             </div>
-            <div class="item second-link">
-                <div class="content">
-                    <a class="{{isActiveRoute regex='writing'}}" href="{{pathFor 'writing'}}">Writing</a>
-                </div>
-            </div>
-            <div class="item third-link">
-                <div class="content">
-                    <a class="{{isActiveRoute regex='reading'}}" href="{{pathFor 'reading'}}">Reading</a>
-                </div>
-            </div>
+          </a>
+            <a class="{{isActiveRoute regex='writing'}}" href="{{pathFor 'writing'}}">
+              <div class="item second-link">
+                  <div class="content">
+                    Writing
+                  </div>
+              </div>
+            </a>
+            <a class="{{isActiveRoute regex='reading'}}" href="{{pathFor 'reading'}}">
+              <div class="item third-link">
+                  <div class="content">
+                      Reading
+                  </div>
+              </div>
+            </a>
         </div>
     </div>
 </template>
