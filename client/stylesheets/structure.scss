@@ -1,6 +1,15 @@
 @import 'variables';
 
+
+.ui.grid:after, .ui.grid > .row:after {
+    clear: none;
+}
+
 .main {
+
+  padding-left: $space-base;
+  padding-right: $space-base;
+
 
   @media (min-width: $tablet-width) {
     padding-bottom: $space-huge;

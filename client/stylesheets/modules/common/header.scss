@@ -3,7 +3,7 @@
 .header {
 
   @media(max-width: $desktop-width) {
-    padding-top: $space-large;
+    padding: $space-large 0;
   }
 
     .ui.header {
