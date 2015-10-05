@@ -5,6 +5,18 @@
   padding-right: 0rem !important;
   border-top: $space-atomic solid $gray-lighter;
   border-bottom: $space-atomic solid $gray-lighter;
+  background: $blue;
+  box-shadow: inset 0 0 $space-small darken($blue, 30%);
+  padding: $space-large;
+  font-style: italic;
+
+  &.module {
+    padding: $space-large;
+  }
+
+  a {
+    color: #fff;
+  }
 
   @media (min-width: $desktop-width) {
     display: none;
@@ -16,9 +28,14 @@
     }
 
   .list {
-    padding: $space-huge 0;
+    padding: $space-large 0 $space-huge 0;
     text-transform: uppercase;
     letter-spacing: $space-tiny;
+
+    p {
+      color: $light;
+
+    }
 
     .item {
       border-top: none !important;
