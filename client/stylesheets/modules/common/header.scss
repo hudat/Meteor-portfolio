@@ -28,6 +28,7 @@
       display: inline-block;
       font-family: $font-family-sans-serif, serif;
       letter-spacing: $space-quantum;
+      text-shadow: 0px 1px 1px rgba(21, 50, 107, 0.1);
 
       @media (min-width: $tablet-width) {
         font-size: $font-size-large + $font-size-mini;
