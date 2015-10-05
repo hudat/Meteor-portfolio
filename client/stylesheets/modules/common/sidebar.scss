@@ -4,6 +4,7 @@
   text-align: center;
   float: right;
   margin-right: $space-large;
+  padding-top: $space-large;
 
   .ui.header {
         line-height: $font-size-large;
@@ -39,7 +40,6 @@
   }
     @media (min-width: $desktop-width) {
       width: 20%;
-      top: 2rem;
     }
 }
 

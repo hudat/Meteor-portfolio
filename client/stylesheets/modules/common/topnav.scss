@@ -1,8 +1,7 @@
 @import '../../variables';
 
 .topnav {
-  width: 70%;
-  float: right;
+  padding-top: $space-large;
 
   @media (max-width: $desktop-width) {
     display: none;
