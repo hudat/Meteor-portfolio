@@ -3,13 +3,12 @@
     {{#each books}}
       <section class="intro">
         <h2>{{title}}</h2>
-        <img src="{{cover}}" />
+        <img class="ui centered small image" src="{{cover}}" />
         <p>{{tagline}}</p>
           {{> MailChimpListSubscribe}}
       </section>
     <div class="chapters">
         <h3>Psychology-Driven UX Design Chapters</h3>
-        <hr>
       {{#each chapters}}
         <section class="chapter">
           <h4><i class="fa fa-file-text-o"></i> {{title}}</h4>
