@@ -2,6 +2,8 @@
 
 footer {
 
+  border-top: $space-atomic solid $gray-lighter;
+
   .ui.grid.contact {
     margin-top: $space-medium;
     margin-left: 0;
@@ -9,15 +11,8 @@ footer {
     .endmatter {
       padding: $space-base 0 !important;
 
-        @media (min-width: $desktop-width) {
-          padding-left: 2rem !important;
-        }
-
         p {
           line-height: $space-medium;
-        }
-
-        .copyright {
           font-size: $font-size-base;
           color: $gray;
 
@@ -25,16 +20,37 @@ footer {
             font-size: $font-size-base + $font-size-mini;
           }
         }
-    }
+
+        a {
+          font-size: $font-size-base;
+
+          @media (min-width: $tablet-width) {
+            font-size: $font-size-base + $font-size-mini;
+          }
+        }
+
+      }
+  }
 
     .social {
+      
+      @media (min-width: $desktop-width) {
+        text-align: right;
+      }
+
         i {
           display: block;
           text-align: center;
-          font-size: $font-size-huge;
+          font-size: $font-size-large + $font-size-tiny;
           padding: $space-tiny 0;
           color: $blue;
+
+          @media (min-width: $tablet-width) {
+            font-size: $font-size-huge;
+          }
+
         }
+
         i:hover {
           color: $red;
         }
@@ -49,4 +65,3 @@ footer {
         }
      }
   }
-}

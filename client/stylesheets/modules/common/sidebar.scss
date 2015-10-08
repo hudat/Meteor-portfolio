@@ -18,7 +18,8 @@
 
         small {
           font-family: $font-family-serif;
-          font-size: 80%;
+          font-size: 68%;
+          font-weight: normal;
         }
     }
 
@@ -27,10 +28,10 @@
 
       .quote-content {
         p {
-          font-size: $font-size-base + $font-size-mini;
+          font-size: $font-size-base + $font-size-atomic;
         }
         a {
-          font-size: $font-size-base + $font-size-mini;
+          font-size: $font-size-base + $font-size-atomic;
         }
       }
     }
