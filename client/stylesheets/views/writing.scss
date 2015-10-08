@@ -10,7 +10,7 @@
         padding-bottom: 0;
       }
       a {
-        font-size: $font-size-base + $font-size-mini;
+        font-size: $font-size-medium - $font-size-micro;
         @media (min-width: $tablet-width) {
           font-size: $font-size-medium;
         }

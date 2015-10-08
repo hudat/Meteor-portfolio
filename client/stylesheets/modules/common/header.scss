@@ -24,7 +24,6 @@
       font-size: $font-size-medium + $font-size-atomic;
       text-transform: none;
       border-bottom: none;
-      font-weight: bold;
       display: inline-block;
       font-family: $font-family-sans-serif, serif;
       letter-spacing: $space-quantum;
@@ -40,6 +39,7 @@
       display: block;
       font-family: $font-family-serif, serif;
       line-height: $space-tiny + $space-mini;
+      font-weight: normal;
 
       @media (min-width: $tablet-width) {
         font-size: $font-size-medium;
