@@ -55,7 +55,7 @@ h2.ui.header {
 	font-size: $font-size-medium + $font-size-mini;
 
 	@media (min-width: $tablet-width) {
-		font-size: $font-size-large;
+		font-size: $font-size-large + $font-size-tiny;
 	}
 }
 
@@ -63,12 +63,12 @@ h3.ui.header {
 	font-size: $font-size-medium;
 
 	@media (min-width: $tablet-width) {
-		font-size: $font-size-medium + $font-size-mini;
+		font-size: $font-size-large;
 	}
 }
 
 h4.ui.header {
-	font-size: $font-size-medium - $font-size-micro;
+	font-size: $font-size-medium + $font-size-mini;
 }
 
 /*UI SEGMENT*/

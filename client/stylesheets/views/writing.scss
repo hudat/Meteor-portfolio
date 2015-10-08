@@ -9,10 +9,12 @@
         line-height: $space-medium + $space-mini;
         padding-bottom: 0;
       }
+      
       a {
         font-size: $font-size-medium - $font-size-micro;
+
         @media (min-width: $tablet-width) {
-          font-size: $font-size-medium;
+          font-size: $font-size-medium + $font-size-mini;
         }
       }
       .excerpt {
