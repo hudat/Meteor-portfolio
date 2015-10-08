@@ -7,23 +7,23 @@
   .quote-content {
 
       p {
-          font-size: $font-size-base + $font-size-mini;
+          font-size: $font-size-base;
           color: lighten($gray-light, 20%);
           font-weight: normal;
           padding: 0;
           text-align: center;
 
           @media(min-width: $tablet-width) {
-            font-size: $font-size-large;
+            font-size: $font-size-medium;
           }
       }
 
       a {
-        font-size: $font-size-base + $font-size-mini;
+        font-size: $font-size-base;
         display: block;
 
         @media(min-width: $tablet-width) {
-          font-size: $font-size-large;
+          font-size: $font-size-medium;
         }
       }
   }

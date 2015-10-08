@@ -1,11 +1,10 @@
 @import '../../variables';
 
 footer {
-
+  padding-top: $space-huge;
   border-top: $space-atomic solid $gray-lighter;
 
   .ui.grid.contact {
-    margin-top: $space-medium;
     margin-left: 0;
 
     .endmatter {
@@ -33,7 +32,7 @@ footer {
   }
 
     .social {
-      
+
       @media (min-width: $desktop-width) {
         text-align: right;
       }
@@ -48,7 +47,6 @@ footer {
           @media (min-width: $tablet-width) {
             font-size: $font-size-huge;
           }
-
         }
 
         i:hover {
