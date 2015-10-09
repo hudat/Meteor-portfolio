@@ -3,7 +3,12 @@
 .dark-theme {
   background: $gray-darker;
   color: $light;
-
+  background: url("/images/beautiful-night-sky-2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
   a, a:visited {
     color: $yellow;
   }
