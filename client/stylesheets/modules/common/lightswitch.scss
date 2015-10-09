@@ -3,9 +3,8 @@
 .lightswitch {
   font-family: $font-family-sans-serif;
 
-
-
-  div {
+  .theme-toggle {
+    cursor: hand;
     padding: 1rem;
     box-shadow: $space-atomic $space-micro 0 $red;
     border: $space-atomic solid $red;
@@ -18,6 +17,14 @@
 
     i {
       font-size: $font-size-base + $font-size-mini;
+    }
+
+    &.light-switch:hover {
+      background-color: $light;
+    }
+
+    &.dark-switch:hover {
+      background-color: darken($blue, 45%);
     }
   }
 }
