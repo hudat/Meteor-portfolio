@@ -1,21 +1,23 @@
 @import '../../variables';
 
 .lightswitch {
-  i {
-    font-size: $space-large;
-    padding: $space-base;
-  }
+  font-family: $font-family-sans-serif;
 
-  .fa-toggle-on {
-    color: $blue-alt;
-    box-shadow: $space-atomic $space-atomic $space-atomic $blue-alt;
-    border: $space-atomic solid $blue-alt;
 
-  }
 
-  .fa-toggle-off {
-    color: $dark;
-    border: $space-atomic solid $dark;
-    background-color: $yellow;
+  div {
+    padding: 1rem;
+    box-shadow: $space-atomic $space-micro 0 $red;
+    border: $space-atomic solid $red;
+    color: $red;
+
+    span {
+      font-size: $font-size-medium - $font-size-micro;
+      padding-left: $space-tiny;
+    }
+
+    i {
+      font-size: $font-size-base + $font-size-mini;
+    }
   }
 }
