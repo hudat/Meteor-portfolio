@@ -17,25 +17,10 @@
     a {
       box-shadow: none;
       font-size: $font-size-medium;
-      border: $space-atomic solid $gray-lighter;
-      color: $gray-light;
-      background: $light;
-      box-shadow: inset 0px -1px 0px 0px rgba(105, 105, 105, 0.5), inset 0px 0px 0px 0px rgba(0, 0, 0, 0.15), 0px 0px 1px 0px rgba(0, 0, 0, 0.08);
-      text-shadow: 0px 1px 1.8px #fafcff;
       -webkit-transition: -webkit-transform 350ms;
       transition: transform 350ms;
     }
-    a:hover {
-      color: $blue;
-      border: $space-atomic solid lighten($blue, 10%);
-      box-shadow: inset 0px -1px 0px 0px lighten($blue, 10%), inset 0px 0px 0px 0px lighten($blue, 10%), 0px 0px 1px 0px lighten($blue, 10%);
-    }
-    .active {
-      color: $blue;
-      border: $space-atomic solid lighten($blue, 10%);
-      box-shadow: inset 0px -1px 0px 0px lighten($blue, 20%), inset 0px 0px 0px 0px lighten($blue, 20%), 0px 0px 1px 0px lighten($blue, 20%);
-      background: $light;
-    }
+
     .item::before {
       background: none;
     }

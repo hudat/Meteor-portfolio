@@ -13,7 +13,6 @@ footer {
         p {
           line-height: $space-medium;
           font-size: $font-size-base;
-          color: $gray;
 
           @media (min-width: $tablet-width) {
             font-size: $font-size-base + $font-size-mini;
@@ -42,15 +41,10 @@ footer {
           text-align: center;
           font-size: $font-size-large + $font-size-tiny;
           padding: $space-tiny 0;
-          color: $blue;
 
           @media (min-width: $tablet-width) {
             font-size: $font-size-huge;
           }
-        }
-
-        i:hover {
-          color: $red;
         }
 
         @media (min-width: $desktop-width) {
