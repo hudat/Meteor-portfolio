@@ -2,6 +2,23 @@
 
 .lightswitch {
   i {
-    font-size: $font-size-large;
+    font-size: $space-large;
+
+    padding: $space-base;
+
+  }
+
+  .fa-sun-o {
+    background: $blue;
+    color: $light;
+    box-shadow: $space-atomic $space-atomic $space-atomic $light;
+        border: $space-atomic solid $gray-light;
+  }
+
+  .fa-moon-o {
+    background: $yellow;
+    color: $dark;
+    box-shadow: $space-atomic $space-atomic $space-atomic $dark;
+        border: $space-atomic solid $gray-dark;
   }
 }
