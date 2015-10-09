@@ -1,5 +1,13 @@
+@import '../../variables';
+
 .clients {
-  img {
-    width: 33%;
+  .ui.small.images.clients {
+    img {
+      width: 140px;
+
+      @media (min-width: $tablet-width) {
+        width: 110px;
+      }
+    }
   }
 }

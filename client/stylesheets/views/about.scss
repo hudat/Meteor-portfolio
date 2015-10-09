@@ -17,11 +17,6 @@
 
 }
 
-.small img {
-  padding-right: 20px;
-  width: 139px !important;
-}
-
 .styled-list {
   line-height: 1.8rem;
   list-style-type: square;
@@ -36,10 +31,6 @@
   .quote {
       padding: 0px 0px 20px 0px;
   }
-  .clients img {
-    margin: auto;
-    width: 46% !important;
-  }
 
 }
 
@@ -50,10 +41,6 @@
   }
   .intro-header {
     margin-bottom: 20px;
-  }
-  .clients img {
-    margin: auto;
-    width: 18% !important;
   }
 }
 
@@ -75,14 +62,8 @@
   .eleven.wide.column.h3 {
     padding-left: 44px;
   }
-  .clients img {
-    width: 18% !important;
-  }
 }
 
 /* iPads (portrait and landscape) ----------- */
 @media (min-width : 1025px) {
-  .clients img {
-    width: 18% !important;
-  }
 }
