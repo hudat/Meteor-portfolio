@@ -1,0 +1,11 @@
+@import '../../variables';
+
+.articles {
+  .excerpt {
+    padding: $space-base 0;
+
+    @media (min-width: $tablet-width) {
+        padding: $space-large 0;
+    }
+  }
+}

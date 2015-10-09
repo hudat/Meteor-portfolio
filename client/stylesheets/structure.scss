@@ -33,7 +33,7 @@
 }
 
 .module {
-  padding: $space-medium 0;
+  padding: $space-huge 0;
 
   @media (min-width: $tablet-width) {
     padding: $space-huge 0;
@@ -45,7 +45,7 @@
 }
 
 .intro {
-  padding-bottom: $space-medium;
+  padding-bottom: $space-huge;
   border-bottom: $space-atomic solid $gray-lighter;
 
   @media(min-width: $tablet-width) {
