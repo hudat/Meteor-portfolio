@@ -3,9 +3,14 @@
 .light-theme {
   background: $light;
   color: $gray-dark;
+  background: url('/images/light.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
   a, a:visited {
-    color: $blue;
+    color: $blue-alt;
   }
 
   .ui.header {
@@ -21,14 +26,14 @@
       background: $light;
     }
     a:hover {
-      color: $blue;
-      border: $space-atomic solid lighten($blue, 10%);
-      box-shadow: inset 0px -1px 0px 0px lighten($blue, 10%), inset 0px 0px 0px 0px lighten($blue, 10%), 0px 0px 1px 0px lighten($blue, 10%);
+      color: $blue-alt;
+      border: $space-atomic solid lighten($blue-alt, 10%);
+      box-shadow: inset 0px -1px 0px 0px lighten($blue-alt, 10%), inset 0px 0px 0px 0px lighten($blue-alt, 10%), 0px 0px 1px 0px lighten($blue-alt, 10%);
     }
     .active {
-      color: $blue;
-      border: $space-atomic solid lighten($blue, 10%);
-      box-shadow: inset 0px -1px 0px 0px lighten($blue, 20%), inset 0px 0px 0px 0px lighten($blue, 20%), 0px 0px 1px 0px lighten($blue, 20%);
+      color: $blue-alt;
+      border: $space-atomic solid lighten($blue-alt, 10%);
+      box-shadow: inset 0px -1px 0px 0px lighten($blue-alt, 20%), inset 0px 0px 0px 0px lighten($blue-alt, 20%), 0px 0px 1px 0px lighten($blue-alt, 20%);
       background: $light;
     }
   }
@@ -43,7 +48,7 @@
       color: $gray;
     }
     i {
-      color: $blue;
+      color: $blue-alt;
     }
   }
 }
