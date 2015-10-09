@@ -1,7 +1,7 @@
 Template.lightswitch.events({
     'click #light':function() {
         $("body").fadeOut(30, function() {
-              $("body").removeClass("light-theme");
+        $("body").removeClass("light-theme");
         });
         $("body").fadeIn(0, function() {
           $("body").addClass("dark-theme");

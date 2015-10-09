@@ -10,14 +10,14 @@
       padding-bottom: 0;
       margin-bottom: 0;
       margin-top: 0;
-
-        @media (min-width: $desktop-width) {
-          display: none;
-        }
       }
 
   .nav {
     text-align: left;
+
+    @media (min-width: $desktop-width) {
+      display: none;
+    }
 
     a {
       text-align: center;
@@ -51,10 +51,6 @@
      color: $blue;
       float: right;
       font-size: $font-size-base + $font-size-tiny;
-
-      @media (min-width: $desktop-width) {
-        display: none;
-      }
 
     }
     .menu-button:hover {

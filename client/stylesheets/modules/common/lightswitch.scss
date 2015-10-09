@@ -3,22 +3,19 @@
 .lightswitch {
   i {
     font-size: $space-large;
-
     padding: $space-base;
+  }
+
+  .fa-toggle-on {
+    color: $blue-alt;
+    box-shadow: $space-atomic $space-atomic $space-atomic $blue-alt;
+    border: $space-atomic solid $blue-alt;
 
   }
 
-  .fa-sun-o {
-    background: $blue;
-    color: $light;
-    box-shadow: $space-atomic $space-atomic $space-atomic $light;
-        border: $space-atomic solid $gray-light;
-  }
-
-  .fa-moon-o {
-    background: $yellow;
+  .fa-toggle-off {
     color: $dark;
-    box-shadow: $space-atomic $space-atomic $space-atomic $dark;
-        border: $space-atomic solid $gray-dark;
+    border: $space-atomic solid $dark;
+    background-color: $yellow;
   }
 }
