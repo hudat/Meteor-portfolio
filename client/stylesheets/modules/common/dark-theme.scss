@@ -5,7 +5,7 @@
   color: $light;
 
   a, a:visited {
-    color: $blue;
+    color: $blue-alt;
   }
 
   .ui.header {
@@ -13,8 +13,8 @@
   }
 
   footer {
-    p {
-      color: $gray-light;
+    .endmatter {
+        color: $gray-lighter;
     }
   }
 }
