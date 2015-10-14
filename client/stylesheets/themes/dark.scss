@@ -8,7 +8,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
+
   a, a:visited {
     color: $yellow;
   }
@@ -18,23 +18,24 @@
   }
 
   .three.item.menu {
+    background: none;
     a {
       border: $space-atomic solid $gray-darker;
-      color: $gray-light;
+      color: $gray-lighter;
       box-shadow: inset 0px -1px 0px 0px rgba(105, 105, 105, 0.5), inset 0px 0px 0px 0px rgba(0, 0, 0, 0.15), 0px 0px 1px 0px rgba(0, 0, 0, 0.08);
       text-shadow: 0px 1px 1.8px $dark;
-      background: $gray-darker;
     }
     a:hover {
       color: $yellow;
       border: $space-atomic solid darken($yellow, 10%);
       box-shadow: inset 0px -1px 0px 0px darken($yellow, 10%), inset 0px 0px 0px 0px darken($yellow, 10%), 0px 0px 1px 0px darken($yellow, 10%);
+      background: fade-out($gray-darker, .5);
     }
     .active {
       color: $yellow;
       border: $space-atomic solid darken($yellow, 10%);
       box-shadow: inset 0px -1px 0px 0px darken($yellow, 20%), inset 0px 0px 0px 0px darken($yellow, 20%), 0px 0px 1px 0px darken($yellow, 20%);
-      background: $gray-darker;
+      background: fade-out($gray-darker, .5);
     }
   }
 
