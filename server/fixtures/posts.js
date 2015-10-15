@@ -3,18 +3,18 @@ Fixtures = typeof Fixtures !== "undefined" ? Fixtures : {};
 
 Fixtures.posts = [
   {
-    title: 'Rapid Growth',
-    excerpt: 'For every single observation there are an infinite number of explanations. Through rapid testing, we can discover the minimum effective dose for continuous growth.',
-    url: 'http://blog.husammachlovi.com/rapid-growth/'
-  },
-  {
-    title: '8 Things I\'ve Learned as a Freelance UX Designer',
-    excerpt: 'As a freelancer for 4 years, I made a lot of mistakes. I’ve documented my learnings so that I can avoid these pitfalls and ultimately, better manage stress.',
-    url: 'http://blog.husammachlovi.com/8-things-i-learned-as-a-freelance-ux-designer/'
+    title: 'UX Design Patterns: Gradual Engagement',
+    excerpt: 'When we lead with boring registration forms, we\'re missing opportunities to really connect with customers. Instead, we should let customers test-drive our applications and decide for themselves.',
+    url: 'http://blog.husammachlovi.com/ux-design-patterns-gradual-engagement'
   },
   {
     title: 'Increase User Engagement with Rewarding Interactions',
-    excerpt: 'An examination of MailChimp, Photojojo, and GrubHub\'s use of rewarding interactions to build emotional connections with customers.',
+    excerpt: 'When we provide meaningful and authentic feedback to user interactions, we\'re creating opportunities for stronger emotional connections.',
     url: 'http://blog.husammachlovi.com/increase-user-engagement-by-rewarding-interactions/'
+  },
+  {
+    title: 'Stress Management on Freelance Projects',
+    excerpt: 'My freelancing years were some of the most stressful years of my life. I’ve screamed, slammed tables and sulked. Over these years, I\'ve picked up some processes that help me better manage the stress.',
+    url: 'http://blog.husammachlovi.com/stress-management-on-freelance-projects/'
   }
 ];
