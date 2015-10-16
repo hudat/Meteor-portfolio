@@ -3,18 +3,10 @@
 .mobile-menu {
   padding-left: 0rem !important;
   padding-right: 0rem !important;
-  border-top: $space-atomic solid $gray-lighter;
-  border-bottom: $space-atomic solid $gray-lighter;
-  background: $blue;
-  box-shadow: inset 0 0 $space-small darken($blue, 30%);
   padding: $space-large;
 
   &.module {
     padding: $space-large;
-  }
-
-  a {
-    color: #fff;
   }
 
   @media (min-width: $desktop-width) {

@@ -19,6 +19,10 @@
       }
       .excerpt {
         padding-bottom: $space-medium + $space-tiny;
+        
+        .ui.header a {
+          text-align: left;
+        }
 
         @media (min-width: $tablet-width) {
           padding-bottom: $space-large;

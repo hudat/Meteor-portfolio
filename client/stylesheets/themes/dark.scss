@@ -46,6 +46,19 @@
     }
   }
 
+  .mobile-menu {
+    border-top: $space-atomic solid $light;
+    border-bottom: $space-atomic solid $light;
+
+    .up {
+      color: $yellow;
+    }
+
+    p {
+      color: $light;
+    }
+  }
+
   footer {
     border-top: $space-atomic solid $dark;
     color: $gray-light;
