@@ -33,6 +33,10 @@
         cursor: pointer;
         font-size: $font-size-base;
 
+        @media(min-width: $tablet-width) {
+          width: 40%;
+        }
+
         &:hover,
         &:focus {
           background-color: $gray;
