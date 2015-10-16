@@ -9,6 +9,13 @@
   -o-background-size: cover;
   background-size: cover;
 
+  nav {
+    .menu-button {
+      color: $yellow !important;
+    }
+  }
+
+
   a, a:visited {
     color: $yellow;
   }

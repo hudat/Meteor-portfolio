@@ -15,10 +15,14 @@
   .nav {
     text-align: left;
 
+    .menu-button {
+      float: right;
+    }
+
     @media (min-width: $desktop-width) {
       display: none;
     }
-
+  }
     a {
       text-align: center;
       font-size: $font-size-large - $font-size-micro;
@@ -47,16 +51,6 @@
       }
     }
 
-   .menu-button {
-     color: $blue;
-      float: right;
-      font-size: $font-size-base + $font-size-tiny;
-
-    }
-    .menu-button:hover {
-      color: $red;
-    }
-  }
 
   nav {
     text-align: center;

@@ -9,6 +9,18 @@
     -o-background-size: cover;
     background-size: cover;
 
+    nav {
+      .menu-button {
+        color: $blue;
+         float: right;
+         font-size: $font-size-base + $font-size-tiny;
+
+       }
+       .menu-button:hover {
+         color: $red;
+       }
+     }
+
   a, a:visited {
     color: $blue-alt;
   }
