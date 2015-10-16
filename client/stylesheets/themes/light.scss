@@ -31,22 +31,18 @@
 
   .three.item.menu {
     a {
-      border: $space-atomic solid $gray-lighter;
+      border: $space-atomic solid darken($gray-lighter, 20%);
       color: $gray-light;
-      box-shadow: inset 0px -1px 0px 0px rgba(105, 105, 105, 0.5), inset 0px 0px 0px 0px rgba(0, 0, 0, 0.15), 0px 0px 1px 0px rgba(0, 0, 0, 0.08);
-      text-shadow: 0px 1px 1.8px #fafcff;
       background: fade-out($light, .7);
     }
     a:hover {
       color: $blue-alt;
       border: $space-atomic solid lighten($blue-alt, 10%);
-      box-shadow: inset 0px -1px 0px 0px lighten($blue-alt, 10%), inset 0px 0px 0px 0px lighten($blue-alt, 10%), 0px 0px 1px 0px lighten($blue-alt, 10%);
       background: fade-out($light, .3);
     }
     .active {
       color: $blue-alt;
       border: $space-atomic solid lighten($blue-alt, 10%);
-      box-shadow: inset 0px -1px 0px 0px lighten($blue-alt, 20%), inset 0px 0px 0px 0px lighten($blue-alt, 20%), 0px 0px 1px 0px lighten($blue-alt, 20%);
       background: fade-out($light, .3);
     }
   }
@@ -63,8 +59,6 @@
       color: $dark;
     }
   }
-
-
 
 
   footer {
