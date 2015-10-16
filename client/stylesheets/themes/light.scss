@@ -3,11 +3,11 @@
 .light-theme {
   background: $light;
   color: $gray-dark;
-  background: url('/images/polygon.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  // background: url('/images/polygon.jpg') no-repeat center center fixed;
+  //   -webkit-background-size: cover;
+  //   -moz-background-size: cover;
+  //   -o-background-size: cover;
+  //   background-size: cover;
 
     nav {
       .menu-button {
@@ -45,6 +45,20 @@
       border: $space-atomic solid lighten($blue-alt, 10%);
       background: fade-out($light, .3);
     }
+  }
+
+  .module.mailchimp {
+    .inline.field {
+      .mailchimp-email {
+        border: $space-atomic solid $gray;
+      }
+      .mailchimp-subscribe.button {
+        background-color: $yellow;
+        color: $dark;
+        border: $space-atomic solid $gray;
+      }
+    }
+
   }
 
   .mobile-menu {

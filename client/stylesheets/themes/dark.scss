@@ -40,6 +40,20 @@
     }
   }
 
+  .module.mailchimp {
+    .inline.field {
+      .mailchimp-email {
+        border: $space-atomic solid $dark;
+      }
+      .mailchimp-subscribe.button {
+        background-color: $blue;
+        color: $light;
+        border: $space-atomic solid $dark;
+      }
+    }
+  }
+
+
   .mobile-menu {
     border-top: $space-atomic solid $light;
     border-bottom: $space-atomic solid $light;

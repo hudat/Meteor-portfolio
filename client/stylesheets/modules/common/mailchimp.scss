@@ -21,23 +21,17 @@
       .mailchimp-email {
         flex: 1;
         padding: $space-small;
-        border: $space-micro solid $dark;
         border-right: 0;
         border-radius: 0;
         outline: 0;
         font-size: $font-size-base;
-        font-family: $font-family-monospace;
       }
 
       .mailchimp-subscribe.button {
         margin: 0;
         padding: $space-small;
         cursor: pointer;
-        border: $space-micro solid $dark;
-        background-color: $green;
-        color: $light;
         font-size: $font-size-base;
-        font-family: $font-family-monospace;
 
         &:hover,
         &:focus {
