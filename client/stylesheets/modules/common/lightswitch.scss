@@ -20,11 +20,11 @@
     }
 
     &.light-switch:hover {
-      background-color: $light;
+      background: fade-out($light, .3);
     }
 
     &.dark-switch:hover {
-      background-color: darken($blue, 45%);
+      background: fade-out($gray-darker, .5);
     }
   }
 }
