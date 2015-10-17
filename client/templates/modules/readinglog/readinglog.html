@@ -1,0 +1,10 @@
+<template name="readinglog">
+  {{#each readinglog}}
+      <h3 class="ui header">{{title}}</h3>
+      <ul>
+        {{#each books}}
+          <li>{{booktitle}}</li>
+        {{/each}}
+      </ul>
+  {{/each}}
+</template>
