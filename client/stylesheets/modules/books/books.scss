@@ -4,6 +4,7 @@
   text-align: center;
 
   .intro {
+    border-bottom: none;
     img {
       width: 100%;
     }
@@ -18,11 +19,13 @@
     .row {
 
       h4 {
-        font-size: $space-base + $space-micro;
+        font-size: $space-medium;
       }
 
       .chapter {
-        padding: $space-large 0;
+        padding: $space-large;
+
+        height: $space-god + $space-huge;
       }
     }
   }

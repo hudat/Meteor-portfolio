@@ -47,6 +47,14 @@
     }
   }
 
+  .book {
+  .chapters {
+    .chapter {
+      border: $space-atomic solid $gray-lighter;
+    }
+  }
+}
+
   .module.mailchimp {
     .inline.field {
       .mailchimp-email {
