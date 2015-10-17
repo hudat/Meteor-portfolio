@@ -11,12 +11,19 @@
 
   .chapters {
 
-    h4 {
-      font-size: $space-base + $space-micro;
+    .ui.header {
+      padding-top: $space-large;
     }
 
-    .chapter {
-      padding: $space-large 0;
+    .row {
+
+      h4 {
+        font-size: $space-base + $space-micro;
+      }
+
+      .chapter {
+        padding: $space-large 0;
+      }
     }
   }
 }

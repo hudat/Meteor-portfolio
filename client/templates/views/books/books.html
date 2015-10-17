@@ -2,20 +2,24 @@
   <div class="book view">
     {{#each books}}
       <section class="intro segment">
+        <div class="row">
         <h2>{{title}}</h2>
-        <img class="ui centered small image" src="{{cover}}" />
+        <img class="ui centered medium image" src="{{cover}}" />
         <p>{{tagline}}</p>
           {{> MailChimpListSubscribe}}
+        </div>
       </section>
-    <div class="chapters">
-        <h3>Psychology-Driven UX Design Chapters</h3>
-      {{#each chapters}}
-        <section class="chapter">
-          <h4><i class="fa fa-file-text-o"></i> {{title}}</h4>
-          <p>{{description}}</p>
-        </section>
-        {{/each}}
-      </div>
+      <section class="chapters">
+        <h3 class="ui header">CHAPTERS</h3>
+          <div class="ui grid row stackable">
+            {{#each chapters}}
+            <div class="eight wide column chapter">
+              <h4><i class="fa fa-file-text-o"></i> {{title}}</h4>
+              <p>{{description}}</p>
+            </div>
+            {{/each}}
+          </div>
+      </section>
     {{/each}}
   </div>
 </template>
