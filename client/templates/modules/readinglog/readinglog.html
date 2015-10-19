@@ -1,10 +1,12 @@
 <template name="readingLog">
   {{#each readingLog}}
+  <div class="eight wide column">
       <h3 class="ui header">{{title}}</h3>
       <ul>
         {{#each books}}
-          <li>{{Booktitle}}</li>
+          <li>{{booktitle}}</li>
         {{/each}}
       </ul>
+    </div>
   {{/each}}
 </template>
