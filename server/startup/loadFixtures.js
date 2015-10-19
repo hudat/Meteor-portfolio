@@ -31,4 +31,8 @@ Meteor.startup(function () {
   if (Clients.find().count() === 0) {
     loadFixture(Fixtures['clients'], Clients);
   }
+
+  if (Readinglog.find().count() === 0) {
+    loadFixture(Fixtures['readinglog'], Readinglog);
+  }
 });

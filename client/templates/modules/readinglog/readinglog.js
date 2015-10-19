@@ -1,5 +1,5 @@
-Template.readinglog.helpers({
-  readinglog: function() {
+Template.readingLog.helpers({
+  readingLog: function() {
     return Readinglog.find();
   }
 })
