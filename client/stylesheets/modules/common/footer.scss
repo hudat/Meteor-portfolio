@@ -35,7 +35,9 @@ footer {
       @media (min-width: $desktop-width) {
         text-align: right;
       }
-
+      a:hover {
+        text-decoration: none;
+      }
         i {
           display: block;
           text-align: center;
