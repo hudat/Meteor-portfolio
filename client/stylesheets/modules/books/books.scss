@@ -18,14 +18,18 @@
 
     .row {
 
-      h4 {
-        font-size: $space-medium;
-      }
-
       .chapter {
         padding: $space-large;
-
         height: $space-god + $space-huge;
+        text-align: center;
+
+        @media (min-width: $desktop-width) {
+          text-align: left;
+        }
+
+        h4 {
+          font-size: $space-medium;
+        }
       }
     }
   }
