@@ -29,6 +29,10 @@
     color: $gray-dark;
   }
 
+  .intro.segment {
+    border-bottom: $space-atomic solid $gray-lighter;
+  }
+
   .three.item.menu {
     a {
       border: $space-atomic solid darken($gray-lighter, 20%);

@@ -24,6 +24,10 @@
     color: $light;
   }
 
+  .intro.segment {
+    border-bottom: $space-atomic solid $dark;
+  }
+
   .three.item.menu {
     background: none;
     a {
