@@ -23,9 +23,13 @@
     text-transform: uppercase;
     letter-spacing: $space-tiny;
 
-    p {
-      color: $light;
+    a:hover {
+      text-decoration: none;
+    }
 
+    .active {
+      font-style: italic;
+      text-decoration: none;
     }
 
     .item {
