@@ -11,7 +11,7 @@
 
     nav {
       .menu-button {
-        color: $blue;
+        color: $blue-alt;
          float: right;
          font-size: $font-size-base + $font-size-tiny;
 
@@ -74,11 +74,15 @@
     border-bottom: $space-atomic solid $gray-darker;
 
     .up {
-      color: $blue;
+      color: $blue-alt;
     }
 
     p {
       color: $dark;
+
+      i {
+        color: $blue-alt;
+      }
     }
   }
 
