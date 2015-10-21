@@ -49,8 +49,9 @@
       .mailchimp-email {
         border: $space-atomic solid $dark;
       }
+
       .mailchimp-subscribe.button {
-        background-color: $blue;
+        background-color: $green;
         color: $light;
         border: $space-atomic solid $dark;
       }
@@ -85,7 +86,7 @@
 
   footer {
     border-top: $space-atomic solid $dark;
-    color: $gray-light;
+    color: $gray-lighter;
 
     i {
       color: $yellow;
