@@ -14,9 +14,14 @@
     }
 
     .inline.field {
+
       display: flex;
       margin: auto;
       padding: $space-small 0;
+
+      @media (max-width: $tablet-width) {
+        display: block;
+      }
 
       .mailchimp-email {
         flex: 1;
@@ -24,7 +29,17 @@
         border-right: 0;
         border-radius: 0;
         outline: 0;
-        font-size: $font-size-base;
+        font-size: $font-size-base + $font-size-atomic;
+
+
+        @media (max-width: $tablet-width) {
+          display: block;
+          width: 100%;
+          border: $space-atomic solid $gray;
+          margin-bottom: $space-base;
+          text-align: center;
+        }
+
       }
 
       .mailchimp-subscribe.button {
@@ -32,6 +47,13 @@
         padding: $space-small;
         cursor: pointer;
         font-size: $font-size-base;
+        font-size: $font-size-base + $font-size-atomic;
+
+        @media (max-width: $tablet-width) {
+          display: block;
+          width: 100%;
+          border: $space-atomic solid $gray;
+        }
 
         @media(min-width: $tablet-width) {
           width: 40%;
