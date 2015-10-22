@@ -3,12 +3,15 @@
 .dark-theme {
   background: $gray-darker;
   color: $light;
-  background: url("/images/beautiful-night-sky-2.jpg") no-repeat center center fixed;
+  background: url("/images/night-sky.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 
+  @media (min-width: $tablet-width) {
+    background: url("/images/night-sky-desktop.jpg") no-repeat center center fixed;
+  }
   nav {
     .menu-button {
       color: $yellow !important;
