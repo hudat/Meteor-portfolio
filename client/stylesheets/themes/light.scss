@@ -37,16 +37,15 @@
     a {
       border: $space-atomic solid darken($gray-lighter, 20%);
       color: $gray-light;
-      background: fade-out($light, .7);
     }
     a:hover {
       color: $green;
-      border: $space-atomic solid lighten($green, 10%);
+      border: $space-atomic solid $green;
       background: fade-out($light, .3);
     }
     .active {
       color: $green;
-      border: $space-atomic solid lighten($green, 10%);
+      border: $space-atomic solid $green;
       background: fade-out($light, .3);
     }
   }
