@@ -21,6 +21,14 @@
        }
      }
 
+  .sidebar {
+    .avatar {
+      background: url("/images/husam-profile2.jpg") no-repeat;
+      width: 150px;
+      height: 169px;
+    }
+  }
+
   a, a:visited {
     color: $green;
   }
