@@ -95,9 +95,12 @@
   footer {
     border-top: $space-atomic solid $dark;
     color: $gray-lighter;
-
     i {
-      color: $yellow;
+      color: yellow;
     }
+    i:hover {
+      color: $gray-lighter;
+    }
+
   }
 }

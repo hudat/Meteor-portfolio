@@ -7,10 +7,11 @@
   .theme-toggle {
     cursor: hand;
     padding: 1rem;
-    box-shadow: $space-atomic $space-micro 0 $blue-alt;
+    box-shadow: $space-atomic $space-atomic 0 darken($blue-alt, 10%);
     border: $space-atomic solid $blue-alt;
     color: $blue-alt;
     border-radius: $space-mini;
+    transition: all 0.3s;
 
     span {
       font-size: $font-size-medium - $font-size-micro;
@@ -22,7 +23,6 @@
     }
 
     &.light-switch:hover {
-      background: fade-out($light, .3);
     }
 
     &.dark-switch:hover {
