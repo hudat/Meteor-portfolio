@@ -1,3 +1,4 @@
+accounts-base@1.2.1
 autoupdate@1.2.3
 babel-compiler@5.8.24_1
 babel-runtime@0.1.4
@@ -18,6 +19,7 @@ dburles:mongo-collection-instances@0.3.4
 ddp@1.2.2
 ddp-client@1.2.1
 ddp-common@1.2.1
+ddp-rate-limiter@1.0.0
 ddp-server@1.2.1
 deps@1.0.9
 diff-sequence@1.0.1
@@ -46,6 +48,7 @@ lai:collection-extensions@0.1.4
 launch-screen@1.0.4
 linto:fontawesome@4.2.6
 livedata@1.0.15
+localstorage@1.0.5
 logging@1.0.8
 meteor@1.1.9
 meteor-base@1.0.1
@@ -64,12 +67,15 @@ observe-sequence@1.0.7
 ordered-dict@1.0.4
 promise@0.5.0
 random@1.0.4
+rate-limit@1.0.0
 reactive-dict@1.1.2
 reactive-var@1.0.6
 reload@1.1.4
 retry@1.0.4
+reywood:iron-router-ga@0.7.1
 routepolicy@1.0.6
 semantic:ui-css@1.12.3
+service-configuration@1.0.5
 session@1.1.1
 spacebars@1.0.7
 spacebars-compiler@1.0.7
