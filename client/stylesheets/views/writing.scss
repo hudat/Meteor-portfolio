@@ -29,5 +29,34 @@
         }
       }
     }
+    .newsletter {
+
+      div#mc_embed_signup {
+        font-size: $font-size-medium;
+        padding-top: $space-base;
+      }
+      #mc_embed_signup form {
+        padding: 0;
+      }
+      #mc_embed_signup .mc-field-group {
+        width: 100%;
+      }
+      .mailchimp-email {
+        color: $dark;
+        width: 100%;
+      }
+      #mc_embed_signup div.mce_inline_error {
+        background: $red;
+        color: $light;
+      }
+      #mce-error-response {
+        background: $red;
+        color: $light;
+      }
+      #mc_embed_signup .button {
+        font-size: $font-size-medium;
+        width: 100%;
+      }
+    }
   }
 }
