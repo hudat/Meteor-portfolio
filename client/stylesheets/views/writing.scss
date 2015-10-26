@@ -32,8 +32,12 @@
     .newsletter {
 
       div#mc_embed_signup {
-        font-size: $font-size-medium;
         padding-top: $space-base;
+        font-size: $font-size-base + $font-size-atomic;
+
+        @media (min-width: $tablet-width) {
+          font-size: $font-size-medium;
+        }
       }
       #mc_embed_signup form {
         padding: 0;
@@ -56,6 +60,10 @@
       #mc_embed_signup .button {
         font-size: $font-size-medium;
         width: 100%;
+        background-color: $blue;
+      }
+      #mc_embed_signup .button:hover {
+        background-color: $blue-alt;
       }
     }
   }

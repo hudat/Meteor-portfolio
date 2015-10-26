@@ -7,11 +7,18 @@
   .theme-toggle {
     cursor: hand;
     padding: 1rem;
-    box-shadow: $space-atomic $space-atomic 0 darken($blue-alt, 10%);
-    border: $space-atomic solid $blue-alt;
-    color: $blue-alt;
+    box-shadow: $space-atomic $space-atomic 0 darken($blue, 10%);
+    border: $space-atomic solid $blue;
+    color: $blue;
     border-radius: $space-mini;
     transition: all 0.3s;
+
+    &:hover {
+      box-shadow: $space-atomic $space-atomic 0 darken($blue-alt, 10%);
+      border: $space-atomic solid $blue-alt;
+      color: $blue-alt;
+      cursor: hand;
+    }
 
     span {
       font-size: $font-size-medium - $font-size-micro;
@@ -20,13 +27,6 @@
 
     i {
       font-size: $font-size-base + $font-size-mini;
-    }
-
-    &.light-switch:hover {
-    }
-
-    &.dark-switch:hover {
-      background: fade-out($gray-darker, .5);
     }
   }
 }
