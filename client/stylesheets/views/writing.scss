@@ -19,7 +19,7 @@
       }
       .excerpt {
         padding-bottom: $space-medium + $space-tiny;
-        
+
         .ui.header a {
           text-align: left;
         }
@@ -27,43 +27,6 @@
         @media (min-width: $tablet-width) {
           padding-bottom: $space-large;
         }
-      }
-    }
-    .newsletter {
-
-      div#mc_embed_signup {
-        padding-top: $space-base;
-        font-size: $font-size-base + $font-size-atomic;
-
-        @media (min-width: $tablet-width) {
-          font-size: $font-size-medium;
-        }
-      }
-      #mc_embed_signup form {
-        padding: 0;
-      }
-      #mc_embed_signup .mc-field-group {
-        width: 100%;
-      }
-      .mailchimp-email {
-        color: $dark;
-        width: 100%;
-      }
-      #mc_embed_signup div.mce_inline_error {
-        background: $red;
-        color: $light;
-      }
-      #mce-error-response {
-        background: $red;
-        color: $light;
-      }
-      #mc_embed_signup .button {
-        font-size: $font-size-medium;
-        width: 100%;
-        background-color: $blue;
-      }
-      #mc_embed_signup .button:hover {
-        background-color: $blue-alt;
       }
     }
   }
