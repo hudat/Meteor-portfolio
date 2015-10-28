@@ -16,9 +16,8 @@
       padding-top: $space-large;
     }
 
-    .row {
-
-      .chapter {
+    .cards {
+      .card.chapter {
         padding: $space-large;
         height: $space-god + $space-huge;
         text-align: center;
@@ -28,7 +27,11 @@
         }
 
         h4 {
-          font-size: $space-medium;
+          font-size: $font-size-base + $font-size-micro;
+          padding: $space-base $space-tiny;
+        }
+        p {
+          padding: 0 $space-base $space-base $space-base;
         }
       }
     }
