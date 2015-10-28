@@ -3,6 +3,7 @@
 body {
 	font-family: $font-family-serif;
 	line-height: $space-medium;
+	overflow-x: hidden;
 
 	p, li {
 		font-size: $font-size-base + $font-size-atomic;
