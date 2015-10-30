@@ -18,8 +18,7 @@
 
     .cards {
       .card.chapter {
-        padding: $space-large;
-        height: $space-god + $space-huge;
+        padding: $space-jumbo $space-base !important;
         text-align: center;
 
         @media (min-width: $desktop-width) {
@@ -28,10 +27,8 @@
 
         h4 {
           font-size: $font-size-base + $font-size-micro;
-          padding: $space-base $space-tiny;
         }
         p {
-          padding: 0 $space-base $space-base $space-base;
         }
       }
     }
