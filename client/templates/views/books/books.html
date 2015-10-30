@@ -3,13 +3,15 @@
     {{#each books}}
       <section class="intro segment">
         <div class="row">
-        <h2>{{title}}</h2>
+        <!-- <h2></h2> -->
         <img class="ui centered medium image" src="{{cover}}" />
         <p>{{tagline}}</p>
         <p>Join the Psychology-driven UX newsletter for updates</p>
-          {{> MailChimpListSubscribe}}
-        </div>
-      </section>
+      </div>
+    </section>
+    <section class="mailchimp module">
+        {{> MailChimpListSubscribe}}
+    </section>
       <section class="chapters">
         <h3 class="ui header">CHAPTERS</h3>
           <div class="ui two stackable cards">
