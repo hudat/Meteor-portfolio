@@ -28,6 +28,7 @@ Demo here: [husammachlovi.com](http://husammachlovi.com).
 - About
 - Portfolio
 - Blog
+- Case studies
 
 ### Features
 * Mobile-First
