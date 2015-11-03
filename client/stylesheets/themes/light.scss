@@ -3,15 +3,10 @@
 .light-theme {
   background: $light;
   color: $gray-dark;
-  // background: url('/images/polygon.jpg') no-repeat center center fixed;
-  //   -webkit-background-size: cover;
-  //   -moz-background-size: cover;
-  //   -o-background-size: cover;
-  //   background-size: cover;
 
     nav {
       .menu-button {
-        color: $green;
+        color: $blue;
          float: right;
          font-size: $font-size-base + $font-size-tiny;
 
@@ -30,7 +25,7 @@
   }
 
   a, a:visited {
-    color: $green;
+    color: $blue;
   }
 
   .ui.header {
@@ -47,13 +42,13 @@
       color: $gray-light;
     }
     a:hover {
-      color: $green;
-      border: $space-atomic solid $green;
+      color: $blue;
+      border: $space-atomic solid $blue;
       background: fade-out($light, .3);
     }
     .active {
-      color: $green;
-      border: $space-atomic solid $green;
+      color: $blue;
+      border: $space-atomic solid $blue;
       background: fade-out($light, .3);
     }
   }
@@ -84,14 +79,14 @@
     border-bottom: $space-atomic solid $gray-lighter;
 
     .up {
-      color: $green;
+      color: $blue;
     }
 
     p {
       color: $dark;
 
       i {
-        color: $green;
+        color: $blue;
       }
 
     }
@@ -103,10 +98,10 @@
       color: $gray;
     }
     i {
-      color: $green;
+      color: $blue;
     }
     i:hover {
-      color: lighten($green, 5%);
+      color: lighten($blue, 5%);
     }
   }
 }
