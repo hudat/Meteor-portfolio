@@ -27,7 +27,7 @@ ecmascript@0.1.6
 ecmascript-runtime@0.2.6
 ejson@1.0.7
 fastclick@1.0.7
-fourseven:scss@3.3.3_3
+fourseven:scss@3.4.1
 geojson-utils@1.0.4
 hot-code-push@1.0.0
 html-tools@1.0.5
