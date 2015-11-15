@@ -2,10 +2,10 @@
 
 .articles {
   .excerpt {
-    padding: $space-base 0;
+    padding: 0 0 $space-base 0;
 
     @media (min-width: $tablet-width) {
-        padding: $space-large 0;
+        padding: 0 0 $space-large 0;
     }
   }
 }
