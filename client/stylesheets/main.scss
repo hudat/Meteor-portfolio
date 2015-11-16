@@ -6,7 +6,7 @@ body {
 	overflow-x: hidden;
 
 	p, li {
-		font-size: $font-size-base + $font-size-atomic;
+		font-size: $font-size-base + $font-size-atomic + $font-size-atomic;
 
 		@media (min-width: $tablet-width) {
 			font-size: $font-size-base + $font-size-tiny;
@@ -15,7 +15,7 @@ body {
 
 	a, a:visited {
 		text-decoration: none;
-		font-size: $font-size-base + $font-size-atomic;
+		font-size: $font-size-base + $font-size-atomic + $font-size-atomic;
 
 		@media (min-width: $tablet-width) {
 			font-size: $font-size-medium;
