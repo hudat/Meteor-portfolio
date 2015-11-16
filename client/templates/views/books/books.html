@@ -4,9 +4,12 @@
       <section class="intro">
         <div class="row">
         <h2>Psychology-driven UX</h2>
-        <img class="ui centered medium image" src="{{cover}}" />
         <p>{{tagline}}</p>
+        <img class="ui centered medium image" src="{{cover}}" />
       </div>
+    </section>
+    <section class="mailchimp module ebook">
+        {{> MailChimpListSubscribe title="Join the Mailing List For Exclusive Book Updates"}}
     </section>
 
       <section class="chapters">
@@ -20,9 +23,7 @@
             {{/each}}
           </div>
       </section>
-      <section class="mailchimp module ebook">
-        {{> MailChimpListSubscribe title="Join the Psychology-driven UX Mailing List"}}
-    </section>
+
     {{/each}}
   </div>
 </template>
