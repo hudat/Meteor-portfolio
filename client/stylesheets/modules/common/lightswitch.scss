@@ -7,14 +7,14 @@
   .theme-toggle {
     cursor: hand;
     padding: 1rem;
-    box-shadow: $space-atomic $space-atomic 0 darken($blue-alt, 10%);
+    box-shadow: $space-atomic $space-atomic $space-atomic darken($blue-alt, 10%);
     border: $space-atomic solid $blue-alt;
     color: $blue-alt;
     border-radius: $space-mini;
     transition: all 0.3s;
 
     &:hover {
-      box-shadow: $space-atomic $space-atomic 0 darken($blue-alt, 10%);
+      box-shadow: $space-atomic $space-atomic $space-mini darken($blue-alt, 10%);
       border: $space-atomic solid $blue-alt;
       color: $blue-alt;
       cursor: hand;
