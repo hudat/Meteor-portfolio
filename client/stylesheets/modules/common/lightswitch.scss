@@ -9,6 +9,7 @@
     padding: 1rem;
     box-shadow: $space-atomic $space-atomic $space-atomic darken($blue-alt, 10%);
     border: $space-atomic solid $blue-alt;
+    background: lighten($gray-lighter, 10%);
     color: $blue-alt;
     border-radius: $space-mini;
     transition: all 0.3s;
@@ -17,6 +18,7 @@
       box-shadow: $space-atomic $space-atomic $space-mini darken($blue-alt, 10%);
       border: $space-atomic solid $blue-alt;
       color: $blue-alt;
+      background: $light;
       cursor: hand;
       cursor: pointer;
     }
