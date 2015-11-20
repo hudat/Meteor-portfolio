@@ -15,6 +15,9 @@
   .three.item.menu {
     width: 90%;
 
+    .item {
+      width: 32%;
+    }
     a {
       box-shadow: none;
       font-size: $font-size-medium;
