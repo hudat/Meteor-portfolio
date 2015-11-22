@@ -2,7 +2,7 @@
 
 .dark-theme {
   color: $light;
-  background-color: $gray-darker;
+  background-color: lighten($dark, 10%);
   //background-image: url("/images/night-sky-alt.jpg");
   //background-position: center center;
   //background-repeat: no-repeat;
@@ -47,8 +47,12 @@
   .three.item.menu {
     background: none;
     a {
-      border: $space-atomic solid $gray-light;
-      color: $gray-lighter;
+      color: $yellow;
+      border-radius: $space-mini;
+      border: $space-atomic solid $yellow;
+      box-shadow: $space-atomic $space-atomic $space-atomic $dark;
+      margin-right: $space-mini;
+      transition: all .3s ease-out;
     }
     a:hover {
       color: $yellow;

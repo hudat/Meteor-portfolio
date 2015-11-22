@@ -22,7 +22,9 @@
       box-shadow: none;
       font-size: $font-size-medium;
       -webkit-transition: -webkit-transform 350ms;
-      transition: transform 350ms;
+      margin-right: $space-mini;
+      transition: all .3s ease-out;
+      border-radius: $space-mini;
     }
 
     .item::before {
