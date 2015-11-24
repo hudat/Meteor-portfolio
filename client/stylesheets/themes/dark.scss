@@ -71,7 +71,7 @@
       }
 
       .mailchimp-subscribe.button {
-        background-color: $green;
+        background-color: $red;
         color: $light;
         border: $space-atomic solid $dark;
       }
@@ -91,14 +91,14 @@
     border-top: $space-atomic solid $dark;
 
     .up {
-      color: $yellow;
+      color: $blue-dark;
     }
 
     p {
       color: $light;
 
       i {
-        color: $yellow;
+        color: $blue-dark;
       }
     }
   }
@@ -107,7 +107,7 @@
     border-top: $space-atomic solid $dark;
     color: $gray-lighter;
     i {
-      color: yellow;
+      color: $blue-dark;
     }
     i:hover {
       color: $gray-lighter;
