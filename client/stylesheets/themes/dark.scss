@@ -79,9 +79,13 @@
   }
 
   .book {
+    .module.mailchimp {
+      background: $dark;
+    }
   .chapters {
     .chapter {
       border: $space-atomic solid $dark;
+      background-color: lighten($dark, 10%);
     }
   }
 }
