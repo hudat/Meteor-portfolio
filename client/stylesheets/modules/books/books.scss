@@ -9,7 +9,17 @@
       width: 100%;
     }
   }
+  .module.mailchimp {
+    background: $gray-lighter;
+    padding: $space-small $space-tiny;;
 
+    .subscribe {
+      .mailchimp-message {
+        font-weight: bold;
+      }
+    }
+
+  }
   .chapters {
 
     .ui.header {
