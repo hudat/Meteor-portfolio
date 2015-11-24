@@ -79,6 +79,11 @@
   }
 
   .book {
+    .intro {
+        img {
+        box-shadow: $space-mini $space-mini $space-base $gray-light;
+      }
+    }
     .module.mailchimp {
       background: $dark;
     }
