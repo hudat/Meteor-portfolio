@@ -6,7 +6,7 @@
   padding: $space-large;
 
   &.module {
-    padding: $space-huge;
+    padding: $space-jumbo;
   }
 
   @media (min-width: $desktop-width) {
@@ -19,7 +19,7 @@
     }
 
   .list {
-    padding: $space-large 0 $space-huge 0;
+    padding: $space-huge 0 $space-huge 0;
     text-transform: uppercase;
     letter-spacing: $space-tiny;
 
