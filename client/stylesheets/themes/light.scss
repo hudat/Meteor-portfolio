@@ -46,12 +46,12 @@
     a:hover {
         box-shadow: $space-atomic $space-atomic $space-atomic $blue;
         background: lighten($blue, 59%);
-        color: $blue;
+        color: darken($blue, 10%);
         border: $space-atomic solid $blue;
     }
     .active {
       background: lighten($blue, 59%);
-      color: $blue;
+        color: darken($blue, 10%);
       border: $space-atomic solid $blue;
       box-shadow: $space-atomic $space-atomic $space-atomic $blue;
     }
