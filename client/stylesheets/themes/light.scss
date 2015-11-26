@@ -44,15 +44,16 @@
 
     }
     a:hover {
-        box-shadow: $space-atomic $space-atomic $space-atomic $gray;
-        background: $light;
+        box-shadow: $space-atomic $space-atomic $space-atomic $blue;
+        background: lighten($blue, 59%);
         color: $blue;
         border: $space-atomic solid $blue;
     }
     .active {
-      background: $light;
+      background: lighten($blue, 59%);
       color: $blue;
       border: $space-atomic solid $blue;
+      box-shadow: $space-atomic $space-atomic $space-atomic $blue;
     }
   }
 
