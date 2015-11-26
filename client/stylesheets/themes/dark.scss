@@ -31,6 +31,16 @@
       width: 150px;
       height: 169px;
     }
+    i {
+      color: $blue-dark;
+      border: $space-atomic solid $blue;
+      box-shadow: $space-atomic $space-atomic $space-atomic $blue;
+    }
+    i:hover {
+      color: $gray-light;
+      border: $space-atomic solid $gray-light;
+      box-shadow: $space-atomic $space-atomic $space-atomic gray;
+    }
   }
   a, a:visited {
     color: $blue-dark;
@@ -81,7 +91,7 @@
   .book {
     .intro {
         img {
-        box-shadow: $space-mini $space-mini $space-base $gray-light;
+        box-shadow: $space-mini $space-mini 0 $gray-light;
       }
     }
     .module.mailchimp {

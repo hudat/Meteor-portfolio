@@ -9,7 +9,8 @@
   .ui.header {
         display: inherit;
         line-height: $font-size-large;
-        padding-bottom: none;
+        padding-bottom: 0;
+        margin-bottom: 0;
 
         a {
           font-size: $font-size-medium + $font-size-mini;

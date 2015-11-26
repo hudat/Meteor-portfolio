@@ -9,6 +9,7 @@
     color: $blue-alt;
     border-radius: $space-mini;
     transition: all 0.3s;
+    padding: $space-large;
 
     &:hover {
       color: $blue-alt;
@@ -22,7 +23,21 @@
     }
 
     i {
-      font-size: $font-size-base + $font-size-mini;
+      font-size: $font-size-large;
+      box-shadow: $space-atomic $space-atomic $space-atomic gray;
+      padding: $space-base;
+      color: $gray-light;
+      border: $space-atomic solid $gray-light;
+    }
+    i:hover {
+      box-shadow: $space-atomic $space-atomic $space-atomic $blue;
+        color: darken($blue, 10%);
+      border: $space-atomic solid $blue;
+    }
+    i:active {
+      box-shadow: $space-atomic $space-atomic $space-atomic $blue;
+        color: darken($blue, 10%);
+      border: $space-atomic solid $blue;
     }
   }
 }
