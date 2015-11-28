@@ -6,13 +6,13 @@
 
   .theme-toggle {
     cursor: hand;
-    color: $blue-alt;
+    color: $blue;
     border-radius: $space-mini;
     transition: all 0.3s;
     padding: $space-large;
 
     &:hover {
-      color: $blue-alt;
+      color: $blue;
       cursor: hand;
       cursor: pointer;
     }
