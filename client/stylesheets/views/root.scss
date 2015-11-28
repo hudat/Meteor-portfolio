@@ -6,6 +6,22 @@
   .module {
     .ui.header {
       padding-bottom: $space-small;
+
+      .root-nav {
+        color: $primary-color;
+
+          i {
+            color: $blue;
+            transition-duration: 0.1s;
+          }
+
+          &:hover {
+            text-decoration: none;
+              i {
+                  transform: translateX($space-tiny);
+              }
+        }
+      }
     }
   }
 }

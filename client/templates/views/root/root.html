@@ -2,7 +2,7 @@
   <div class="root view">
     <section class="about module">
       <h2 class="ui header">
-        About
+        <a class="root-nav" href="{{pathFor 'about'}}">About <i class="fa fa-angle-right"></i></a>
       </h2>
       <p>
         Six years of leadership and execution in digital product design.
@@ -10,8 +10,8 @@
       <a class="primary-link {{isActiveRoute regex='about'}}" href="{{pathFor 'about'}}">Learn about Husam</a>
     </section>
     <section class="writings module">
-      <h2 class="ui header">
-        Writing
+      <h2 class="ui header root-nav">
+        <a class="root-nav" href="{{pathFor 'writing'}}">Writing <i class="fa fa-angle-right"></i></a>
       </h2>
       <p>
         Essays on product psychology, software design and leadership.
@@ -19,8 +19,8 @@
       <a class="primary-link {{isActiveRoute regex='writing'}}" href="{{pathFor 'writing'}}">See my writing</a>
     </section>
     <section class="reading module">
-      <h2 class="ui header">
-        Reading
+      <h2 class="ui header root-nav">
+        <a class="root-nav" href="{{pathFor 'reading'}}">Reading <i class="fa fa-angle-right"></i></a>
       </h2>
       <p>A collection of books that I often recommend.</p>
         <a class="primary-link {{isActiveRoute regex='reading'}}" href="{{pathFor 'reading'}}">See my favorite books</a>
