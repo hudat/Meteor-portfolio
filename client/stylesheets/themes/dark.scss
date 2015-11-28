@@ -19,6 +19,16 @@
     //background: url("/images/night-sky-desktop.jpg") no-repeat center center fixed;
 
   }
+  .root {
+    .module {
+      .ui.header {
+        .root-nav {
+          color: $light;
+        }
+      }
+    }
+
+  }
   nav {
     .menu-button {
       color: $blue-dark !important;
@@ -43,7 +53,7 @@
     }
   }
   a, a:visited {
-    color: $blue-dark;
+    color: $blue;
   }
 
   .ui.header {
