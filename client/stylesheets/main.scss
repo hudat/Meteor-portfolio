@@ -16,6 +16,7 @@ body {
 	a, a:visited {
 		text-decoration: none;
 		font-size: $font-size-base + $font-size-atomic + $font-size-atomic;
+		transition-duration: 0.15s;
 
 		@media (min-width: $tablet-width) {
 			font-size: $font-size-medium;
