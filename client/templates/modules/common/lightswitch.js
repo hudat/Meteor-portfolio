@@ -4,7 +4,7 @@ Template.lightswitch.events({
 
         var bounce = function() {
           for (var i=1; i<=3; i++) {
-            $(this).animate({top: 40},"fast");
+            $(this).animate({top: 80},"fast");
             $(this).animate({top: 0},"fast");
           };
         }
@@ -32,7 +32,7 @@ Template.lightswitch.events({
 
           var bounce = function() {
             for (var i=1; i<=3; i++) {
-              $(this).animate({top: 40},"fast");
+              $(this).animate({top: 80},"fast");
               $(this).animate({top: 0},"fast");
             };
           }
