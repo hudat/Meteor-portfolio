@@ -18,6 +18,14 @@
           margin: 0px;
     }
 
+    @media (max-width: $tablet-width) {
+      top: -80px;
+    }
+
+    @media (max-width: $desktop-width) {
+      right: 50%;
+    }
+
     &:hover {
       color: $blue;
       cursor: hand;

@@ -28,8 +28,17 @@
     }
 
     .active {
-      font-style: italic;
       text-decoration: none;
+
+      span {
+         display: inherit;
+         color: $gray;
+         font-size: 80%;
+       }
+
+       i {
+         display: none;
+       }
     }
 
     .item {
