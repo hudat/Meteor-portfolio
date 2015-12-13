@@ -11,11 +11,9 @@
     top: -70px;
     right: $space-huge;
     position: absolute;
-    transform: rotate(0.5turn);
 
     img {
-          transform: rotate(0.5turn);
-          margin: 0px;
+      margin: 0px;
     }
 
     @media (max-width: $tablet-width) {
@@ -30,10 +28,6 @@
       color: $blue;
       cursor: hand;
       cursor: pointer;
-    }
-
-    &:active {
-      top: -20px;
     }
 
     span {
