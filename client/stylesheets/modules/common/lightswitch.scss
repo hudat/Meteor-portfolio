@@ -30,6 +30,10 @@
       cursor: pointer;
     }
 
+    &:active {
+      top: -20px;
+    }
+
     span {
       font-size: $font-size-medium - $font-size-micro;
       padding-left: $space-tiny;
