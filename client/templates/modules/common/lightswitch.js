@@ -2,13 +2,6 @@ Template.lightswitch.events({
 
     'click #light':function() {
 
-        var bounce = function() {
-          for (var i=1; i<=3; i++) {
-            $(this).animate({top: 80},"fast");
-            $(this).animate({top: 0},"fast");
-          };
-        }
-
         var themeToggle = function() {
           $("body").fadeOut(30, function() {
            $("body").removeClass("light-theme");
@@ -20,8 +13,6 @@ Template.lightswitch.events({
            $("#dark").removeClass("hide");
          }
 
-         bounce();
-
          setTimeout(function() {
            themeToggle();
          }, 250);
@@ -29,13 +20,6 @@ Template.lightswitch.events({
       },
 
       'click #dark':function() {
-
-          var bounce = function() {
-            for (var i=1; i<=3; i++) {
-              $(this).animate({top: 80},"fast");
-              $(this).animate({top: 0},"fast");
-            };
-          }
 
           var themeToggle = function() {
             $("body").fadeOut(30, function() {
@@ -48,7 +32,6 @@ Template.lightswitch.events({
             $("#light").removeClass("hide");
           }
 
-          bounce();
 
           setTimeout(function() {
             themeToggle();
