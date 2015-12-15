@@ -28,6 +28,30 @@
 
   .avatar {
     margin: $space-medium auto $space-tiny auto;
+
+    #root-avatar {
+      background: url("/images/avatar/avatar_about.jpg") no-repeat;
+      height: 150px;
+      width: 150px;
+    }
+
+    #about-avatar {
+      background: url("/images/avatar/avatar_reading.jpg") no-repeat;
+      height: 150px;
+      width: 150px;
+    }
+
+    #writing-avatar {
+      background: url("/images/avatar/avatar_writing.jpg") no-repeat;
+      height: 150px;
+      width: 150px;
+    }
+
+    #reading-avatar {
+      background: url("/images/avatar/avatar_about.jpg") no-repeat;
+      height: 150px;
+      width: 150px;
+    }
   }
 
     .quote {
