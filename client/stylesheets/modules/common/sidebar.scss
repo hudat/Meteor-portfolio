@@ -30,13 +30,13 @@
     margin: $space-medium auto $space-tiny auto;
 
     #root-avatar {
-      background: url("/images/avatar/avatar_about.jpg") no-repeat;
+      background: url("/images/avatar/avatar_root.jpg") no-repeat;
       height: 150px;
       width: 150px;
     }
 
     #about-avatar {
-      background: url("/images/avatar/avatar_reading.jpg") no-repeat;
+      background: url("/images/avatar/avatar_about.jpg") no-repeat;
       height: 150px;
       width: 150px;
     }
@@ -48,7 +48,7 @@
     }
 
     #reading-avatar {
-      background: url("/images/avatar/avatar_about.jpg") no-repeat;
+      background: url("/images/avatar/avatar_reading.jpg") no-repeat;
       height: 150px;
       width: 150px;
     }

@@ -8,5 +8,6 @@ Template.about.rendered = function() {
     document.getElementById('about-avatar').removeAttribute("class");
     document.getElementById('writing-avatar').setAttribute("class", "hide");
     document.getElementById('reading-avatar').setAttribute("class", "hide");
+    document.getElementById('root-avatar').setAttribute("class", "hide");
   };
 }
