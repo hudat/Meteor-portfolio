@@ -64,6 +64,7 @@ mongo@1.1.3
 mongo-id@1.0.1
 msavin:mongol@1.6.1
 natestrauser:animate-css@3.4.0
+npm-container@1.2.0
 npm-mongo@1.4.39_1
 observe-sequence@1.0.7
 ordered-dict@1.0.4
