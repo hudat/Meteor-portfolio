@@ -6,7 +6,7 @@
 
     nav {
       .menu-button {
-        color: $blue;
+        color: $light-theme-primary;
          float: right;
          font-size: $font-size-base + $font-size-tiny;
 
@@ -25,12 +25,13 @@
   }
 
   a, a:visited {
-    color: $blue;
+    color: $light-theme-primary;
   }
 
   .ui.header {
     color: $gray-dark;
   }
+
 
   .intro.segment {
     border-bottom: $space-atomic solid $gray-lighter;
@@ -44,16 +45,23 @@
 
     }
     a:hover {
-        box-shadow: $space-atomic $space-atomic $space-atomic $blue;
-        background: lighten($blue, 59%);
-        color: darken($blue, 10%);
-        border: $space-atomic solid $blue;
+        box-shadow: $space-atomic $space-atomic $space-atomic $light-theme-primary;
+        background: lighten($light-theme-primary, 59%);
+        color: darken($light-theme-primary, 10%);
+        border: $space-atomic solid $light-theme-primary;
     }
     .active {
       background: lighten($blue, 59%);
-        color: darken($blue, 10%);
-      border: $space-atomic solid $blue;
-      box-shadow: $space-atomic $space-atomic $space-atomic $blue;
+      color: darken($light-theme-primary, 10%);
+      border: $space-atomic solid $light-theme-primary;
+      box-shadow: $space-atomic $space-atomic $space-atomic $light-theme-primary;
+    }
+  }
+  .root {
+    .ui.header {
+      .root-nav i {
+        color: $light-theme-primary !important;
+      }
     }
   }
 
@@ -83,14 +91,14 @@
     border-bottom: $space-atomic solid $gray-lighter;
 
     .up {
-      color: $blue;
+      color: $light-theme-primary;
     }
 
     p {
       color: $dark;
 
       i {
-        color: $blue;
+        color: $light-theme-primary;
       }
 
     }
@@ -102,10 +110,10 @@
       color: $gray;
     }
     i {
-      color: $blue;
+      color: $light-theme-primary;
     }
     i:hover {
-      color: lighten($blue, 5%);
+      color: lighten($light-theme-primary, 5%);
     }
   }
 }
