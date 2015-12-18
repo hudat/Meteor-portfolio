@@ -5,14 +5,12 @@
 
   .theme-toggle {
     cursor: hand;
-    color: $blue;
     border-radius: $space-mini;
     transition: all 0.3s;
-    top: -70px;
-    right: $space-huge;
+    right: $space-god;
     position: absolute;
 
-    img {
+    button {
       margin: 0px;
     }
 
@@ -22,16 +20,6 @@
 
     @media (max-width: $desktop-width) {
       right: 50%;
-    }
-
-    &:hover {
-      color: $blue;
-      cursor: hand;
-      cursor: pointer;
-    }
-
-    &:active {
-      top: -20px;
     }
 
     span {
