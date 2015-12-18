@@ -15,11 +15,11 @@
     }
 
     @media (max-width: $tablet-width) {
-      top: -80px;
+      top: $space-base;
     }
 
     @media (max-width: $desktop-width) {
-      right: 50%;
+      right: 40%;
     }
 
     span {
