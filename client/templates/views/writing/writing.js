@@ -4,11 +4,10 @@ Template.writing.rendered = function() {
   $('.topnav').removeClass('hide');
 
   // Avatar image
-  // Avatar image
-  if (window.location.href == "http://localhost:3000/writing") {
-    document.getElementById('writing-avatar').removeAttribute("class");
-    document.getElementById('about-avatar').setAttribute("class", "hide");
-    document.getElementById('reading-avatar').setAttribute("class", "hide");
-    document.getElementById('root-avatar').setAttribute("class", "hide");
-  };
-}
+  // if (window.location.href == 'http://localhost:3000/writing') {
+  //   document.getElementById('writing-avatar').removeAttribute('class');
+  //   document.getElementById('about-avatar').setAttribute('class', 'hide');
+  //   document.getElementById('reading-avatar').setAttribute('class', 'hide');
+  //   document.getElementById('root-avatar').setAttribute('class', 'hide');
+  // }
+};

@@ -4,10 +4,10 @@ Template.about.rendered = function() {
   $('.topnav').removeClass('hide');
 
   // avatar image
-  if (window.location.href == "http://localhost:3000/about") {
-    document.getElementById('about-avatar').removeAttribute("class");
-    document.getElementById('writing-avatar').setAttribute("class", "hide");
-    document.getElementById('reading-avatar').setAttribute("class", "hide");
-    document.getElementById('root-avatar').setAttribute("class", "hide");
-  };
-}
+  // if (window.location.href == 'http://localhost:3000/about') {
+  //   document.getElementById('about-avatar').removeAttribute('class');
+  //   document.getElementById('writing-avatar').setAttribute('class', 'hide');
+  //   document.getElementById('reading-avatar').setAttribute('class', 'hide');
+  //   document.getElementById('root-avatar').setAttribute('class', 'hide');
+  // }
+};

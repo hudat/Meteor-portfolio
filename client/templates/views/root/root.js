@@ -4,8 +4,8 @@ Template.root.rendered = function() {
   $('.topnav').addClass('hide');
 
   // Avatar image
-  document.getElementById('root-avatar').removeAttribute("class");
-  document.getElementById('reading-avatar').setAttribute("class", "hide");
-  document.getElementById('writing-avatar').setAttribute("class", "hide");
-  document.getElementById('about-avatar').setAttribute("class", "hide");
-}
+  // document.getElementById('root-avatar').removeAttribute('class');
+  // document.getElementById('reading-avatar').setAttribute('class', 'hide');
+  // document.getElementById('writing-avatar').setAttribute('class', 'hide');
+  // document.getElementById('about-avatar').setAttribute('class', 'hide');
+};
