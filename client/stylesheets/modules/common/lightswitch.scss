@@ -7,15 +7,15 @@
     cursor: hand;
     border-radius: $space-mini;
     transition: all 0.3s;
-    right: $space-god;
+    right: 100px;
     position: absolute;
 
     button {
       margin: 0px;
     }
 
-    @media (max-width: $tablet-width) {
-      top: $space-base;
+    @media (max-width: $desktop-width) {
+      display: none;
     }
 
     @media (max-width: $desktop-width) {
