@@ -40,21 +40,21 @@
   .three.item.menu {
     a {
       color: $gray-light;
-      border: $space-atomic solid $gray-light;
-      box-shadow: $space-atomic $space-atomic 0 $gray-light;
+      border: $space-atomic solid $gray-lighter;
+      box-shadow: $space-atomic $space-atomic 0 $gray-lighter;
 
     }
     a:hover {
-        box-shadow: $space-atomic $space-atomic $space-atomic $light-theme-primary;
-        background: lighten($light-theme-primary, 59%);
-        color: darken($light-theme-primary, 10%);
-        border: $space-atomic solid $light-theme-primary;
-    }
-    .active {
-      background: lighten($blue, 59%);
       color: darken($light-theme-primary, 10%);
       border: $space-atomic solid $light-theme-primary;
-      box-shadow: $space-atomic $space-atomic $space-atomic $light-theme-primary;
+      box-shadow: $space-atomic $space-atomic $space-mini $light-theme-primary;
+      background: $light;
+    }
+    .active {
+      color: darken($light-theme-primary, 10%);
+      border: $space-atomic solid $light-theme-primary;
+      box-shadow: $space-atomic $space-atomic $space-mini $light-theme-primary;
+      background: $light;
     }
   }
   .root {

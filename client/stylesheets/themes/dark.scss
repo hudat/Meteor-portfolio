@@ -54,19 +54,20 @@
     background: none;
 
     a {
-      color: $gray-lighter;
-      border: $space-atomic solid $gray;
-      box-shadow: $space-atomic $space-atomic 0 $gray-light;
-
+      color: $gray-light;
+      border: $space-atomic solid $gray-dark;
+      box-shadow: $space-atomic $space-atomic 0 $gray-dark;
     }
     a:hover {
-        box-shadow: $space-atomic $space-atomic $space-atomic $gray-light;
-        color: lighten($dark-theme-primary, 10%);
-        border: $space-atomic solid $dark-theme-primary;
+      color: lighten($dark-theme-primary, 10%);
+      border: $space-atomic solid $dark-theme-primary;
+      box-shadow: $space-atomic $space-atomic $space-mini $dark-theme-primary;
+
     }
     .active {
       color: lighten($dark-theme-primary, 10%);
       border: $space-atomic solid $dark-theme-primary;
+      box-shadow: $space-atomic $space-atomic $space-mini $dark-theme-primary;
     }
   }
 
