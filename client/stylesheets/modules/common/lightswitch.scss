@@ -36,15 +36,16 @@
       transition-duration: 0.15s;
     }
     i:hover {
-      box-shadow: $space-atomic $space-atomic $space-atomic $yellow;
-      background: lighten($gray-dark, 10%);
-      color: yellow;
-      border: $space-atomic solid $yellow;
+      color: darken($light-theme-primary, 10%);
+      border: $space-atomic solid $light-theme-primary;
+      box-shadow: $space-atomic $space-atomic $space-mini $light-theme-primary;
+      background: $light;
     }
     i:active {
-      box-shadow: $space-atomic $space-atomic $space-atomic $blue;
-      color: darken($blue, 10%);
-      border: $space-atomic solid $blue;
+      color: darken($light-theme-primary, 10%);
+      border: $space-atomic solid $light-theme-primary;
+      box-shadow: $space-atomic $space-atomic $space-mini $light-theme-primary;
+      background: $light;
     }
   }
   [class*="push"] {

@@ -1,14 +1,24 @@
 @import '../variables';
 
 .dark-theme {
-  color: $light;
-  background-color: lighten($dark, 10%);
+  color: $dark-theme-secondary;
+  background-color: $dark-theme-bg;
+
+  .lightswitch .theme-toggle i {
+
+    &#dark {
+      box-shadow: $space-atomic $space-mini $space-mini $dark;
+      color: $light-theme-primary;
+      border: $space-atomic solid $dark;
+      background: $light;
+    }
+}
 
   .root {
     .module {
       .ui.header {
         .root-nav {
-          color: $light;
+          color: $dark-theme-secondary;
         }
       }
     }
@@ -26,24 +36,13 @@
       width: 150px;
       height: 150px;
     }
-    i {
-      color: $yellow;
-      border: $space-atomic solid $yellow;
-      box-shadow: $space-atomic $space-atomic $space-tiny $yellow;
-    }
-    i:hover {
-      color: $gray-light;
-      background: none;
-      border: $space-atomic solid $gray-light;
-      box-shadow: $space-atomic $space-atomic $space-atomic gray;
-    }
   }
   a, a:visited {
     color: $dark-theme-primary;
   }
 
   .ui.header {
-    color: $light;
+    color: $dark-theme-header;
   }
 
   .intro.segment {
@@ -54,9 +53,9 @@
     background: none;
 
     a {
-      color: $gray-light;
-      border: $space-atomic solid $gray-dark;
-      box-shadow: $space-atomic $space-atomic 0 $gray-dark;
+      color: darken($dark-theme-secondary, 10%);
+      border: $space-atomic solid darken($dark-theme-bg, 20%);
+      box-shadow: $space-atomic $space-atomic 0 darken($dark-theme-bg, 20%);
     }
     a:hover {
       color: lighten($dark-theme-primary, 10%);
@@ -82,13 +81,13 @@
   .module.mailchimp {
     .inline.field {
       .mailchimp-email {
-        border: $space-atomic solid $dark;
+        border: $space-atomic solid darken($dark-theme-bg, 20%);
       }
 
       .mailchimp-subscribe.button {
-        background-color: $red;
-        color: $light;
-        border: $space-atomic solid $dark;
+        background-color: $light-theme-primary;
+        color: $dark-theme-secondary;
+        border: $space-atomic solid darken($dark-theme-bg, 20%);
       }
     }
   }
