@@ -12,8 +12,8 @@
       margin: 0px;
     }
 
-    @media (max-width: $desktop-width) {
-      display: none;
+    @media (max-width: $tablet-width) {
+
     }
 
     @media (max-width: $desktop-width) {
@@ -34,6 +34,18 @@
       position: absolute;
       margin-right: 5%;
       right: 0px;
+
+      @media (max-width: $desktop-width) {
+        // left: 0px;
+        // margin-left: 110px;
+        // margin-right: 0;
+        // right: inherit;
+        // border: none;
+        // box-shadow: none;
+        // top: $space-medium;
+        display: none;
+      }
+
     }
     i:hover {
       color: darken($light-theme-primary, 10%);
