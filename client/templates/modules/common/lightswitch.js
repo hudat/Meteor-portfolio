@@ -18,7 +18,7 @@ Template.lightswitch.events({
 
     setTimeout(function() {
       themeToggle();
-    }, 250);
+    }, 150);
   },
 
   'click #dark': function() {
@@ -38,6 +38,6 @@ Template.lightswitch.events({
 
     setTimeout(function() {
       themeToggle();
-    }, 250);
+    }, 150);
   },
 });

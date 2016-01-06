@@ -7,8 +7,6 @@
     cursor: hand;
     border-radius: $space-mini;
     transition: all 0.3s;
-    right: 100px;
-    position: absolute;
 
     button {
       margin: 0px;
@@ -19,7 +17,6 @@
     }
 
     @media (max-width: $desktop-width) {
-      right: 40%;
     }
 
     span {
@@ -34,6 +31,9 @@
       color: $gray-light;
       border: $space-atomic solid $gray-light;
       transition-duration: 0.15s;
+      position: absolute;
+      margin-right: 5%;
+      right: 0px;
     }
     i:hover {
       color: darken($light-theme-primary, 10%);
