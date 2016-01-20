@@ -7,10 +7,9 @@
   .lightswitch .theme-toggle i {
 
     &#dark {
-      box-shadow: $space-atomic $space-mini $space-mini $dark;
-      color: $light-theme-primary;
-      border: $space-atomic solid $dark;
-      background: $dark-theme-bg;
+      background: $yellow;
+    color: darken($light-theme-primary, 10%);
+    box-shadow: $space-atomic $space-atomic $space-tiny $dark;
     }
 }
 
