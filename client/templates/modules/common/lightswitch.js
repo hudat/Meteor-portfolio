@@ -1,3 +1,10 @@
+Template.lightswitch.rendered = function() {
+  setTimeout( function(){
+    $('.light-switch').fadeIn(500)
+  },
+  5000);
+};
+
 Template.lightswitch.events({
 
   'click #light': function() {
