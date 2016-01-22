@@ -1,7 +1,7 @@
-//Template.modal.rendered = function() {
-  //setTimeout( function(){
-    //$('.ui.modal')
-    //.modal('show');
-  //},
-  //66000);
-//}
+Template.modal.rendered = function() {
+  setTimeout( function(){
+    $('.ui.modal')
+    .modal('show');
+  },
+  660);
+};
