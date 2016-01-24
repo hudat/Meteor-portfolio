@@ -32,7 +32,7 @@
             background: none;
           }
           .ui.positive.right.labeled {
-            background-color: $emerald;
+            background-color: $green;
             color: #fff !important;
             border-radius: 0px !important;
             border: none;
@@ -43,7 +43,7 @@
           }
 
           .ui.positive.right.labeled:hover {
-            background-color: rgba(18, 184, 131, 0.83);
+            background-color: lighten($green, 10%);;
           }
           .ui.modal .actions {
             padding: 0em;
