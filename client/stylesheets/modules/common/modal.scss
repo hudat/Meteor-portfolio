@@ -10,7 +10,7 @@
     font-size: $font-size-base + $font-size-tiny;
 
     .modal-form {
-      font-size: $font-size-base + $font-size-tiny;
+      font-size: $font-size-base;
       padding-top: 20px;
 
       input.email {
@@ -24,6 +24,7 @@
         border-top: none;
         text-align: center;
         padding-left: 0px;
+        padding: 0;
 
           .button{
             margin-left: 0px;
@@ -39,7 +40,7 @@
             padding: 10px;
             margin: none;
             width: 100%;
-            font-size: 18px;
+            font-size: $font-size-base + $font-size-atomic;
           }
 
           .ui.positive.right.labeled:hover {
@@ -59,8 +60,7 @@
 
           .ui.black.button {
             background: $light;
-            padding: 10px 0px;
-            margin-top: 24px;
+            margin-top: 12px;
             width: 40%;
             border-radius: 0px;
             font-weight: normal;
@@ -68,6 +68,10 @@
             border: $gray;
             text-decoration: underline;
             text-align: center;
+
+            @media (min-width: $tablet-width) {
+              margin-top: 30px;
+            }
           }
 
           .ui.black.button:hover {
