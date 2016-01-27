@@ -23,17 +23,11 @@ Demo here: [husammachlovi.com](http://husammachlovi.com).
 
 ## Roadmap
 
-## Views
-- Home
-- About
-- Portfolio
+v1.1
 - Blog
-- Case studies
-
-### Features
-* Mobile-First
-* ~~Newsletter subscription~~
-* Mark-down & WSYWIG blog
+- Portfolio
+- Markdown & WSYWIG blog
+- Refactor w/ React
 
 ## How to use
 
