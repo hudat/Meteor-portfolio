@@ -18,7 +18,7 @@
       padding: $space-base 0;
 
       input {
-        padding: $space-medium;
+        padding: $space-base + $space-tiny;
         font-size: $font-size-medium;
       }
 
@@ -48,9 +48,10 @@
       .mailchimp-subscribe.button {
         margin: 0;
         cursor: pointer;
-
+        padding: $space-base + $space-tiny;
         font-size: $font-size-base + $font-size-atomic;
         font-weight: bold;
+        transition: .3s;
 
         @media (max-width: $tablet-width) {
           display: block;

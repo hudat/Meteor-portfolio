@@ -30,11 +30,11 @@
       padding: $space-base;
       color: $gray-dark;
       border: $space-atomic solid $gray-light;
-      transition-duration: 0.15s;
+      transition: .3s;
       position: absolute;
       margin-right: 5%;
       right: 0px;
-      background-color: $yellow;    
+      background-color: $yellow;
 
       @media (max-width: $desktop-width) {
         // left: 0px;
