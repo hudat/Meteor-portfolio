@@ -15,7 +15,12 @@
 
       display: flex;
       margin: auto;
-      padding: $space-small 0;
+      padding: $space-base 0;
+
+      input {
+        padding: $space-medium;
+        font-size: $font-size-medium;
+      }
 
       @media (max-width: $tablet-width) {
         display: block;
@@ -24,11 +29,11 @@
       .mailchimp-email {
         color: $dark;
         flex: 1;
-        padding: $space-small;
         border-right: 0;
         border-radius: 0;
         outline: 0;
-        font-size: $font-size-base + $font-size-atomic;
+        box-shadow: inset $space-quantum $space-quantum $space-micro $gray;
+
 
         @media (max-width: $tablet-width) {
           display: block;
@@ -42,10 +47,10 @@
 
       .mailchimp-subscribe.button {
         margin: 0;
-        padding: $space-small;
         cursor: pointer;
-        font-size: $font-size-base;
+
         font-size: $font-size-base + $font-size-atomic;
+        font-weight: bold;
 
         @media (max-width: $tablet-width) {
           display: block;
