@@ -2,7 +2,7 @@
 
 .light-theme {
   background: $light;
-  background-image: url('/images/textures/shattered.png');
+  // background-image: url('/images/textures/shattered.png');
   color: $gray-dark;
 
     nav {
@@ -43,6 +43,7 @@
       color: $gray-light;
       border: $space-atomic solid $gray-lighter;
       box-shadow: $space-atomic $space-atomic 0 $gray-lighter;
+      background: opacify($light, .75);
 
     }
     a:hover {
