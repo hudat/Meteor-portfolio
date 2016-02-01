@@ -125,6 +125,10 @@
     }
   }
 
+  .ui.modal {
+    color: $gray-darker;
+  }
+
   footer {
     border-top: $space-atomic solid $dark;
     color: $gray-lighter;
