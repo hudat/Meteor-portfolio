@@ -26,17 +26,19 @@ $green: #12b883;
 $red: #ff0068;
 $yellow: #FFFF00;
 $emerald: #019875;
+$mustard: #DBD36E;
+$neongreen: #67fecc;
 
 //Themes
 
-//Light
-$light-theme-primary: $emerald;
+// Light
+$light-theme-primary: $green;
 
 //Dark
-$dark-theme-primary: #67fecc;
+$dark-theme-primary: $mustard;
 $dark-theme-bg:#1d262f;
 $dark-theme-secondary: #d6e9eb;
-$dark-theme-header: rgba(31, 205, 152, 0.8);
+$dark-theme-header: $light;
 $dark-theme-cta: #8da8b2;
 
 //arcade button
