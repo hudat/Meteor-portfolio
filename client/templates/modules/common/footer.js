@@ -3,5 +3,8 @@ Template.footer.helpers({
     var today = new Date();
     var year = today.getFullYear();
     return year;
+  },
+  footer: function() {
+    return Footer.find();
   }
 });
