@@ -27,7 +27,8 @@ v1.1
 - Blog
 - Portfolio
 - Markdown & WSYWIG blog
-- Refactor w/ React
+- React UI layer
+
 
 ## How to use
 
