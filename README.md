@@ -27,6 +27,8 @@ Future updates
 - WYSWIG (Medium Editor)
 - Markdown
 - React UI layer
+- Refactor case-study view
+- Event-based modals
 
 
 ## How to use
