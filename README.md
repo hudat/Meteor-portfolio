@@ -23,10 +23,9 @@ Demo here: [husammachlovi.com](http://husammachlovi.com).
 
 ## Roadmap
 
-v1.1
-- Blog
-- Portfolio
-- Markdown & WSYWIG blog
+Future updates
+- WYSWIG (Medium Editor)
+- Markdown
 - React UI layer
 
 
