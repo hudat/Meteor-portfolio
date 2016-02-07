@@ -1,15 +1,17 @@
 <template name="footer">
     <footer>
+    {{#each footer}}
       <div class="ui sixteen column grid contact">
           <div class="ten wide column endmatter">
-            <p><a class="primary-link" target="_blank" href="mailto:husam@withpulp.com">Email me</a> with any questions/comments. Visit my <a title="Personal blog" href="http://blog.husammachlovi.com" target="_blank">blog</a> for my thoughts on product psychology and design.</p>
+            <p><a class="primary-link" target="_blank" href="mailto:{{email}}">Email me</a> with any questions/comments. Visit my <a title="Personal blog" href="{{blog}}" target="_blank">blog</a> for my thoughts on product psychology and design.</p>
               <p class="copyright">&copy; 2010-{{currentYear}}, Husam Machlovi Product Strategy & Design. </p>
           </div>
           <div class="six wide column social">
-              <a title="Husam Machlovi on twitter" target="_blank" href="http://twitter.com/hmachlovi"><i class="fa fa-twitter-square"></i></a>
-              <a title="Husam Machlovi on github" target="_blank" href="https://github.com/hudat"><i class="fa fa-github-square"></i></a>
-              <a title="Husam Machlovi on linkedin" target="_blank" href="https://www.linkedin.com/in/husammachlovi"><i class="fa fa-linkedin-square"></i></a>
+              <a title="Husam Machlovi on twitter" target="_blank" href="{{twitter}}"><i class="fa fa-twitter-square"></i></a>
+              <a title="Husam Machlovi on github" target="_blank" href="{{github}}"><i class="fa fa-github-square"></i></a>
+              <a title="Husam Machlovi on linkedin" target="_blank" href="{{linkedin}}"><i class="fa fa-linkedin-square"></i></a>
           </div>
       </div>
+    {{/each}}
    </footer>
 </template>
