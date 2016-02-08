@@ -3,5 +3,5 @@ Template.modal.rendered = function() {
     $('.ui.modal')
     .modal('show');
   },
-  36000);
+  49000);
 };
