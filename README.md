@@ -23,11 +23,13 @@ Demo here: [husammachlovi.com](http://husammachlovi.com).
 
 ## Roadmap
 
-v1.1
-- Blog
-- Portfolio
-- Markdown & WSYWIG blog
-- Refactor w/ React
+Future updates
+- WYSWIG (Medium Editor)
+- Markdown
+- React UI layer
+- Refactor case-study view
+- Event-based modals
+
 
 ## How to use
 
