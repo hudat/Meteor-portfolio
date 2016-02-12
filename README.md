@@ -29,6 +29,7 @@ Future updates
 - React UI layer
 - Refactor case-study view
 - Event-based modals
+- Accessibility settings
 
 
 ## How to use
