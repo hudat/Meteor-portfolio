@@ -23,14 +23,13 @@ Demo here: [husammachlovi.com](http://husammachlovi.com).
 
 ## Roadmap
 
-Future updates
 - WYSWIG (Medium Editor)
 - Markdown
 - React UI layer
 - Refactor case-study view
 - Event-based modals
 - Accessibility settings
-
+- Mobile theme toggle
 
 ## How to use
 
