@@ -30,6 +30,7 @@ Demo here: [husammachlovi.com](http://husammachlovi.com).
 - Event-based modals
 - Accessibility settings
 - Mobile theme toggle
+- Refactor mobile menu
 
 ## How to use
 
