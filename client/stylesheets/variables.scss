@@ -28,6 +28,8 @@ $yellow: #FFFF00;
 $emerald: #019875;
 $mustard: #DBD36E;
 $neongreen: #67fecc;
+$mh-red:#D5454D;
+$mh-green: #93B556;
 
 //Themes
 
@@ -37,9 +39,9 @@ $light-theme-primary: $green;
 //Dark
 $dark-theme-primary: $mustard;
 $dark-theme-bg:#1d262f;
-$dark-theme-secondary: #fff;
-$dark-theme-header: rgba(31, 205, 152, 0.8);
-$dark-theme-cta: #8da8b2;
+$dark-theme-secondary: $light;
+$dark-theme-header: $mh-red;
+$dark-theme-cta: $mh-green;
 
 // Global
 

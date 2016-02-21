@@ -59,13 +59,13 @@
     a:hover {
       color: lighten($dark-theme-primary, 10%);
       border: $space-atomic solid $dark-theme-primary;
-      box-shadow: $space-atomic $space-atomic $space-mini $dark-theme-header;
+      box-shadow: $space-atomic $space-atomic $space-mini darken($dark-theme-primary, 10%);
 
     }
     .active {
       color: lighten($dark-theme-primary, 10%);
       border: $space-atomic solid $dark-theme-primary;
-      box-shadow: $space-atomic $space-atomic $space-mini $dark-theme-header;
+      box-shadow: $space-atomic $space-atomic $space-mini darken($dark-theme-primary, 10%);
     }
   }
 
