@@ -16,13 +16,15 @@
       padding: 2% 6%;
   }
 }
+  @media (min-width: $desktop-width) {
+      .ui.page.grid {
+        padding: 2% 10%;
+    }
+}
 
 @media (min-width: $desktop-width) {
   .ui.padded.grid:not(.vertically):not(.horizontally) {
     margin: 0 auto !important;
-  }
-  .ui.page.grid {
-    max-width: 90rem;
   }
 }
 .section {
