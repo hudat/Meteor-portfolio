@@ -1,17 +1,22 @@
 <template name="layout">
     <div class="ui page padded grid animated fadeIn">
-      {{> lightswitch}}
-      {{> header}}
-      {{> message}}
-        <div class="main animated fadeIn">
-          {{> topNav}}
-          {{> yield}}
-          {{> mobileMenu}}
-          {{> footer}}
-        </div>
-        <div class="sidebar">
+      <header class="header">
+        {{> lightswitch}}
+        {{> header}}
+      </header>
+        <div class="yield animated fadeIn">
+          <div class="main twelve wide column">
+            {{> topNav}}
+            {{> yield}}
+            {{> mobileMenu}}
+            {{> modal}}
+          </div>
+          <div class="sidebar four wide column">
           {{> sidebar}}
+          </div>
         </div>
-      {{> modal}}
+      <footer class="footer">
+        {{> footer}}
+      </footer>
   </div>
 </template>
