@@ -26,10 +26,10 @@ Demo here: [husammachlovi.com](http://husammachlovi.com).
 - WYSWIG (Medium Editor)
 - Markdown
 - React UI layer
-- Refactor case-study view
+- Case study view
 - Event-based modals
 - Accessibility settings
-- Mobile theme toggle
+- Night mode
 - Refactor mobile menu
 
 ## How to use
