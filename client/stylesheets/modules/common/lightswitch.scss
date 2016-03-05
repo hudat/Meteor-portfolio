@@ -10,6 +10,13 @@
 
     button {
       margin: 0px;
+      position: absolute;
+      margin-right: 5%;
+      right: 0px;
+      font-size: $space-base;
+      background-color: $yellow;
+      box-shadow: $space-atomic $space-atomic $space-atomic $gray;
+      border: $space-atomic solid $gray-light;
     }
 
     @media (max-width: $tablet-width) {
@@ -26,15 +33,12 @@
 
     i {
       font-size: $font-size-large;
-      box-shadow: $space-atomic $space-atomic $space-atomic $gray;
+
       padding: $space-base;
       color: $gray-dark;
-      border: $space-atomic solid $gray-light;
+
       transition: .3s;
-      position: absolute;
-      margin-right: 5%;
-      right: 0px;
-      background-color: $yellow;
+
 
       @media (max-width: $desktop-width) {
         // left: 0px;
