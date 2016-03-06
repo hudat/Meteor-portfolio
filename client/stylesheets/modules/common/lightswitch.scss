@@ -17,6 +17,12 @@
       background-color: $yellow;
       box-shadow: $space-atomic $space-atomic $space-atomic $gray;
       border: $space-atomic solid $gray-light;
+      padding: $space-base;
+    }
+
+    button:hover {
+      color: darken($light-theme-primary, 10%);
+      box-shadow: $space-atomic $space-atomic $space-small $gray;
     }
 
     @media (max-width: $tablet-width) {
@@ -32,13 +38,9 @@
     }
 
     i {
-      font-size: $font-size-large;
-
-      padding: $space-base;
+      font-size: $font-size-medium;
       color: $gray-dark;
-
       transition: .3s;
-
 
       @media (max-width: $desktop-width) {
         // left: 0px;
@@ -52,11 +54,6 @@
       }
 
     }
-    i:hover {
-      color: darken($light-theme-primary, 10%);
-      box-shadow: $space-atomic $space-atomic $space-small $gray;
-    }
-
   }
 
 }
