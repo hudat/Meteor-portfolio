@@ -1,8 +1,9 @@
 <template name="sidebar">
   <section>
+    {{#each author}}
       <h1 class="ui header">
-        <a class="logo" href="/">Husam</a>
-        <small>Product Design</small>
+        <a class="logo" href="/">{{name}}</a>
+        <small>{{tagline}}</small>
       </h1>
       <div class="avatar image">
         <!-- <div id="root-avatar" class="hide">
@@ -14,6 +15,7 @@
         <div id="reading-avatar" class="hide">
         </div> -->
       </div>
+    {{/each}}
     </section>
     <section>
       {{> quote}}
