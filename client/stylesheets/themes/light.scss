@@ -5,6 +5,10 @@
   // background-image: url('/images/textures/shattered.png');
   color: $gray-dark;
 
+  #loader-wrapper .loader-section {
+      background: $light;
+  }
+
     nav {
       .menu-button {
         color: $light-theme-primary;

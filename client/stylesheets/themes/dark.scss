@@ -4,14 +4,9 @@
   color: $dark-theme-secondary;
   background-color: $dark-theme-bg;
 
-  .lightswitch .theme-toggle i {
-
-    &#dark {
-      background: $yellow;
-    color: darken($light-theme-primary, 10%);
-    box-shadow: $space-atomic $space-atomic $space-tiny $dark;
-    }
-}
+  #loader-wrapper .loader-section {
+      background: $dark-theme-bg;
+  }
 
   .root {
     .module {
