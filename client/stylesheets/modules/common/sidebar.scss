@@ -29,6 +29,10 @@
   .avatar {
     margin: $space-medium auto $space-tiny auto;
 
+    img {
+      margin: 0;
+    }
+
     // #root-avatar {
     //   background: url("/images/avatar/avatar_root.jpg") no-repeat;
     //   height: 150px;
