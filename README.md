@@ -22,15 +22,16 @@ Demo here: [husammachlovi.com](http://husammachlovi.com).
 <!-- toc stop -->
 
 ## Roadmap
-
+- 'Now' component
+- Case study view
+- Refactor mobile menu
 - WYSWIG (Medium Editor)
 - Markdown
 - React UI layer
-- Case study view
 - Event-based modals
 - Accessibility settings
 - ~~Night mode~~
-- Refactor mobile menu
+
 
 ## How to use
 
