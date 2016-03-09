@@ -29,7 +29,7 @@ Demo here: [husammachlovi.com](http://husammachlovi.com).
 - Case study view
 - Event-based modals
 - Accessibility settings
-- Night mode
+- ~~Night mode~~
 - Refactor mobile menu
 
 ## How to use
