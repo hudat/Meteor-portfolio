@@ -1,5 +1,5 @@
 <template name="sidebar">
-  <section>
+  <div class="sidebar">
     {{#each author}}
       <h1 class="ui header">
         <a class="logo" href="/">{{name}}</a>
@@ -17,9 +17,8 @@
         </div> -->
       </div>
     {{/each}}
-    </section>
     <section>
       {{> quote}}
     </section>
-
+</div>
 </template>
