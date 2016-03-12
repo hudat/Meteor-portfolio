@@ -23,8 +23,10 @@ Demo here: [husammachlovi.com](http://husammachlovi.com).
 
 ## Roadmap
 - 'Now' component
-- Case study view
+- Cases view
+- Case study
 - Refactor mobile menu
+- Landing page
 - WYSWIG (Medium Editor)
 - Markdown
 - React UI layer
