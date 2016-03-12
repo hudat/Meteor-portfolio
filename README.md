@@ -27,13 +27,11 @@ Demo here: [husammachlovi.com](http://husammachlovi.com).
 - Case study
 - Refactor mobile menu
 - Landing page
-- WYSWIG (Medium Editor)
-- Markdown
+- WYSWIG
 - React UI layer
 - Event-based modals
 - Accessibility settings
 - ~~Night mode~~
-
 
 ## How to use
 
