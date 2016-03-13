@@ -1,6 +1,6 @@
 # Meteor Portfolio App
 
-A mobile-first web app for showcasing your experience and work. Built in Meteor.
+A minimal, mobile-first portfolio app. Built with Meteor.
 
 Demo here: [husammachlovi.com](http://husammachlovi.com).
 
