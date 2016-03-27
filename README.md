@@ -1,6 +1,6 @@
 # Meteor Portfolio App
 
-A mobile-first web app for showcasing your experience and work. Built in Meteor.
+A minimal, mobile-first portfolio app. Built with Meteor.
 
 Demo here: [husammachlovi.com](http://husammachlovi.com).
 
@@ -23,15 +23,15 @@ Demo here: [husammachlovi.com](http://husammachlovi.com).
 
 ## Roadmap
 - 'Now' component
-- Case study view
+- Cases view
+- Case study
 - Refactor mobile menu
-- WYSWIG (Medium Editor)
-- Markdown
+- Landing page
+- WYSWIG
 - React UI layer
 - Event-based modals
 - Accessibility settings
 - ~~Night mode~~
-
 
 ## How to use
 
