@@ -2,19 +2,10 @@
 
 #loader-wrapper .loader-section {
     position: fixed;
-    top: 0;
-    width: 5000px;
-    height: 5000px;
-    background: #f1f1f1;
+    top: 120px;
+    width: 710px;
+    height: 1000px;
     z-index: 1000;
-}
-
-#loader-wrapper .loader-section.section-left {
-    left: 0;
-}
-
-#loader-wrapper .loader-section.section-right {
-    right: 0;
 }
 
 #loader {
